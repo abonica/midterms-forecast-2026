@@ -90,10 +90,6 @@ campaign. 2024, the most recent cycle, is shown separately.
 
 ![Calibration](figures/calibration.png)
 
-## What drives the House forecast
-
-![Feature importance](figures/feature_importance.png)
-
 ## Data and code
 
 - `data/house.csv`, `senate.csv`, `governor.csv`, `stateleg.csv`: one row per contest (state legislatures: per seat-election),
