@@ -5,8 +5,6 @@ and donor data from the [Database on Ideology, Money in Politics, and Elections 
 district fundamentals and polls. Every contest gets a vote-share forecast and a win probability, and the offices are simulated
 jointly. The model is backtested on every cycle from 2006 to 2024, each predicted only from earlier cycles.
 
-*Forecast as of November  1, 2026, using information through October 18, 2026 (campaign finance through September 30).*
-
 ## How it differs from a standard forecast
 
 Most forecasts average the polls and blend that average with a fundamentals model. This one differs in five ways:
