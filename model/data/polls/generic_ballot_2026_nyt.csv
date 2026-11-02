@@ -1,0 +1,4 @@
+point,as_of,n_polls,gb_dem_margin,gb_dem_margin_nonpartisan,source
+labor_day,2026-09-07,33,5.98,5.98,"NYT house.csv national generic-ballot polls, fetched 2026-11-01; 30-day mean of polls ending before as_of"
+oct1,2026-10-01,50,8.21,8.2,"NYT house.csv national generic-ballot polls, fetched 2026-11-01; 30-day mean of polls ending before as_of"
+latest,2026-11-01,51,8.11,8.19,"NYT house.csv national generic-ballot polls, fetched 2026-11-01; 30-day mean of polls ending before as_of"

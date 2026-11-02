@@ -1,0 +1,33 @@
+distcyc,pollster,end_date,sample_size,population,candidate,party,share,partisan_sponsor,sponsor,notes
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Chauna Banks,D,19,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Larry Davis,R,6,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Rick Edmonds,R,16,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Pat Forbes,D,8,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Blake Miguez,R,9,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Others,,1,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,Greg Rigamer,2026-08-13,500,RV,Undecided,,40,unknown,not stated in sources checked,Cited by nola.com 2026-08-22; Garcia not listed
+2026_LA_6,JMC Analytics and Polling,2026-09-21,790,LV,Rick Edmonds,R,13.8,FALSE,Greater Baton Rouge Economic Foundation (business group),MoE 3.5; used by WBRZ to pick forum invitees; other five candidates each <4%
+2026_LA_6,JMC Analytics and Polling,2026-09-21,790,LV,Chauna Banks,D,13.2,FALSE,Greater Baton Rouge Economic Foundation (business group),MoE 3.5; used by WBRZ to pick forum invitees; other five candidates each <4%
+2026_LA_6,JMC Analytics and Polling,2026-09-21,790,LV,Blake Miguez,R,9.7,FALSE,Greater Baton Rouge Economic Foundation (business group),MoE 3.5; used by WBRZ to pick forum invitees; other five candidates each <4%
+2026_LA_6,JMC Analytics and Polling,2026-09-21,790,LV,Lindsay Garcia,D,7.7,FALSE,Greater Baton Rouge Economic Foundation (business group),MoE 3.5; used by WBRZ to pick forum invitees; other five candidates each <4%
+2026_LA_6,JMC Analytics and Polling,2026-09-21,790,LV,Pat Forbes,D,7.6,FALSE,Greater Baton Rouge Economic Foundation (business group),MoE 3.5; used by WBRZ to pick forum invitees; other five candidates each <4%
+2026_LA_6,JMC Analytics and Polling,2026-09-21,790,LV,Undecided,,35.7,FALSE,Greater Baton Rouge Economic Foundation (business group),MoE 3.5; used by WBRZ to pick forum invitees; other five candidates each <4%
+2026_LA_5,Bedrock Polling,2026-04-07,889,LV,Misti Cordell,R,3,TRUE,Rainey Center Freedom Project,STALE: pre-redraw hypothetical; Miguez and Edmonds now run in LA-6; Wikipedia hypothetical table. Others not shown
+2026_LA_5,Bedrock Polling,2026-04-07,889,LV,Michael Echols,R,20,TRUE,Rainey Center Freedom Project,STALE: pre-redraw hypothetical; Miguez and Edmonds now run in LA-6; Wikipedia hypothetical table. Others not shown
+2026_LA_5,Bedrock Polling,2026-04-07,889,LV,Rick Edmonds,R,10,TRUE,Rainey Center Freedom Project,STALE: pre-redraw hypothetical; Miguez and Edmonds now run in LA-6; Wikipedia hypothetical table. Others not shown
+2026_LA_5,Bedrock Polling,2026-04-07,889,LV,Blake Miguez,R,23,TRUE,Rainey Center Freedom Project,STALE: pre-redraw hypothetical; Miguez and Edmonds now run in LA-6; Wikipedia hypothetical table. Others not shown
+2026_LA_5,Bedrock Polling,2026-04-07,889,LV,Undecided,,42,TRUE,Rainey Center Freedom Project,STALE: pre-redraw hypothetical; Miguez and Edmonds now run in LA-6; Wikipedia hypothetical table. Others not shown
+2026_CA_6,EMC Research,2026-05-06,400,LV,Kevin Kiley,I,36,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Richard Pan,D,18,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Michael Stansfield,R,8,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Thien Ho,D,12,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Lauren Babb Tomlinson,D,11,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Martha Guerrero,D,9,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Tyler Vandenberg,D,2,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,EMC Research,2026-05-06,400,LV,Undecided,,4,TRUE,Voter Protection Project (pro-Democratic),Pre-primary multi-candidate poll
+2026_CA_6,The Bullfinch Group/Independent Center,2026-07-16,741,LV,Kevin Kiley,I,35,FALSE,Independent Center,General-election head to head; MoE 3.59
+2026_CA_6,The Bullfinch Group/Independent Center,2026-07-16,741,LV,Richard Pan,D,39,FALSE,Independent Center,General-election head to head; MoE 3.59
+2026_CA_6,The Bullfinch Group/Independent Center,2026-07-16,741,LV,Undecided,,26,FALSE,Independent Center,General-election head to head; MoE 3.59
+2026_CA_6,The Bullfinch Group,2026-09-06,927,LV,Kevin Kiley,I,37,TRUE,Independent Leadership Council (supports Kiley),General-election head to head; MoE 3.2; sample 39D/30I/31R
+2026_CA_6,The Bullfinch Group,2026-09-06,927,LV,Richard Pan,D,37,TRUE,Independent Leadership Council (supports Kiley),General-election head to head; MoE 3.2; sample 39D/30I/31R
+2026_CA_6,The Bullfinch Group,2026-09-06,927,LV,Undecided,,27,TRUE,Independent Leadership Council (supports Kiley),General-election head to head; MoE 3.2; sample 39D/30I/31R

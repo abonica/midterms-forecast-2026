@@ -1,0 +1,328 @@
+cycle,state,district,distcyc,pollster,start_date,end_date,sample_size,population,dem_pct,rep_pct,dem_cand,rep_cand,partisan_sponsor,source
+2026,MT,1,2026_MT_1,Public Policy Polling,2026-10-12,2026-10-14,,lv,48,45,Sam Forstag,Aaron Flint,D,nyt
+2026,WI,3,2026_WI_3,FM3 Research,2026-06-20,2026-06-25,535,lv,50,46,Rebecca Cooke,Derrick Van Orden,D,nyt
+2026,NH,2,2026_NH_2,St. Anselm,2025-11-18,2025-11-19,1102,rv,40,35,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,MN,1,2026_MN_1,SurveyUSA,2026-10-04,2026-10-12,565,lv,46,44,Jake Johnson,Brad Finstad,"",nyt
+2026,AK,1,2026_AK_1,The Bullfinch Group,2026-09-01,2026-09-06,820,lv,46.5,50.3,Bill Hill,Nick Begich III,"",nyt
+2026,PA,1,2026_PA_1,Global Strategy Group,2026-08-05,2026-08-09,500,lv,43,47,Bob Harvie,Brian Fitzpatrick,D,nyt
+2026,MI,7,2026_MI_7,Global Strategy Group,2026-08-11,2026-08-13,,lv,49,47,William Lawrence,Tom Barrett,D,nyt
+2026,FL,13,2026_FL_13,Hart Research Associates,2026-08-25,2026-08-27,,lv,44,43,Leela Gray,Anna Paulina Luna,D,nyt
+2026,NM,2,2026_NM_2,co/efficient,2026-04-26,2026-04-28,879,lv,43,41,Gabe Vasquez,Greg Cunningham,R,nyt
+2026,SD,1,2026_SD_1,"Mason-Dixon Polling & Research, Inc.",2026-10-12,2026-10-14,500,lv,31.8,59.6,Nikki Gronli,Marty Jackley,"",nyt
+2026,KY,6,2026_KY_6,Public Policy Polling,2026-04-24,2026-04-25,675,rv,37,37,Zach Dembo,Ralph Alvarado,D,nyt
+2026,TX,23,2026_TX_23,Public Policy Polling,2026-03-10,2026-03-11,521,rv,40,42,Katy Padilla Stout,Brandon Herrera,D,nyt
+2026,MT,1,2026_MT_1,American Pulse Research & Polling,2026-09-19,2026-09-24,314,lv,45.4,45.9,Sam Forstag,Aaron Flint,"",nyt
+2026,FL,16,2026_FL_16,SEA Polling,2026-08-25,2026-08-29,400,lv,40,39,Kelly Kirschner,Sydney Gruters,D,nyt
+2026,PA,10,2026_PA_10,Public Policy Polling,2025-07-10,2025-07-11,559,rv,46,43,Janelle Stelson,Scott Perry,D,nyt
+2026,AR,2,2026_AR_2,Emerson College,2026-10-12,2026-10-14,383,lv,48,52,Chris Jones,French Hill,"",nyt
+2026,CA,40,2026_CA_40,Grassroots Targeting,2026-09-05,2026-09-09,715,lv,43,34,Young Kim,Ken Calvert,R,nyt
+2026,MO,2,2026_MO_2,Emerson College,2026-10-12,2026-10-14,401,lv,51,46,Fred Wellman,Ann Wagner,"",nyt
+2026,IA,1,2026_IA_1,Public Policy Polling,2025-06-18,2025-06-19,555,rv,43,39,Christina Bohannan,Mariannette Miller-Meeks,D,nyt
+2026,KS,2,2026_KS_2,DCCC Targeting Team,2026-10-19,2026-10-20,639,lv,46,49,Don Coover,Derek Schmidt,D,nyt
+2026,VA,5,2026_VA_5,Expedition Strategies,2026-07-29,2026-08-01,602,lv,44,47,Tom Perriello,John McGuire,D,nyt
+2026,WI,1,2026_WI_1,DCCC Targeting Team,2026-09-21,2026-09-23,495,lv,48,48,Mitchell Berman,Bryan Steil,D,nyt
+2026,NC,3,2026_NC_3,Tulchin Research,2026-07-27,2026-08-02,,lv,41,44,Raymond Smith Jr.,Greg Murphy,D,nyt
+2026,CA,11,2026_CA_11,USC Democracy and Fair Elections Lab,2026-10-16,2026-10-19,454,lv,44,51,Connie Chan,Scott Wiener,"",nyt
+2026,RI,1,2026_RI_1,Emerson College,2026-10-08,2026-10-11,394,lv,53.93,25.87,Gabe Amo,Kellie Keenan,"",nyt
+2026,NY,21,2026_NY_21,Siena University,2026-09-30,2026-10-06,496,lv,46,42,Blake Gendebien,Anthony Constantino,"",nyt
+2026,NY,21,2026_NY_21,Impact Research,2026-05-26,2026-05-31,500,lv,44,45,Blake Gendebien,Anthony Constantino,D,nyt
+2026,OH,15,2026_OH_15,Hart Research Associates,2026-08-06,2026-08-09,401,lv,37,41,Don Leonard,Mike Carey,D,nyt
+2026,AZ,1,2026_AZ_1,FirstStrategic Communications and Public Affairs,2026-10-01,2026-10-01,400,rv,44.4,41.6,Amish Shah,Jay Feely,"",nyt
+2026,MI,10,2026_MI_10,Global Strategy Group,2026-08-10,2026-08-13,600,lv,45,45,Christina Hines,Mike Bouchard,D,nyt
+2026,OH,7,2026_OH_7,GBAO,2026-06-16,2026-06-20,500,lv,43,44,Brian Poindexter,Max Miller,D,nyt
+2026,AL,2,2026_AL_2,Tulchin Research,2026-08-24,2026-08-31,,lv,47,47,Shomari Figures,Rhett Marques,D,nyt
+2026,VT,1,2026_VT_1,University of New Hampshire,2026-09-17,2026-09-21,830,lv,66,30,Becca Balint,Gerald Malloy,"",nyt
+2026,ME,2,2026_ME_2,DCCC Targeting Team,2026-08-11,2026-08-13,621,lv,48,49,Matthew Dunlap,Paul LePage,D,nyt
+2026,MN,1,2026_MN_1,Public Policy Polling,2026-02-02,2026-02-03,708,rv,41,44,Jake Johnson,Brad Finstad,D,nyt
+2026,TX,34,2026_TX_34,The Washington Post/George Mason University Schar School of Policy and Government,2026-10-14,2026-10-19,626,lv,50,43,Vicente Gonzalez,Eric Flores,"",nyt
+2026,TX,23,2026_TX_23,"Normington, Petts & Associates",2026-10-05,2026-10-07,,lv,46,46,Katy Padilla Stout,Brandon Herrera,D,nyt
+2026,FL,8,2026_FL_8,Public Policy Polling,2026-07-17,2026-07-18,633,rv,35,44,Jennifer Jenkins,Mike Haridopolos,D,nyt
+2026,PA,10,2026_PA_10,"Normington, Petts & Associates",2026-04-20,2026-04-23,400,rv,51,45,Janelle Stelson,Scott Perry,D,nyt
+2026,NH,2,2026_NH_2,St. Anselm,2025-08-26,2025-08-27,881,rv,49,31,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,MI,10,2026_MI_10,Public Policy Polling,2026-01-16,2026-01-17,592,rv,44,42,Christina Hines,Mike Bouchard,D,nyt
+2026,PA,8,2026_PA_8,Impact Research,2026-06-08,2026-06-11,500,lv,46,45,Paige Cognetti,Rob Bresnahan,D,nyt
+2026,TX,15,2026_TX_15,"Normington, Petts & Associates",2026-07-23,2026-07-27,,lv,51,45,Bobby Pulido,Monica De La Cruz,D,nyt
+2026,AK,1,2026_AK_1,Alaska Survey Research,2026-08-02,2026-08-05,1371,lv,46.5,53.6,Bill Hill,Nick Begich III,"",nyt
+2026,NY,21,2026_NY_21,J.L. Partners,2026-08-15,2026-08-17,500,lv,40,53,Blake Gendebien,Anthony Constantino,"",nyt
+2026,VA,2,2026_VA_2,Christopher Newport University,2026-10-01,2026-10-10,702,lv,46,43,Elaine Luria,Jen Kiggans,"",nyt
+2026,TX,9,2026_TX_9,DCCC Targeting Team,2026-10-20,2026-10-22,490,lv,47,48,Leticia Gutierrez,Alex Mealer,D,nyt
+2026,MN,2,2026_MN_2,Harper Polling,2026-06-18,2026-06-21,415,lv,45,40,Matt Little,Eric Pratt,R,nyt
+2026,NC,1,2026_NC_1,Neighborhood Research Corporation,2026-10-01,2026-10-06,303,lv,51,41,Don Davis,Laurie Buckhout,"",nyt
+2026,CO,5,2026_CO_5,Global Strategy Group,2026-07-16,2026-07-21,450,lv,44,45,Jessica Killin,Jeff Crank,D,nyt
+2026,CO,8,2026_CO_8,McLaughlin & Associates,2026-09-16,2026-09-17,400,lv,46.3,48,Manny Rutinel,Gabe Evans,R,nyt
+2026,NC,1,2026_NC_1,GQR,2026-09-29,2026-10-04,500,lv,47,39,Don Davis,Laurie Buckhout,D,nyt
+2026,TN,5,2026_TN_5,Impact Research,2026-09-28,2026-10-01,552,lv,41,46,Chaz Molder,Charlie Hatcher,D,nyt
+2026,NH,1,2026_NH_1,St. Anselm,2026-10-19,2026-10-20,861,lv,46,42,Stefany Shaheen,Anthony DiLorenzo,"",nyt
+2026,UT,2,2026_UT_2,Lighthouse Research,2026-09-10,2026-09-24,515,rv,34,39,Peter Crosby,Blake Moore,"",nyt
+2026,AK,1,2026_AK_1,GBAO,2026-08-03,2026-08-05,500,lv,42,46,Bill Hill,Nick Begich III,"",nyt
+2026,WA,3,2026_WA_3,co/efficient,2026-04-25,2026-04-29,982,lv,34,41,Marie Gluesenkamp Perez,John Braun,R,nyt
+2026,ME,2,2026_ME_2,Tulchin Research,2026-07-11,2026-07-16,600,lv,49,48,Matthew Dunlap,Paul LePage,D,nyt
+2026,NH,2,2026_NH_2,St. Anselm,2026-06-24,2026-06-25,802,rv,50,31,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,OH,1,2026_OH_1,Quantus Insights,2026-08-21,2026-08-24,509,lv,47.9,44.6,Greg Landsman,Eric Conroy,"",nyt
+2026,TX,9,2026_TX_9,University of Houston Hobby School of Public Affairs,2026-10-03,2026-10-07,677,lv,42,48,Leticia Gutierrez,Alex Mealer,"",nyt
+2026,NC,1,2026_NC_1,GQR,2026-01-29,2026-02-02,500,lv,42,39,Don Davis,Laurie Buckhout,D,nyt
+2026,CA,22,2026_CA_22,Tulchin Research,2026-06-15,2026-06-21,800,lv,48,44,Randy Villegas,David Valadao,D,nyt
+2026,NC,1,2026_NC_1,GBAO,2026-09-08,2026-09-11,500,lv,50,43,Don Davis,Laurie Buckhout,D,nyt
+2026,KY,6,2026_KY_6,Public Policy Polling,2026-10-19,2026-10-20,,lv,47,41,Zach Dembo,Ralph Alvarado,D,nyt
+2026,WI,3,2026_WI_3,Public Policy Polling,2025-10-14,2025-10-15,609,rv,44,42,Rebecca Cooke,Derrick Van Orden,D,nyt
+2026,TX,35,2026_TX_35,Emerson College,2026-10-12,2026-10-14,417,lv,51,49,Johnny Garcia,Carlos De La Cruz,"",nyt
+2026,NC,1,2026_NC_1,GQR,2026-06-22,2026-06-28,500,lv,45,41,Don Davis,Laurie Buckhout,D,nyt
+2026,NY,21,2026_NY_21,Public Policy Polling,2026-10-12,2026-10-13,,lv,44,46,Blake Gendebien,Anthony Constantino,D,nyt
+2026,NY,21,2026_NY_21,SurveyUSA,2026-08-04,2026-08-08,612,lv,43,39,Blake Gendebien,Anthony Constantino,"",nyt
+2026,IA,2,2026_IA_2,Emerson College,2026-10-12,2026-10-14,344,lv,50,47,Lindsay James,Joe Mitchell,"",nyt
+2026,CA,34,2026_CA_34,Upswing Research,2026-09-01,2026-09-05,403,lv,38,41,Jimmy Gomez,Angela Gonzales-Torres,"",nyt
+2026,VT,1,2026_VT_1,Braun Research,2026-09-10,2026-09-21,732,lv,46.92,30.25,Becca Balint,Gerald Malloy,"",nyt
+2026,ID,1,2026_ID_1,SurveyUSA,2026-07-07,2026-07-14,480,lv,35,45,Kaylee Peterson,Russ Fulcher,"",nyt
+2026,CA,40,2026_CA_40,American Viewpoint,2026-07-08,2026-07-12,,lv,32,33,Young Kim,Ken Calvert,R,nyt
+2026,CA,48,2026_CA_48,SurveyUSA,2026-10-01,2026-10-07,518,lv,47,38,Marni von Wilpert,Jim Desmond,"",nyt
+2026,AK,1,2026_AK_1,Tavern Research,2026-05-18,2026-05-27,452,lv,48,52,Bill Hill,Nick Begich III,"",nyt
+2026,NC,7,2026_NC_7,Public Policy Polling,2026-08-19,2026-08-20,517,rv,39,45,Kimberly Hardy,David Rouzer,D,nyt
+2026,NM,2,2026_NM_2,SurveyUSA,2026-08-28,2026-09-02,554,lv,46,43,Gabe Vasquez,Greg Cunningham,"",nyt
+2026,FL,22,2026_FL_22,Impact Research,2026-08-24,2026-08-31,,lv,46,44,Pia Dandiya,Casey Askar,D,nyt
+2026,TN,5,2026_TN_5,Impact Research,2026-08-19,2026-08-24,500,lv,40,48,Chaz Molder,Charlie Hatcher,D,nyt
+2026,NE,1,2026_NE_1,Zenith Research,2026-05-08,2026-05-11,401,rv,38,45,Chris Backemeyer,Mike Flood,"",nyt
+2026,MI,4,2026_MI_4,Ragnar Research Partners,2026-03-12,2026-03-14,400,lv,42,48,Sean McCann,Bill Huizenga,R,nyt
+2026,FL,14,2026_FL_14,Emerson College,2026-10-12,2026-10-14,315,lv,48,43,Kathy Castor,Mike Beltran,"",nyt
+2026,OH,7,2026_OH_7,Bedrock Polling,2026-08-07,2026-08-10,866,lv,43,35,Brian Poindexter,Max Miller,D,nyt
+2026,CA,11,2026_CA_11,Lake Research Partners,2026-07-14,2026-07-19,500,lv,40,45,Connie Chan,Scott Wiener,D,nyt
+2026,IL,4,2026_IL_4,The Bullfinch Group,2026-07-31,2026-08-03,653,rv,34,15,Patty Garcia,Lupe Castillo,"",nyt
+2026,PA,10,2026_PA_10,"Susquehanna Polling & Research, Inc.",2026-10-05,2026-10-11,300,lv,49,46,Janelle Stelson,Scott Perry,"",nyt
+2026,AR,2,2026_AR_2,Hendrix College,2026-08-11,2026-08-12,1112,lv,48,44,Chris Jones,French Hill,"",nyt
+2026,KY,6,2026_KY_6,Lake Research Partners,2026-09-30,2026-10-04,400,lv,46,40,Zach Dembo,Ralph Alvarado,D,nyt
+2026,AK,1,2026_AK_1,Alaska Survey Research,2026-08-20,2026-08-23,1872,lv,39.1,50.6,Bill Hill,Nick Begich III,"",nyt
+2026,ME,2,2026_ME_2,University of New Hampshire,2026-02-12,2026-02-16,520,lv,46,47,Matthew Dunlap,Paul LePage,"",nyt
+2026,SC,1,2026_SC_1,Public Policy Polling,2026-10-21,2026-10-22,770,lv,47,45,Nancy Lacore,Jenny Costa Honeycutt,D,nyt
+2026,IN,5,2026_IN_5,Expedition Strategies,2026-09-30,2026-10-04,,lv,47,48,J. D. Ford,Victoria Spartz,D,nyt
+2026,UT,4,2026_UT_4,Lighthouse Research,2026-09-08,2026-09-17,513,rv,32.9,41.7,Jonny Larsen,Mike Kennedy,"",nyt
+2026,NY,21,2026_NY_21,Impact Research,2026-08-30,2026-09-02,500,lv,44,47,Blake Gendebien,Anthony Constantino,D,nyt
+2026,VA,5,2026_VA_5,Expedition Strategies,2026-09-21,2026-09-24,400,lv,45,46,Tom Perriello,John McGuire,D,nyt
+2026,PA,1,2026_PA_1,Global Strategy Group,2026-03-19,2026-03-22,400,lv,42,48,Bob Harvie,Brian Fitzpatrick,D,nyt
+2026,TX,28,2026_TX_28,DCCC Targeting Team,2026-10-07,2026-10-13,536,lv,54,34,Henry Cuellar,Tano Tijerina,D,nyt
+2026,TX,34,2026_TX_34,co/efficient,2026-04-25,2026-04-29,777,lv,40,41,Vicente Gonzalez,Eric Flores,R,nyt
+2026,NY,18,2026_NY_18,Global Strategy Group,2026-07-23,2026-07-26,500,lv,53,39,Pat Ryan,Jacqueline Auringer,D,nyt
+2026,PA,10,2026_PA_10,Franklin & Marshall College,2026-09-09,2026-09-20,378,rv,47,44,Janelle Stelson,Scott Perry,"",nyt
+2026,NC,14,2026_NC_14,Ragnar Research Partners,2026-03-10,2026-03-12,400,lv,40,48,Lakesha Womack,Tim Moore,R,nyt
+2026,CA,34,2026_CA_34,Center for Strategic Politics,2026-10-08,2026-10-12,416,lv,38,48,Jimmy Gomez,Angela Gonzales-Torres,D,nyt
+2026,PA,1,2026_PA_1,Global Strategy Group,2026-10-01,2026-10-08,1032,lv,46,46,Bob Harvie,Brian Fitzpatrick,D,nyt
+2026,FL,27,2026_FL_27,Bendixen & Amandi International,2026-08-25,2026-08-30,600,lv,45,45,Eliott Rodriguez,María Elvira Salazar,D,nyt
+2026,VT,1,2026_VT_1,University of New Hampshire,2026-07-15,2026-07-20,949,lv,63,25,Becca Balint,Gerald Malloy,"",nyt
+2026,WI,3,2026_WI_3,Impact Research,2026-05-26,2026-05-31,500,lv,50,46,Rebecca Cooke,Derrick Van Orden,D,nyt
+2026,MI,7,2026_MI_7,Emerson College,2026-10-12,2026-10-14,314,lv,53,45,William Lawrence,Tom Barrett,"",nyt
+2026,FL,11,2026_FL_11,MDW Communications,2026-07-28,2026-07-30,1044,lv,41.8,42.1,James Pericola,Joe Strada,D,nyt
+2026,CA,1,2026_CA_1,USC Democracy and Fair Elections Lab,2026-10-22,2026-10-26,444,lv,56,41,Mike McGuire,James Gallagher,"",nyt
+2026,GA,11,2026_GA_11,Miller Consulting Services,2026-08-31,2026-09-11,402,lv,42,40,Chris Harden,John Cowan,D,nyt
+2026,UT,1,2026_UT_1,Lighthouse Research,2026-08-31,2026-09-10,515,rv,62.7,21.2,Ben McAdams,Riley Owen,"",nyt
+2026,WA,3,2026_WA_3,Emerson College,2026-07-08,2026-07-10,500,lv,42,43,Marie Gluesenkamp Perez,John Braun,D,nyt
+2026,GA,3,2026_GA_3,VoteNexus,2026-10-02,2026-10-07,301,lv,45,50,Maura Keller,Brian Jack,D,nyt
+2026,MT,1,2026_MT_1,Impact Research,2026-06-22,2026-06-25,500,lv,44,44,Sam Forstag,Aaron Flint,D,nyt
+2026,VA,1,2026_VA_1,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-23,2026-09-28,609,lv,50,46,Shannon Taylor,Rob Wittman,"",nyt
+2026,TX,15,2026_TX_15,"Normington, Petts & Associates",2026-09-24,2026-09-28,400,lv,54,41,Bobby Pulido,Monica De La Cruz,D,nyt
+2026,TX,15,2026_TX_15,Barbara Jordan Public Policy Research and Survey Center,2026-10-13,2026-10-16,,lv,51,44,Bobby Pulido,Monica De La Cruz,"",nyt
+2026,PA,7,2026_PA_7,GBAO,2026-06-29,2026-07-02,,lv,47,43,Bob Brooks,Ryan Mackenzie,D,nyt
+2026,OH,10,2026_OH_10,DCCC Targeting Team,2026-10-12,2026-10-13,535,lv,47,44,Kristina Knickerbocker,Mike Turner,D,nyt
+2026,WI,1,2026_WI_1,Ragnar Research Partners,2026-03-14,2026-03-16,400,lv,41,50,Mitchell Berman,Bryan Steil,R,nyt
+2026,FL,25,2026_FL_25,Public Policy Polling,2026-10-26,2026-10-27,523,lv,47,41,Jared Moskowitz,Scott Singer,D,nyt
+2026,FL,25,2026_FL_25,Public Policy Polling,2026-10-21,2026-10-22,592,lv,47,42,Jared Moskowitz,Scott Singer,D,nyt
+2026,NE,1,2026_NE_1,Global Strategy Group,2026-08-31,2026-09-03,600,lv,49,45,Chris Backemeyer,Mike Flood,D,nyt
+2026,SC,7,2026_SC_7,Blueprint Polling,2026-07-27,2026-07-28,557,lv,36.7,41.1,John Vincent,Russell Fry,D,nyt
+2026,MT,1,2026_MT_1,Emerson College,2026-10-12,2026-10-14,329,lv,50,46,Sam Forstag,Aaron Flint,"",nyt
+2026,NJ,7,2026_NJ_7,Z to A Research,2026-05-24,2026-05-26,430,lv,47,43,Rebecca Bennett,Thomas Kean Jr.,D,nyt
+2026,PA,7,2026_PA_7,Muhlenberg College,2026-10-06,2026-10-15,529,lv,49,43,Bob Brooks,Ryan Mackenzie,"",nyt
+2026,IA,1,2026_IA_1,The Bullfinch Group,2026-07-13,2026-07-16,705,lv,40,35,Christina Bohannan,Mariannette Miller-Meeks,"",nyt
+2026,NC,10,2026_NC_10,Ragnar Research Partners,2026-03-10,2026-03-12,400,lv,37,52,Ashley Bell,Pat Harrigan,R,nyt
+2026,PA,8,2026_PA_8,Public Policy Polling,2025-08-27,2025-08-28,615,rv,45,43,Paige Cognetti,Rob Bresnahan,D,nyt
+2026,CO,4,2026_CO_4,Impact Research,2026-09-21,2026-09-24,403,lv,40,45,Eileen Laubacher,Lauren Boebert,"",nyt
+2026,MT,2,2026_MT_2,Montana State University Billings,2026-10-05,2026-10-21,350,a,18,29,Brian Miller,Troy Downing,"",nyt
+2026,IA,3,2026_IA_3,Ragnar Research Partners,2026-03-12,2026-03-14,400,lv,42,48,Sarah Trone Garriott,Zach Nunn,R,nyt
+2026,FL,13,2026_FL_13,"Fabrizio, Lee & Associates",2026-08-04,2026-08-06,400,lv,41,49,Leela Gray,Anna Paulina Luna,R,nyt
+2026,AZ,6,2026_AZ_6,"Normington, Petts & Associates",2026-06-08,2026-06-11,500,lv,47,45,JoAnna Mendoza,Juan Ciscomani,D,nyt
+2026,ME,2,2026_ME_2,Tulchin Research,2026-09-27,2026-09-30,500,lv,50,48,Matthew Dunlap,Paul LePage,D,nyt
+2026,TX,28,2026_TX_28,Pulse Decision Science,2026-06-21,2026-06-23,400,lv,33,42,Henry Cuellar,Tano Tijerina,R,nyt
+2026,NE,2,2026_NE_2,National Public Affairs,2026-10-02,2026-10-05,377,lv,50,38,Denise Powell,Brinker Harding,R,nyt
+2026,FL,14,2026_FL_14,St. Pete Polls,2026-07-14,2026-07-15,469,lv,46.2,37.5,Kathy Castor,Mike Beltran,"",nyt
+2026,OH,10,2026_OH_10,FM3 Research,2026-07-06,2026-07-12,,lv,41,48,Kristina Knickerbocker,Mike Turner,D,nyt
+2026,FL,13,2026_FL_13,Public Policy Polling,2026-05-19,2026-05-20,616,rv,39,41,Leela Gray,Anna Paulina Luna,D,nyt
+2026,TX,35,2026_TX_35,"Normington, Petts & Associates",2026-10-12,2026-10-14,,lv,47,45,Johnny Garcia,Carlos De La Cruz,D,nyt
+2026,AZ,6,2026_AZ_6,Ragnar Research Partners,2026-03-12,2026-03-14,400,lv,47,44,JoAnna Mendoza,Juan Ciscomani,R,nyt
+2026,WA,3,2026_WA_3,Change Research,2026-10-19,2026-10-21,551,lv,45,44,Marie Gluesenkamp Perez,John Braun,D,nyt
+2026,NY,17,2026_NY_17,Emerson College,2026-09-27,2026-09-29,400,lv,47.9,45.6,Cait Conley,Mike Lawler,"",nyt
+2026,TX,34,2026_TX_34,Barbara Jordan Public Policy Research and Survey Center,2026-08-18,2026-08-22,700,lv,45,42,Vicente Gonzalez,Eric Flores,"",nyt
+2026,TX,35,2026_TX_35,"Normington, Petts & Associates",2026-08-27,2026-08-31,,lv,44,45,Johnny Garcia,Carlos De La Cruz,D,nyt
+2026,ID,1,2026_ID_1,Change Research,2026-07-28,2026-07-30,,lv,27,48,Kaylee Peterson,Russ Fulcher,"",nyt
+2026,NJ,7,2026_NJ_7,StimSight Research,2026-09-08,2026-09-12,498,lv,47,42,Rebecca Bennett,Thomas Kean Jr.,"",nyt
+2026,SC,1,2026_SC_1,Public Policy Polling,2026-09-09,2026-09-10,536,rv,40,41,Nancy Lacore,Jenny Costa Honeycutt,D,nyt
+2026,OH,10,2026_OH_10,Global Strategy Group,2026-07-20,2026-07-23,700,lv,40,45,Kristina Knickerbocker,Mike Turner,D,nyt
+2026,MD,1,2026_MD_1,Z to A Research,2026-07-23,2026-07-27,482,lv,39,52,Dan Schwartz,Andy Harris,D,nyt
+2026,WI,6,2026_WI_6,Tavern Research,2026-05-18,2026-05-28,437,lv,39,61,Brad Smith,Glenn Grothman,"",nyt
+2026,NY,21,2026_NY_21,Impact Research,2026-09-29,2026-10-04,500,lv,45,48,Blake Gendebien,Anthony Constantino,D,nyt
+2026,CA,34,2026_CA_34,USC Democracy and Fair Elections Lab,2026-10-16,2026-10-24,423,lv,45,51,Jimmy Gomez,Angela Gonzales-Torres,"",nyt
+2026,IA,2,2026_IA_2,Public Policy Polling,2026-04-13,2026-04-14,673,rv,36,33,Lindsay James,Joe Mitchell,D,nyt
+2026,CO,3,2026_CO_3,"Keating Research, Inc.",2026-07-21,2026-07-23,500,lv,45,46,Dwayne Romero,Jeff Hurd,D,nyt
+2026,NV,2,2026_NV_2,Strategies 360,2026-08-22,2026-08-26,400,lv,42,45,Teresa Benitez-Thompson,David Flippo,D,nyt
+2026,VA,1,2026_VA_1,Public Policy Polling,2025-08-08,2025-08-09,541,rv,40,41,Shannon Taylor,Rob Wittman,D,nyt
+2026,AR,2,2026_AR_2,2040 Strategy Group,2026-04-28,2026-05-08,,lv,46,43,Chris Jones,French Hill,D,nyt
+2026,AZ,6,2026_AZ_6,Public Policy Polling,2025-10-14,2025-10-15,581,rv,42,41,JoAnna Mendoza,Juan Ciscomani,D,nyt
+2026,PA,1,2026_PA_1,GQR,2026-08-19,2026-08-23,400,lv,48,49,Bob Harvie,Brian Fitzpatrick,D,nyt
+2026,CO,5,2026_CO_5,Global Strategy Group,2026-10-14,2026-10-18,500,lv,43,38,Jessica Killin,Jeff Crank,D,nyt
+2026,NE,1,2026_NE_1,Public Policy Polling,2026-10-19,2026-10-20,,lv,45,46,Chris Backemeyer,Mike Flood,D,nyt
+2026,GA,7,2026_GA_7,20/20 Insight,2026-08-20,2026-08-26,445,lv,43,46,Tony Kozycki,Rich McCormick,D,nyt
+2026,MO,2,2026_MO_2,Public Policy Polling,2026-10-19,2026-10-20,,lv,46,45,Fred Wellman,Ann Wagner,D,nyt
+2026,TX,15,2026_TX_15,Public Policy Polling,2025-09-10,2025-09-11,533,rv,38,41,Bobby Pulido,Monica De La Cruz,D,nyt
+2026,FL,25,2026_FL_25,National Research,2026-10-12,2026-10-15,400,lv,42,49,Jared Moskowitz,Scott Singer,R,nyt
+2026,AK,1,2026_AK_1,Public Policy Polling,2026-02-11,2026-02-12,600,lv,37,41,Bill Hill,Nick Begich III,"",nyt
+2026,OH,1,2026_OH_1,Torchlight Strategies,2026-09-29,2026-10-02,400,lv,45.8,44.2,Greg Landsman,Eric Conroy,R,nyt
+2026,NC,9,2026_NC_9,Lake Research Partners,2026-08-31,2026-09-03,400,lv,42,46,Richard Ojeda,Richard Hudson,D,nyt
+2026,PA,8,2026_PA_8,Emerson College,2026-10-12,2026-10-14,396,lv,52,48,Paige Cognetti,Rob Bresnahan,"",nyt
+2026,GA,7,2026_GA_7,20/20 Insight,2026-10-06,2026-10-09,457,lv,47,45,Tony Kozycki,Rich McCormick,D,nyt
+2026,AK,1,2026_AK_1,The New York Times/Siena University,2026-10-23,2026-10-30,610,lv,37.2,44,Bill Hill,Nick Begich III,"",nyt
+2026,ME,2,2026_ME_2,Tulchin Research,2026-10-12,2026-10-14,500,lv,50,46,Matthew Dunlap,Paul LePage,D,nyt
+2026,FL,22,2026_FL_22,Tavern Research,2026-08-10,2026-08-12,551,lv,50,50,Pia Dandiya,Casey Askar,"",nyt
+2026,MI,4,2026_MI_4,GBAO,2026-09-13,2026-09-16,500,lv,47,46,Sean McCann,Bill Huizenga,D,nyt
+2026,AK,1,2026_AK_1,Fabrizio Ward/Impact Research,2026-09-08,2026-09-11,800,lv,43,57,Bill Hill,Nick Begich III,"",nyt
+2026,VT,1,2026_VT_1,University of New Hampshire,2026-06-18,2026-06-23,872,lv,57,26,Becca Balint,Gerald Malloy,"",nyt
+2026,IN,5,2026_IN_5,Quantus Insights,2026-10-21,2026-10-22,634,lv,44.6,47.4,J. D. Ford,Victoria Spartz,"",nyt
+2026,FL,7,2026_FL_7,DCCC Targeting Team,2026-10-17,2026-10-19,414,lv,45,45,Bale Dalton,Ryan Elijah,D,nyt
+2026,IA,2,2026_IA_2,Global Strategy Group,2026-07-14,2026-07-19,,lv,46,45,Lindsay James,Joe Mitchell,D,nyt
+2026,FL,13,2026_FL_13,GQR,2026-08-04,2026-08-06,500,lv,44,47,Leela Gray,Anna Paulina Luna,D,nyt
+2026,CA,7,2026_CA_7,Data for Progress,2026-08-18,2026-08-21,651,lv,28,32,Doris Matsui,Mai Vang,D,nyt
+2026,MT,1,2026_MT_1,Public Policy Polling,2026-09-09,2026-09-10,536,rv,45,43,Sam Forstag,Aaron Flint,D,nyt
+2026,WI,1,2026_WI_1,Impact Research,2026-09-28,2026-10-01,500,lv,48,47,Mitchell Berman,Bryan Steil,D,nyt
+2026,ME,2,2026_ME_2,co/efficient,2026-04-26,2026-04-28,918,lv,40,50,Matthew Dunlap,Paul LePage,R,nyt
+2026,FL,16,2026_FL_16,Public Policy Polling,2026-10-01,2026-10-02,530,rv,39,43,Kelly Kirschner,Sydney Gruters,D,nyt
+2026,KY,6,2026_KY_6,DCCC Targeting Team,2026-10-02,2026-10-05,606,lv,46,40,Zach Dembo,Ralph Alvarado,D,nyt
+2026,AZ,2,2026_AZ_2,Emerson College,2026-10-12,2026-10-14,345,lv,50,48,Jonathan Nez,Eli Crane,"",nyt
+2026,CA,22,2026_CA_22,USC Democracy and Fair Elections Lab,2026-10-22,2026-10-28,356,lv,54,44,Randy Villegas,David Valadao,"",nyt
+2026,MI,13,2026_MI_13,Center for Strategic Politics,2026-10-28,2026-10-30,310,lv,69,19,Donavan McKinney,T. P. Nykoriak,D,nyt
+2026,NY,21,2026_NY_21,Public Policy Polling,2026-09-09,2026-09-10,557,rv,43,48,Blake Gendebien,Anthony Constantino,D,nyt
+2026,RI,1,2026_RI_1,Embold Research,2026-10-05,2026-10-08,,lv,52,33,Gabe Amo,Kellie Keenan,"",nyt
+2026,PA,8,2026_PA_8,Lake Research Partners,2026-06-18,2026-06-23,400,lv,47,45,Paige Cognetti,Rob Bresnahan,D,nyt
+2026,WA,5,2026_WA_5,Tavern Research,2026-05-18,2026-05-25,578,lv,47,53,Carmela Conroy,Michael Baumgartner,"",nyt
+2026,SC,1,2026_SC_1,GQR,2026-07-15,2026-07-22,,lv,41,43,Nancy Lacore,Jenny Costa Honeycutt,D,nyt
+2026,OH,15,2026_OH_15,Hart Research Associates,2026-06-23,2026-06-25,550,lv,40,45,Don Leonard,Mike Carey,D,nyt
+2026,TX,9,2026_TX_9,Public Policy Polling,2026-09-18,2026-09-19,560,rv,39,45,Leticia Gutierrez,Alex Mealer,D,nyt
+2026,CA,48,2026_CA_48,Lake Research Partners,2026-07-09,2026-07-14,500,lv,48,46,Marni von Wilpert,Jim Desmond,D,nyt
+2026,ME,2,2026_ME_2,Impact Research,2026-09-08,2026-09-12,500,lv,49,49,Matthew Dunlap,Paul LePage,D,nyt
+2026,ID,2,2026_ID_2,VoteNexus,2026-10-21,2026-10-22,,lv,31,46,Ellie Gilbreath,Mike Simpson,"",nyt
+2026,KY,6,2026_KY_6,DCCC Targeting Team,2026-07-29,2026-07-30,474,lv,47,47,Zach Dembo,Ralph Alvarado,D,nyt
+2026,NV,2,2026_NV_2,Public Policy Polling,2026-10-12,2026-10-13,,lv,44,46,Teresa Benitez-Thompson,David Flippo,D,nyt
+2026,NH,2,2026_NH_2,University of New Hampshire,2026-09-17,2026-09-21,694,lv,56,35,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,VA,6,2026_VA_6,co/efficient,2026-09-28,2026-09-30,791,lv,29,59,Beth Macy,Ben Cline,"",nyt
+2026,WI,1,2026_WI_1,Impact Research,2026-08-06,2026-08-09,400,lv,48,49,Mitchell Berman,Bryan Steil,D,nyt
+2026,NJ,2,2026_NJ_2,Impact Research,2026-10-07,2026-10-10,,lv,40,50,Zack Mullock,Jeff Van Drew,D,nyt
+2026,MT,2,2026_MT_2,Rutgers-Eagleton,2026-08-27,2026-09-07,,rv,26,48,Brian Miller,Troy Downing,"",nyt
+2026,NY,17,2026_NY_17,McLaughlin & Associates,2026-09-28,2026-09-30,400,lv,47,50,Cait Conley,Mike Lawler,R,nyt
+2026,PA,1,2026_PA_1,Public Policy Polling,2025-10-10,2025-10-11,585,lv,41,41,Bob Harvie,Brian Fitzpatrick,D,nyt
+2026,NE,2,2026_NE_2,SurveyUSA,2026-09-08,2026-09-13,182,lv,46,42,Denise Powell,Brinker Harding,"",nyt
+2026,OH,15,2026_OH_15,Hart Research Associates,2026-09-22,2026-09-24,500,lv,46,45,Don Leonard,Mike Carey,D,nyt
+2026,WI,3,2026_WI_3,Impact Research,2026-02-12,2026-02-17,500,lv,49,48,Rebecca Cooke,Derrick Van Orden,D,nyt
+2026,AK,1,2026_AK_1,The New York Times/Siena University,2026-09-24,2026-10-01,476,lv,46.96,53.04,Bill Hill,Nick Begich III,"",nyt
+2026,MN,1,2026_MN_1,GBAO,2026-09-18,2026-09-21,500,lv,47,46,Jake Johnson,Brad Finstad,D,nyt
+2026,NY,1,2026_NY_1,Public Policy Polling,2025-12-10,2025-12-11,579,rv,38,41,Chris Gallant,Nick LaLota,D,nyt
+2026,PA,10,2026_PA_10,The New York Times/Siena University,2026-10-16,2026-10-22,404,lv,47.65,48.03,Janelle Stelson,Scott Perry,"",nyt
+2026,AL,2,2026_AL_2,Impact Research,2026-06-22,2026-06-25,400,lv,44,45,Shomari Figures,Rhett Marques,D,nyt
+2026,UT,3,2026_UT_3,Lighthouse Research,2026-09-02,2026-09-15,508,rv,26.4,44.5,Kent Udell,Celeste Maloy,"",nyt
+2026,MN,1,2026_MN_1,Public Policy Polling,2026-10-13,2026-10-14,,lv,43,43,Jake Johnson,Brad Finstad,D,nyt
+2026,MN,2,2026_MN_2,Impact Research,2026-09-09,2026-09-13,500,lv,52,40,Matt Little,Eric Pratt,D,nyt
+2026,CA,48,2026_CA_48,Tarrance Group,2026-10-17,2026-10-20,410,lv,47,44,Marni von Wilpert,Jim Desmond,R,nyt
+2026,NY,17,2026_NY_17,co/efficient,2026-07-20,2026-07-22,1292,lv,45,50,Cait Conley,Mike Lawler,"",nyt
+2026,SD,1,2026_SD_1,Lake Research Partners,2026-08-26,2026-08-30,500,lv,43,47,Nikki Gronli,Marty Jackley,D,nyt
+2026,TN,9,2026_TN_9,Hart Research Associates,2026-09-01,2026-09-03,400,lv,44,48,Justin Pearson,Brent Taylor,D,nyt
+2026,OH,1,2026_OH_1,Quantus Insights,2026-10-19,2026-10-21,561,lv,47.6,43.9,Greg Landsman,Eric Conroy,"",nyt
+2026,KY,6,2026_KY_6,GQR,2026-06-24,2026-06-28,,lv,39,42,Zach Dembo,Ralph Alvarado,D,nyt
+2026,MO,2,2026_MO_2,Remington,2026-09-14,2026-09-15,565,lv,42,43,Fred Wellman,Ann Wagner,"",nyt
+2026,AZ,2,2026_AZ_2,GBAO,2026-08-21,2026-08-24,500,lv,44,46,Jonathan Nez,Eli Crane,D,nyt
+2026,TX,2,2026_TX_2,Impact Research,2026-09-29,2026-10-04,501,lv,37,46,Shaun Finnie,Steve Toth,D,nyt
+2026,NH,2,2026_NH_2,St. Anselm,2026-08-17,2026-08-18,701,lv,50,35,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,OH,7,2026_OH_7,Tavern Research,2026-08-04,2026-08-04,635,lv,54,46,Brian Poindexter,Max Miller,"",nyt
+2026,PA,1,2026_PA_1,Public Opinion Strategies,2026-09-11,2026-09-14,400,rv,42,51,Bob Harvie,Brian Fitzpatrick,R,nyt
+2026,MN,8,2026_MN_8,Public Policy Polling,2026-10-25,2026-10-26,585,rv,43,49,Trina Swanson,Pete Stauber,D,nyt
+2026,WI,3,2026_WI_3,FM3 Research,2026-06-20,2026-06-25,535,lv,50,46,Rebecca Cooke,Derrick Van Orden,D,nyt
+2026,FL,9,2026_FL_9,SEA Polling,2026-08-24,2026-08-30,400,lv,41,41,Darren Soto,Dan Green,D,nyt
+2026,NY,18,2026_NY_18,Public Policy Polling,2026-09-29,2026-09-30,561,rv,52,35,Pat Ryan,Jacqueline Auringer,D,nyt
+2026,VA,1,2026_VA_1,Public Policy Polling,2026-10-21,2026-10-22,570,lv,47,46,Shannon Taylor,Rob Wittman,D,nyt
+2026,TX,34,2026_TX_34,Ragnar Research Partners,2026-06-14,2026-06-16,400,lv,41,44,Vicente Gonzalez,Eric Flores,R,nyt
+2026,NH,2,2026_NH_2,St. Anselm,2026-03-16,2026-03-18,739,rv,48,36,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,FL,21,2026_FL_21,Upswing Research,2026-09-21,2026-09-25,402,lv,38,49,James Martin,Brian Mast,D,nyt
+2026,CO,3,2026_CO_3,DCCC Targeting Team,2026-10-20,2026-10-21,402,lv,47,46,Dwayne Romero,Jeff Hurd,D,nyt
+2026,AZ,2,2026_AZ_2,GBAO,2026-06-11,2026-06-15,500,lv,41,44,Jonathan Nez,Eli Crane,D,nyt
+2026,PA,10,2026_PA_10,Public Policy Polling,2025-11-18,2025-11-19,549,rv,48,44,Janelle Stelson,Scott Perry,"",nyt
+2026,FL,27,2026_FL_27,Tulchin Research,2026-09-08,2026-09-13,600,lv,46,47,Eliott Rodriguez,María Elvira Salazar,D,nyt
+2026,OH,9,2026_OH_9,DCCC Targeting Team,2026-09-22,2026-09-23,481,lv,48,48,Marcy Kaptur,Derek Merrin,D,nyt
+2026,NC,1,2026_NC_1,co/efficient,2026-10-06,2026-10-08,623,lv,42,43,Don Davis,Laurie Buckhout,R,nyt
+2026,VA,2,2026_VA_2,Tulchin Research,2026-07-09,2026-07-13,700,lv,47,47,Elaine Luria,Jen Kiggans,D,nyt
+2026,FL,13,2026_FL_13,Public Policy Polling,2026-10-14,2026-10-15,,lv,47,46,Leela Gray,Anna Paulina Luna,D,nyt
+2026,CA,11,2026_CA_11,Tavern Research,2026-09-15,2026-09-17,658,lv,47,53,Connie Chan,Scott Wiener,D,nyt
+2026,CA,40,2026_CA_40,Public Opinion Strategies,2026-08-17,2026-08-20,400,lv,34,35,Young Kim,Ken Calvert,R,nyt
+2026,VA,1,2026_VA_1,DCCC Targeting Team,2026-10-24,2026-10-25,478,lv,48,47,Shannon Taylor,Rob Wittman,D,nyt
+2026,KY,6,2026_KY_6,Lake Research Partners,2026-08-17,2026-08-23,,lv,45,44,Zach Dembo,Ralph Alvarado,D,nyt
+2026,NC,9,2026_NC_9,Public Policy Polling,2026-10-19,2026-10-20,,lv,42,46,Richard Ojeda,Richard Hudson,D,nyt
+2026,AZ,1,2026_AZ_1,"Keating Research, Inc.",2026-10-26,2026-10-28,500,lv,49.4,45,Amish Shah,Jay Feely,"",nyt
+2026,AK,1,2026_AK_1,Alaska Survey Research,2026-10-01,2026-10-03,1512,lv,47.3,52.7,Bill Hill,Nick Begich III,"",nyt
+2026,VA,1,2026_VA_1,Ragnar Research Partners,2026-03-10,2026-03-12,400,lv,42,46,Shannon Taylor,Rob Wittman,R,nyt
+2026,MT,1,2026_MT_1,Impact Research,2026-09-20,2026-09-23,500,lv,47,44,Sam Forstag,Aaron Flint,D,nyt
+2026,CA,48,2026_CA_48,SurveyUSA,2026-08-27,2026-09-01,522,lv,45,42,Marni von Wilpert,Jim Desmond,"",nyt
+2026,NY,17,2026_NY_17,FM3 Research,2026-06-27,2026-07-01,509,lv,51,45,Cait Conley,Mike Lawler,D,nyt
+2026,WA,3,2026_WA_3,DHM Research,2026-09-17,2026-09-27,543,lv,47,48,Marie Gluesenkamp Perez,John Braun,"",nyt
+2026,AL,2,2026_AL_2,DCCC Targeting Team,2026-07-29,2026-07-30,421,lv,46,46,Shomari Figures,Rhett Marques,D,nyt
+2026,MI,7,2026_MI_7,Data for Progress,2026-06-24,2026-06-30,772,lv,48,46,William Lawrence,Tom Barrett,D,nyt
+2026,NM,2,2026_NM_2,Research & Polling Inc.,2026-10-01,2026-10-09,383,lv,48,44,Gabe Vasquez,Greg Cunningham,"",nyt
+2026,CT,5,2026_CT_5,OnMessage Inc.,2026-09-29,2026-10-01,400,lv,51,45,Jahana Hayes,Chris Shea,R,nyt
+2026,CO,5,2026_CO_5,Public Policy Polling,2026-10-19,2026-10-20,577,lv,47,47,Jessica Killin,Jeff Crank,D,nyt
+2026,FL,9,2026_FL_9,SEA Polling,2026-10-13,2026-10-15,,lv,44,44,Darren Soto,Dan Green,D,nyt
+2026,VA,1,2026_VA_1,DCCC Targeting Team,2026-09-15,2026-09-17,519,lv,46,47,Shannon Taylor,Rob Wittman,D,nyt
+2026,NC,11,2026_NC_11,Emerson College,2026-10-12,2026-10-14,388,lv,56,43,Jamie Ager,Jennifer Balkcom,"",nyt
+2026,AK,1,2026_AK_1,Change Research,2026-03-17,2026-03-20,624,lv,12.98,44.78,Bill Hill,Nick Begich III,"",nyt
+2026,NH,2,2026_NH_2,University of New Hampshire,2025-09-17,2025-09-23,508,lv,51,39,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,IN,5,2026_IN_5,Impact Research,2026-07-16,2026-07-20,,lv,46,48,J. D. Ford,Victoria Spartz,D,nyt
+2026,OK,5,2026_OK_5,GBAO,2026-09-17,2026-09-20,500,lv,43,48,Jena Nelson,Stephanie Bice,D,nyt
+2026,ME,1,2026_ME_1,University of New Hampshire,2026-09-17,2026-09-21,657,lv,57,35,Chellie Pingree,Ronald Russell,"",nyt
+2026,TX,15,2026_TX_15,Applecart,2026-05-18,2026-05-25,802,lv,48,46,Bobby Pulido,Monica De La Cruz,D,nyt
+2026,MI,4,2026_MI_4,Public Policy Polling,2025-11-20,2025-11-21,559,rv,42,44,Sean McCann,Bill Huizenga,"",nyt
+2026,NV,2,2026_NV_2,GBAO,2026-08-31,2026-09-03,500,lv,38,37,Teresa Benitez-Thompson,David Flippo,D,nyt
+2026,KY,6,2026_KY_6,GQR,2026-09-25,2026-09-30,401,lv,42,37,Zach Dembo,Ralph Alvarado,D,nyt
+2026,NC,1,2026_NC_1,co/efficient,2026-04-25,2026-04-29,842,lv,41,41,Don Davis,Laurie Buckhout,R,nyt
+2026,CO,5,2026_CO_5,Global Strategy Group,2025-10-30,2025-11-03,450,lv,40,43,Jessica Killin,Jeff Crank,D,nyt
+2026,MT,1,2026_MT_1,Upswing Research,2026-04-30,2026-05-05,401,lv,43,48,Sam Forstag,Aaron Flint,D,nyt
+2026,KY,6,2026_KY_6,Change Research,2026-09-29,2026-10-05,524,lv,47,38,Zach Dembo,Ralph Alvarado,D,nyt
+2026,NH,2,2026_NH_2,University of New Hampshire,2026-01-15,2026-01-19,1094,lv,54,40,Maggie Goodlander,Lily Tang Williams,"",nyt
+2026,MI,4,2026_MI_4,GBAO,2026-05-28,2026-06-01,500,lv,48,45,Sean McCann,Bill Huizenga,D,nyt
+2026,AL,2,2026_AL_2,Remington,2026-10-23,2026-10-25,642,lv,46,48,Shomari Figures,Rhett Marques,"",nyt
+2026,MN,1,2026_MN_1,Ragnar Research Partners,2026-03-12,2026-03-14,400,lv,42,52,Jake Johnson,Brad Finstad,R,nyt
+2026,AK,1,2026_AK_1,Data for Progress,2026-10-08,2026-10-16,659,lv,49,51,Bill Hill,Nick Begich III,"",nyt
+2026,CA,48,2026_CA_48,USC Democracy and Fair Elections Lab,2026-10-22,2026-10-27,474,lv,52,44,Marni von Wilpert,Jim Desmond,"",nyt
+2026,NY,23,2026_NY_23,Public Policy Polling,2026-09-22,2026-09-23,626,lv,35,52,Aaron Gies,Nick Langworthy,D,nyt
+2026,SC,1,2026_SC_1,co/efficient,2026-09-30,2026-10-01,837,lv,40,46,Nancy Lacore,Jenny Costa Honeycutt,"",nyt
+2026,OH,9,2026_OH_9,McLaughlin & Associates,2026-04-18,2026-04-20,400,lv,43,47,Marcy Kaptur,Derek Merrin,R,nyt
+2026,TX,10,2026_TX_10,Change Research,2026-09-18,2026-09-22,613,lv,41,48,Caitlin Rourk,Chris Gober,D,nyt
+2026,OH,15,2026_OH_15,Hart Research Associates,2026-10-09,2026-10-12,,lv,48,45,Don Leonard,Mike Carey,D,nyt
+2026,CA,4,2026_CA_4,David Binder Research,2026-10-15,2026-10-21,600,lv,35,45,Mike Thompson,Eric Jones,D,nyt
+2026,AZ,2,2026_AZ_2,Peak Insights,2026-08-17,2026-08-20,400,lv,42,53,Jonathan Nez,Eli Crane,R,wikipedia
+2026,FL,8,2026_FL_8,Inquire LLC,2026-07-27,2026-07-29,,lv,42,51,Jennifer Jenkins,Mike Haridopolos,R,wikipedia
+2026,FL,25,2026_FL_25,Beacon Insights,2026-05-01,2026-05-02,461,rv,43,33,Jared Moskowitz,Scott Singer,"",wikipedia
+2026,FL,27,2026_FL_27,Blueprint Polling,2026-03-06,2026-03-08,451,rv,43,46,Eliott Rodriguez,María Elvira Salazar,D,wikipedia;votehub
+2026,ME,2,2026_ME_2,The Mellman Group,2025-06-04,2025-06-10,400,lv,37,47,Matt Dunlap,Paul LePage,D,wikipedia
+2026,ME,2,2026_ME_2,University of New Hampshire,2026-09-17,2026-09-21,627,lv,51,45,Matt Dunlap,Paul LePage,"",wikipedia
+2026,MN,1,2026_MN_1,SurveyUSA,2026-10-04,2026-10-09,565,lv,46,44,Jake Johnson,Brad Finstad,"",wikipedia;votehub
+2026,MO,2,2026_MO_2,FM3 Research,2026-05-26,2026-05-31,600,lv,41,44,Fred Wellman,Ann Wagner,D,wikipedia
+2026,MT,1,2026_MT_1,Rutgers University Eagleton Institute of Politics,2026-08-27,2026-09-07,375,rv,41,42,Sam Forstag,Aaron Flint,"",wikipedia
+2026,NC,11,2026_NC_11,Public Policy Polling,2026-09-10,2026-09-11,531,rv,47,44,Jamie Ager,Jennifer Balkcom,D,wikipedia
+2026,NE,1,2026_NE_1,Tavern Research,2026-05-16,2026-05-19,1079,lv,33,41,Chris Backemeyer,Mike Flood,D,wikipedia
+2026,NE,1,2026_NE_1,Tavern Research,2026-05-16,2026-05-19,1079,lv,43,45,Chris Backemeyer,Mike Flood,"",votehub
+2026,NH,1,2026_NH_1,University of New Hampshire,2026-09-17,2026-09-21,711,lv,46,42,Stefany Shaheen,Anthony DiLorenzo,"",wikipedia;votehub
+2026,NM,1,2026_NM_1,Research & Polling,2026-10-01,2026-10-09,380,lv,53,35,Melanie Stansbury,Didi Okapareke,"",wikipedia
+2026,NM,3,2026_NM_3,Research & Polling,2026-10-01,2026-10-09,362,lv,53,39,Teresa Leger Fernández,Martin Zamora,"",wikipedia
+2026,NV,2,2026_NV_2,Wedgewood Polls,2026-07-09,2026-07-12,350,lv,48,46,Teresa Benitez-Thompson,David Flippo,"",wikipedia
+2026,NY,23,2026_NY_23,Cygnal,2026-09-19,2026-09-21,400,lv,33,54,Aaron Gies,Nick Langworthy,R,wikipedia
+2026,OH,7,2026_OH_7,co/efficient,2026-07-29,2026-07-30,,lv,44,39,Brian Poindexter,Max Miller,R,wikipedia;votehub
+2026,OH,7,2026_OH_7,co/efficient,2026-08-05,2026-08-06,615,lv,47,33,Brian Poindexter,Max Miller,R,wikipedia
+2026,PA,1,2026_PA_1,Global Strategy Group,2025-10-01,2025-10-08,1032,lv,46,46,Bob Harvie,Brian Fitzpatrick,D,wikipedia
+2026,PA,7,2026_PA_7,Franklin & Marshall College,2026-09-09,2026-09-20,357,rv,45,40,Bob Brooks,Ryan Mackenzie,"",wikipedia;votehub
+2026,RI,2,2026_RI_2,Emerson College/WPRI-TV,2026-10-08,2026-10-11,406,lv,55,39,Seth Magaziner,Vic Mellor,"",wikipedia
+2026,SC,1,2026_SC_1,GQR,2026-09-30,2026-10-04,400,lv,48,45,Nancy Lacore,Jenny Costa Honeycutt,D,wikipedia
+2026,TX,15,2026_TX_15,Public Policy Research/Texas Southern University,2026-08-18,2026-08-22,700,lv,50,45,Bobby Pulido,Monica De La Cruz,"",wikipedia;votehub
+2026,TX,28,2026_TX_28,Public Policy Research/Texas Southern University,2026-08-18,2026-08-22,600,lv,45,34,Henry Cuellar,Tano Tijerina,"",wikipedia;votehub
+2026,UT,2,2026_UT_2,Crosby for Congress,2026-09-08,2026-09-10,762,rv,31,32,Peter Crosby,Blake Moore,D,wikipedia
+2026,UT,2,2026_UT_2,Crosby for Congress,2026-09-21,2026-09-23,657,lv,35,32,Peter Crosby,Blake Moore,D,wikipedia
+2026,VA,5,2026_VA_5,The Washington Post/SSPG,2026-09-23,2026-09-28,600,lv,45,51,Tom Perriello,John McGuire,"",wikipedia;votehub
+2026,WA,3,2026_WA_3,Voter Sciences,2025-08-01,2025-08-01,0,rv,41.29,47.55,Marie Gluesenkamp Perez,John Braun,R,votehub
+2026,WA,3,2026_WA_3,DHM Research,2026-07-08,2026-07-10,543,lv,44,46,Marie Gluesenkamp Perez,John Braun,D,wikipedia;votehub

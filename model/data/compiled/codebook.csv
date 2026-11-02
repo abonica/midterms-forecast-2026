@@ -1,0 +1,936 @@
+office,variable,group,description,timing,production_use,type,n_nonmissing,pct_missing,cycles
+house,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,not used,character,6960,0,1996-2026
+house,cycle,Keys,Election year,id,not used,numeric,6960,0,1996-2026
+house,state,Keys,State postal code,id,not used,character,6960,0,1996-2026
+house,dem.cand.vs,Outcome,D two-party vote share of the general election (outcome),outcome,not used,numeric,6524,6.3,1996-2024
+house,midpoint.cands,Ideology,Midpoint of the two nominees CFscores,pre,not used,numeric,5380,22.7,1996-2026
+house,inc.status,Incumbency and candidates,"D nominee status: I incumbent, C challenger, O open",pre,not used,character,6960,0,1996-2026
+house,dem.icpsr,Keys,D (R) nominee ICPSR/Voteview member id (with cycle suffix in legacy rows),id,not used,character,6584,5.4,1996-2026
+house,rep.icpsr,Keys,D (R) nominee ICPSR/Voteview member id (with cycle suffix in legacy rows),id,not used,character,6503,6.6,1996-2026
+house,dem.rid,Keys,D (R) nominee DIME recipient id with cycle suffix (cand123_2016); cfdb merges remapped,id,not used,character,6588,5.3,1996-2026
+house,rep.rid,Keys,D (R) nominee DIME recipient id with cycle suffix (cand123_2016); cfdb merges remapped,id,not used,character,6504,6.6,1996-2026
+house,maj.party.dem.h,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,6960,0,1996-2026
+house,maj.party.dem.s,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,6960,0,1996-2026
+house,dem.pres,National,President is a Democrat (dem.pres 1/0; pres.party +1 D / -1 R),pre,not used,numeric,6960,0,1996-2026
+house,district,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,6960,0,1996-2026
+house,distcyc,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,6960,0,1996-2026
+house,dem.inc,Incumbency and candidates,D (R) nominee is the incumbent,pre,not used,integer,6960,0,1996-2026
+house,rep.inc,Incumbency and candidates,D (R) nominee is the incumbent,pre,not used,integer,6960,0,1996-2026
+house,dem.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,6959,0,1996-2026
+house,rep.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,6959,0,1996-2026
+house,midpoint,Ideology,Midpoint of the two nominees CFscores,pre,not used,numeric,6960,0,1996-2026
+house,dem.maj.party.h,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,6960,0,1996-2026
+house,dem.maj.party.s,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,6960,0,1996-2026
+house,total.dem,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,not used,numeric,6953,0.1,1996-2026
+house,total.rep,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,not used,numeric,6673,4.1,1996-2026
+house,total.pac.dem,Money: receipts,PAC contributions through the cutoff,pre,not used,numeric,6953,0.1,1996-2026
+house,total.pac.rep,Money: receipts,PAC contributions through the cutoff,pre,not used,numeric,6673,4.1,1996-2026
+house,total.cc.dem,Money: receipts,Candidate self-funding (contributions + loans from the candidate) through the cutoff,pre,not used,numeric,6953,0.1,1996-2026
+house,total.cc.rep,Money: receipts,Candidate self-funding (contributions + loans from the candidate) through the cutoff,pre,not used,numeric,6673,4.1,1996-2026
+house,total.ies.for.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,total.ies.against.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,total.ies.for.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,total.ies.against.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,total.ind.dem,Money: receipts,Individual contributions through the cutoff,pre,not used,numeric,6949,0.2,1996-2026
+house,total.ind.rep,Money: receipts,Individual contributions through the cutoff,pre,not used,numeric,6673,4.1,1996-2026
+house,total.unitemized.dem,Money: receipts,Unitemized receipts (NA: not dateable),pre,not used,numeric,0,100,""
+house,total.unitemized.rep,Money: receipts,Unitemized receipts (NA: not dateable),pre,not used,numeric,0,100,""
+house,total.disbursements.dem,Money: spending,Total spending through the cutoff,pre,not used,numeric,5217,25,2004-2026
+house,total.disbursements.rep,Money: spending,Total spending through the cutoff,pre,not used,numeric,5032,27.7,2004-2026
+house,num.donors.dem,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,6947,0.2,1996-2026
+house,num.donors.rep,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,6672,4.1,1996-2026
+house,spare.cash.dem,Money: receipts,Receipts minus spending through the cutoff (cash on hand proxy),pre,not used,numeric,5217,25,2004-2026
+house,spare.cash.rep,Money: receipts,Receipts minus spending through the cutoff (cash on hand proxy),pre,not used,numeric,5032,27.7,2004-2026
+house,midterm,National,Midterm cycle,pre,not used,numeric,6960,0,1996-2026
+house,pr.pacs.dem,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,6337,9,1996-2026
+house,pr.pacs.rep,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,6023,13.5,1996-2026
+house,pr.cc.dem,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,6337,9,1996-2026
+house,pr.cc.rep,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,6023,13.5,1996-2026
+house,pr.ni.dem,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,0,100,""
+house,pr.ni.rep,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,0,100,""
+house,senate,Keys,Row is a Senate contest,id,not used,integer,6960,0,1996-2026
+house,pred.cyc.val,National,"Legacy cycle-level random-forest prediction of next-Congress D seat share, fit on earlier cycles",pre,not used,numeric,6960,0,1996-2026
+house,avg.donor.in.cycle,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,6960,0,1996-2026
+house,median.donor.in.cycle,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,6960,0,1996-2026
+house,avg.donor.in.cycle.gave.to.noninc,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,6960,0,1996-2026
+house,median.donor.in.cycle.gave.to.noninc,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,6960,0,1996-2026
+house,num.dem.donors,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,6960,0,1996-2026
+house,num.rep.donors,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,6960,0,1996-2026
+house,num.bipartisan,Donor network,Donors giving to both parties (count / share),pre,not used,integer,6960,0,1996-2026
+house,pct.bipartisan,Donor network,Donors giving to both parties (count / share),pre,not used,numeric,6960,0,1996-2026
+house,num.dem.donors.to.ni,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,6960,0,1996-2026
+house,num.rep.donors.to.ni,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,6960,0,1996-2026
+house,w.mean,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,6960,0,1996-2026
+house,w.mean.ni,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,6960,0,1996-2026
+house,dem.tots,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,6960,0,1996-2026
+house,rep.tots,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,6960,0,1996-2026
+house,dem.tots.ni,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,6960,0,1996-2026
+house,rep.tots.ni,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,6960,0,1996-2026
+house,dem.seat.share,National,D share of House seats in the outgoing Congress (Voteview),pre,not used,numeric,6960,0,1996-2026
+house,gdp.growth,National,"Real GDP growth, Q2 over Q1 of the election year (FRED GDPC1)",pre,not used,numeric,6960,0,1996-2026
+house,ratio.ndonors,Donor network,D / R donor count ratio (all / to non-incumbents),pre,not used,numeric,6960,0,1996-2026
+house,ratio.ndonors.to.ni,Donor network,D / R donor count ratio (all / to non-incumbents),pre,not used,numeric,6960,0,1996-2026
+house,dist.pres.vs,District partisanship,"D two-party presidential share in the district (state for Senate/governor) in the reference election, on the cycle lines",pre,not used,numeric,6954,0.1,1996-2026
+house,donors.prev.success.rate.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,6290,9.6,1996-2026
+house,pacs.prev.success.rate.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,6290,9.6,1996-2026
+house,donors.prev.avg.dvs.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,6290,9.6,1996-2026
+house,pacs.prev.avg.dvs.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,6290,9.6,1996-2026
+house,donors.prev.success.rate.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,5913,15,1996-2026
+house,pacs.prev.success.rate.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,5913,15,1996-2026
+house,donors.prev.avg.dvs.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,5913,15,1996-2026
+house,pacs.prev.avg.dvs.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,5913,15,1996-2026
+house,dem.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,not used,character,6588,5.3,1996-2026
+house,rep.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,not used,character,6506,6.5,1996-2026
+house,dem.vs.political,Incumbency and candidates,Vote Smart political-experience text for the D (R) nominee,pre,not used,character,408,94.1,2016-2026
+house,rep.vs.political,Incumbency and candidates,Vote Smart political-experience text for the D (R) nominee,pre,not used,character,392,94.4,2016-2026
+house,vs.resume.dem,Incumbency and candidates,Vote Smart profession/resume text for the D (R) nominee,pre,not used,character,396,94.3,2016-2026
+house,vs.resume.rep,Incumbency and candidates,Vote Smart profession/resume text for the D (R) nominee,pre,not used,character,379,94.6,2016-2026
+house,prev.mc.dem,Incumbency and candidates,D (R) nominee previously served in Congress,pre,not used,numeric,6960,0,1996-2026
+house,prev.mc.rep,Incumbency and candidates,D (R) nominee previously served in Congress,pre,not used,numeric,6960,0,1996-2026
+house,prev.gov.dem,Incumbency and candidates,D (R) nominee previously served as governor,pre,not used,numeric,6960,0,1996-2026
+house,prev.gov.rep,Incumbency and candidates,D (R) nominee previously served as governor,pre,not used,numeric,6960,0,1996-2026
+house,dem.vote.share,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,not used,numeric,6523,6.3,1996-2024
+house,challenger,Incumbency and candidates,D nominee is a challenger / the seat is open,pre,not used,numeric,6960,0,1996-2026
+house,openseat,Incumbency and candidates,D nominee is a challenger / the seat is open,pre,not used,numeric,6960,0,1996-2026
+house,log.total.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,6947,0.2,1996-2026
+house,log.total.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,6663,4.3,1996-2026
+house,log.total.pac.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,6947,0.2,1996-2026
+house,log.total.pac.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,6663,4.3,1996-2026
+house,log.total.disbursements.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,5023,27.8,2004-2026
+house,log.total.disbursements.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,5211,25.1,2004-2026
+house,n.prt.donors.diff,Donor network,log1p D minus log1p R donors to non-incumbents,pre,not used,numeric,6960,0,1996-2026
+house,top2,Primaries,"Top-two or jungle primary state (WA 2008+, CA 2012+, LA)",pre,residual model,numeric,6960,0,1996-2026
+house,quality.chall.dem,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,6960,0,1996-2026
+house,quality.chall.rep,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,6960,0,1996-2026
+house,log.tot.raised.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,6663,4.3,1996-2026
+house,log.tot.raised.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,6947,0.2,1996-2026
+house,dem.ip.party.cycle.avg,Ideology,Mean CFscore of the party nominees that cycle,pre,not used,numeric,6960,0,1996-2026
+house,rep.ip.party.cycle.avg,Ideology,Mean CFscore of the party nominees that cycle,pre,not used,numeric,6960,0,1996-2026
+house,log.tot.diff,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,6652,4.4,1996-2026
+house,log.pac.diff,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,6652,4.4,1996-2026
+house,dem.name,Keys,D (R) nominee name,id,not used,character,6590,5.3,1996-2026
+house,rep.name,Keys,D (R) nominee name,id,not used,character,6516,6.4,1996-2026
+house,num.distinct.donor.dem,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,6947,0.2,1996-2026
+house,num.distinct.donor.rep,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,6663,4.3,1996-2026
+house,rep.female,Incumbency and candidates,D (R) nominee is a woman,pre,residual model,numeric,6960,0,1996-2026
+house,dem.female,Incumbency and candidates,D (R) nominee is a woman,pre,residual model,numeric,6960,0,1996-2026
+house,num.cands.in.primary.dem,Primaries,Candidates in the D (R) primary,pre,residual model,integer,6960,0,1996-2026
+house,num.cands.in.primary.rep,Primaries,Candidates in the D (R) primary,pre,residual model,integer,6960,0,1996-2026
+house,num.cands.in.primary.dem.raised.over.100K,Primaries,D (R) primary candidates who raised over $100k,pre,not used,integer,6960,0,1996-2026
+house,num.cands.in.primary.rep.raised.over.100K,Primaries,D (R) primary candidates who raised over $100k,pre,not used,integer,6960,0,1996-2026
+house,num.cands.in.cycle.dem,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,6960,0,1996-2026
+house,num.cands.in.cycle.rep,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,6960,0,1996-2026
+house,num.cands.in.cycle.dem.raised.over.100K,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,6960,0,1996-2026
+house,num.cands.in.cycle.rep.raised.over.100K,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,6960,0,1996-2026
+house,generic.ballot,National,"Generic ballot D-R margin, Oct 1 (points)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q1,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q2,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q3,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q4,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q5,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q6,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6959,0,1996-2026
+house,dem.q7,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.q8,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q1,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q2,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q3,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q4,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q5,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q6,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q7,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,dem.num.donors.q8,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.q1,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q2,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q3,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q4,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q5,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q6,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q7,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.q8,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q1,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q2,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q3,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q4,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q5,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q6,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q7,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.donors.q8,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,6960,0,1996-2026
+house,rep.num.unq.donors.all,Money: donors,Distinct donors over the full cycle in the DIME snapshot,hindsight,not used,numeric,6960,0,1996-2026
+house,dem.num.unq.donors.all,Money: donors,Distinct donors over the full cycle in the DIME snapshot,hindsight,not used,numeric,6960,0,1996-2026
+house,rep.num.conts,Money: donors,Itemized contributions through the cutoff,pre,not used,numeric,6960,0,1996-2026
+house,dem.num.conts,Money: donors,Itemized contributions through the cutoff,pre,not used,numeric,6960,0,1996-2026
+house,dem.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,not used,character,6848,1.6,1996-2026
+house,rep.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,not used,character,6856,1.5,1996-2026
+house,nominee.unresolved,Sample flags,"2026: no settled D-vs-R matchup (LA jungle, CA-6 before the fix)",pre,not used,logical,435,93.8,2026-2026
+house,forecast.note,Keys,"Free-text note on the contest (special handling, data caveats)",id,not used,character,42,99.4,2026-2026
+house,dem.gen.pct,Outcome,D two-party share x 100,outcome,not used,numeric,6523,6.3,1996-2024
+house,dem.gen.winner,Outcome,D won the seat,outcome,not used,character,6523,6.3,1996-2024
+house,uncontested.dem,Sample flags,No D (R) nominee on the ballot,pre,not used,integer,6960,0,1996-2026
+house,uncontested.rep,Sample flags,No D (R) nominee on the ballot,pre,not used,integer,6960,0,1996-2026
+house,fullcycle.total_receipts.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.total_pac_contribs.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.contribs_from_candidate.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.total_pc_contribs.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.ind_exp_for.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.ind_exp_against.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.total_indiv_contrib.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.unitemized.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.total_disbursements.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6582,5.4,1996-2026
+house,fullcycle.num_givers.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6306,9.4,1996-2026
+house,fullcycle.total_receipts.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.total_pac_contribs.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.contribs_from_candidate.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.total_pc_contribs.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.ind_exp_for.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.ind_exp_against.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.total_indiv_contrib.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.unitemized.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.total_disbursements.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,6494,6.7,1996-2026
+house,fullcycle.num_givers.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,5963,14.3,1996-2026
+house,dem.ip.imputed,Ideology,CFscore was imputed with the party-cycle mean,pre,not used,numeric,6960,0,1996-2026
+house,rep.ip.imputed,Ideology,CFscore was imputed with the party-cycle mean,pre,not used,numeric,6960,0,1996-2026
+house,dem.num.prim.opps,Primaries,Same as num.cands.in.primary.dem (.rep),pre,not used,integer,6960,0,1996-2026
+house,rep.num.prim.opps,Primaries,Same as num.cands.in.primary.dem (.rep),pre,not used,integer,6960,0,1996-2026
+house,earmark.jul.aug.dem,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,6947,0.2,1996-2026
+house,earmark.jul.aug.donors.dem,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,6947,0.2,1996-2026
+house,dem.disb.total,Money: spending,Total disbursements through the cutoff (disburse_db),pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.pw.fundraising,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5199,25.3,2004-2026
+house,log.dem.disb.pw.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.pw.political,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5199,25.3,2004-2026
+house,log.dem.disb.pw.political,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.pw.overhead,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.pw.overhead,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.pw.hvv,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.pw.hvv,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.pw.list,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.pw.list,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.fundraising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.advertising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.advertising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.consulting.and.campaign.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.consulting.and.campaign.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.salarypayroll,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.salarypayroll,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.administrative.capital.and.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.administrative.capital.and.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.administrative.fees.and.finances,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.administrative.fees.and.finances,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.travel.meals..hospitality,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.travel.meals..hospitality,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.events,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.events,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.legal,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.legal,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.polling,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.polling,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.photography,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.photography,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,dem.disb.in-kind,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.dem.disb.in-kind,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,earmark.jul.aug.rep,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,6663,4.3,1996-2026
+house,earmark.jul.aug.donors.rep,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,6663,4.3,1996-2026
+house,rep.disb.total,Money: spending,Total disbursements through the cutoff (disburse_db),pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.pw.fundraising,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5213,25.1,2004-2026
+house,log.rep.disb.pw.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.pw.political,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5212,25.1,2004-2026
+house,log.rep.disb.pw.political,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.pw.overhead,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.pw.overhead,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.pw.hvv,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.pw.hvv,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.pw.list,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.pw.list,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.fundraising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.advertising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.advertising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.consulting.and.campaign.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.consulting.and.campaign.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.salarypayroll,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.salarypayroll,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.administrative.capital.and.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.administrative.capital.and.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.administrative.fees.and.finances,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.administrative.fees.and.finances,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.travel.meals..hospitality,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.travel.meals..hospitality,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.events,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.events,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.legal,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.legal,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.polling,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.polling,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.photography,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.photography,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,rep.disb.in-kind,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,5220,25,2004-2026
+house,log.rep.disb.in-kind,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,5220,25,2004-2026
+house,total.pc.dem,Money: receipts,Party-committee contributions (NA: not dateable in these sources),pre,not used,numeric,0,100,""
+house,slot.missing.dem,Sample flags,D (R) slot has no linked DIME candidate though the race had one; money set NA,pre,not used,numeric,6960,0,1996-2026
+house,total.pc.rep,Money: receipts,Party-committee contributions (NA: not dateable in these sources),pre,not used,numeric,0,100,""
+house,slot.missing.rep,Sample flags,D (R) slot has no linked DIME candidate though the race had one; money set NA,pre,not used,numeric,6960,0,1996-2026
+house,cdist.mean.federal.wo.pres,Ideology,"District individual donors: mean / median CFscore of federal giving excluding presidential, and contribution count",pre,not used,numeric,6525,6.2,1996-2024
+house,cdist.median.federal.wo.pres,Ideology,"District individual donors: mean / median CFscore of federal giving excluding presidential, and contribution count",pre,not used,numeric,6525,6.2,1996-2024
+house,cdist.nconts.federal.wo.pres,Ideology,"District individual donors: mean / median CFscore of federal giving excluding presidential, and contribution count",pre,not used,numeric,6525,6.2,1996-2024
+house,generic.ballot.final,National,"Generic ballot D-R margin, final pre-election average (points)",hindsight,not used,numeric,6960,0,1996-2026
+house,pres.approval.net,National,"Presidential net approval (approve - disapprove), Oct 1",pre,not used,numeric,6960,0,1996-2026
+house,pres.approval.net.dem,National,"Presidential net approval, Oct 1, signed toward Democrats (appr as a proportion)",pre,not used,numeric,6960,0,1996-2026
+house,n.polls.asof,Polls,District polls through Oct 9 (legacy average file),pre,not used,numeric,6960,0,1996-2026
+house,has.poll.asof,Polls,District has a poll through Oct 9,pre,not used,numeric,6960,0,1996-2026
+house,poll.dvs.asof,Polls,Weighted D two-party poll share through Oct 9 minus .5 (0 if none),pre,not used,numeric,6960,0,1996-2026
+house,turnout.rate.d,National,Voter-file turnout rate of D (R) registrants/leaners in the cycle (2016-2024),hindsight,not used,numeric,2175,68.8,2016-2024
+house,turnout.rate.r,National,Voter-file turnout rate of D (R) registrants/leaners in the cycle (2016-2024),hindsight,not used,numeric,2175,68.8,2016-2024
+house,turnout.turnout.diff,National,"Voter-file D minus R turnout rate (raw / among leaners), 2016-2024",hindsight,not used,numeric,2175,68.8,2016-2024
+house,turnout.turnout.diff.lean,National,"Voter-file D minus R turnout rate (raw / among leaners), 2016-2024",hindsight,not used,numeric,2175,68.8,2016-2024
+house,avg.donor.in.cycle.gave.to.noninc.comm,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,6960,0,1996-2026
+house,median.donor.in.cycle.gave.to.noninc.comm,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,6960,0,1996-2026
+house,w.mean.comms,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,6960,0,1996-2026
+house,w.mean.comms.ni,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,6960,0,1996-2026
+house,enter.med,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,6960,0,1996-2026
+house,exit.med,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,6960,0,1996-2026
+house,enter.mean,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,6960,0,1996-2026
+house,enter.med.repeat,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,6960,0,1996-2026
+house,exit.med.repeat,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,6960,0,1996-2026
+house,enter.mean.repeat,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,6960,0,1996-2026
+house,sdiff,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,6652,4.4,1996-2026
+house,sdiff.pacs,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,6960,0,1996-2026
+house,sdiff.cc,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,6960,0,1996-2026
+house,num.distinct.donors.dem,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,6947,0.2,1996-2026
+house,num.distinct.donors.rep,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,6663,4.3,1996-2026
+house,tot.ie.support.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,tot.ie.oppose.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,tot.ie.support.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,tot.ie.oppose.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+house,num.uncontested.dem,Sample flags,Number of House seats in the cycle without a D (R) nominee,pre,not used,integer,6960,0,1996-2026
+house,num.uncontested.rep,Sample flags,Number of House seats in the cycle without a D (R) nominee,pre,not used,integer,6960,0,1996-2026
+house,total.prim.votes.cast.dem,National,"Total D (R) House primary votes cast nationally (2024, 2026)",pre,not used,integer,6090,12.5,1996-2022
+house,total.prim.votes.cast.rep,National,"Total D (R) House primary votes cast nationally (2024, 2026)",pre,not used,integer,6090,12.5,1996-2022
+house,ref,District partisanship,Reference presidential election for the district lean (most recent before the cycle),pre,not used,numeric,6960,0,1996-2026
+house,lean,District partisanship,dist.pres.vs minus the national D two-party presidential share of the reference election,pre,residual model; linear base,numeric,6954,0.1,1996-2026
+house,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,residual model; linear base,numeric,6960,0,1996-2026
+house,pres.party,National,President is a Democrat (dem.pres 1/0; pres.party +1 D / -1 R),pre,not used,numeric,6960,0,1996-2026
+house,gb,National,"Generic ballot D-R margin, Oct 1, as a proportion (2026: NYT 30-day mean)",pre,national stage,numeric,6960,0,1996-2026
+house,gb.mom,National,"Generic ballot momentum: Oct 1 margin minus the Labor Day margin, as a proportion",pre,not used,numeric,6960,0,1996-2026
+house,gb.final,National,"Final (election-eve) generic ballot D-R margin, as a proportion; NA for 2026",hindsight,not used,numeric,6525,6.2,1996-2024
+house,appr,National,"Presidential net approval, Oct 1, signed toward Democrats (appr as a proportion)",pre,"not used (flag V3_APPR, off)",numeric,6960,0,1996-2026
+house,mid.pen,National,Midterm penalty: midterm x president party (+1 = D president in a midterm),pre,national stage,numeric,6960,0,1996-2026
+house,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,6524,6.3,1996-2024
+house,dr,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,not used,logical,6960,0,1996-2026
+house,scored,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,not used,logical,6960,0,1996-2026
+house,contested26,Sample flags,2026 row is a D-vs-R contest that the model forecasts,pre,not used,logical,6960,0,1996-2026
+house,cyc.mean,Incumbency and candidates,Cycle mean of (y - lean) over scored rows (helper for prev.over),outcome,not used,numeric,6525,6.2,1996-2024
+house,resid0,Incumbency and candidates,y - lean - cyc.mean for scored rows (helper for prev.over; the row own result),outcome,not used,numeric,5720,17.8,1996-2024
+house,dem.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,3272,53,1998-2026
+house,rep.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,3380,51.4,1998-2026
+house,dem.prev.oos,Incumbency and candidates,"D (R) nominee's previous out-of-sample model error (own-party sign), from a saved reference run",pre,"not used (flag V3_PREVOOS, off)",numeric,2564,63.2,2004-2026
+house,rep.prev.oos,Incumbency and candidates,"D (R) nominee's previous out-of-sample model error (own-party sign), from a saved reference run",pre,"not used (flag V3_PREVOOS, off)",numeric,2600,62.6,2004-2026
+house,dkey,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,6960,0,1996-2026
+house,same.lines,Sample flags,Row usable for the previous-result lag (state leg.) / district lines unchanged since the previous cycle,pre,not used,logical,6960,0,1996-2026
+house,dist.prev.resid,District partisanship,"District's previous House result relative to lean and that cycle's mean, same lines only",pre,"not used (flag V3_DPREV, off)",numeric,4143,40.5,1998-2026
+house,dem.stleg,Incumbency and candidates,D (R) nominee held a state-legislative seat before (cfdb state records),pre,"not used (flag V3_STLEG, off)",numeric,6960,0,1996-2026
+house,rep.stleg,Incumbency and candidates,D (R) nominee held a state-legislative seat before (cfdb state records),pre,"not used (flag V3_STLEG, off)",numeric,6960,0,1996-2026
+house,dem.statewide,Incumbency and candidates,D (R) nominee held a statewide office before,pre,"not used (flag V3_STLEG, off)",numeric,6960,0,1996-2026
+house,rep.statewide,Incumbency and candidates,D (R) nominee held a statewide office before,pre,"not used (flag V3_STLEG, off)",numeric,6960,0,1996-2026
+house,fr.dem,Money: spending,"Share of D (R) spending on fundraising (pacwatch coding, as of the cutoff; cycle median if spending < 25k)",pre,"not used (flag V3_SPAM_FEAT, off)",numeric,6960,0,1996-2026
+house,fr.rep,Money: spending,"Share of D (R) spending on fundraising (pacwatch coding, as of the cutoff; cycle median if spending < 25k)",pre,"not used (flag V3_SPAM_FEAT, off)",numeric,6960,0,1996-2026
+house,m.tot,Money: model features,"Money: log(D + 25k) - log(R + 25k) of total receipts, centered within cycle",pre,residual model,numeric,6668,4.2,1996-2026
+house,m.ind,Money: model features,"Same, individual contributions",pre,residual model,numeric,6666,4.2,1996-2026
+house,m.pac,Money: model features,"Same, PAC contributions",pre,residual model,numeric,6668,4.2,1996-2026
+house,m.donors,Money: model features,"Same, donor counts (offset 250)",pre,residual model,numeric,6663,4.3,1996-2026
+house,m.disb,Money: model features,"Same, total spending",pre,residual model,numeric,5030,27.7,2004-2026
+house,m.cash,Money: model features,"Same, cash on hand",pre,residual model,numeric,5030,27.7,2004-2026
+house,m.q6,Money: model features,"Same, Apr-Jun election-year receipts",pre,residual model,numeric,6959,0,1996-2026
+house,m.self,Money: model features,"Same, self-funding",pre,residual model,numeric,6668,4.2,1996-2026
+house,m.pol,Money: model features,"Same, political spending (pacwatch vendor coding: ads, voter contact, field); NA (not zero) when none is coded on > $200k disbursed, 2006 on",pre,residual model,numeric,5191,25.4,2004-2026
+house,m.frs,Money: model features,"Same, fundraising spending (list rental, digital fundraising vendors); NA under the same rule as m.pol",pre,residual model,numeric,5192,25.4,2004-2026
+house,fr.edge,Money: spending,"Money edge held by a heavy fundraising spender: fr.dem x max(m.tot, 0) - fr.rep x max(-m.tot, 0)",pre,"not used (flag V3_SPAM_FEAT, off)",numeric,6668,4.2,1996-2026
+house,m.d.advertising,Money: model features,"Same, legacy keyword spending category (offset 5k)",pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,m.d.polling,Money: model features,"Same, legacy keyword spending category (offset 5k)",pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,m.d.consulting.and.campaign.services,Money: model features,"Same, legacy keyword spending category (offset 5k)",pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,m.d.fundraising,Money: model features,"Same, legacy keyword spending category (offset 5k)",pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,m.d.salarypayroll,Money: model features,"Same, legacy keyword spending category (offset 5k)",pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,m.d.events,Money: model features,"Same, legacy keyword spending category (offset 5k)",pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,d.adv.sh,Money: spending,Share of D (R) spending on advertising (legacy coding),pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,r.adv.sh,Money: spending,Share of D (R) spending on advertising (legacy coding),pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,d.poll.any,Money: spending,D (R) campaign paid for polling,pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,r.poll.any,Money: spending,D (R) campaign paid for polling,pre,"not used (flag V3_DISB, off)",numeric,5220,25,2004-2026
+house,e78.d,Money: receipts,"log1p Jul-Aug earmarked receipts, centered within cycle",pre,"not used (flag V3_E78, off)",numeric,6947,0.2,1996-2026
+house,e78.r,Money: receipts,"log1p Jul-Aug earmarked receipts, centered within cycle",pre,"not used (flag V3_E78, off)",numeric,6663,4.3,1996-2026
+house,dem.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,6959,0,1996-2026
+house,rep.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,6959,0,1996-2026
+house,dem.comp,Ideology,"Composite ideology (Bonica-Grumbach cf.all.mo), incumbents only (centered version .ext); may use later roll calls",hindsight,"not used (flag V3_COMP, off)",numeric,3044,56.3,1996-2026
+house,rep.comp,Ideology,"Composite ideology (Bonica-Grumbach cf.all.mo), incumbents only (centered version .ext); may use later roll calls",hindsight,"not used (flag V3_COMP, off)",numeric,3100,55.5,1996-2026
+house,dem.comp.ext,Ideology,"Composite ideology (Bonica-Grumbach cf.all.mo), incumbents only (centered version .ext); may use later roll calls",hindsight,"not used (flag V3_COMP, off)",numeric,3044,56.3,1996-2026
+house,rep.comp.ext,Ideology,"Composite ideology (Bonica-Grumbach cf.all.mo), incumbents only (centered version .ext); may use later roll calls",hindsight,"not used (flag V3_COMP, off)",numeric,3100,55.5,1996-2026
+house,dem.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,3042,56.3,1996-2026
+house,rep.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,3106,55.4,1996-2026
+house,dem.np.ext,Ideology,(dem|rep).np centered within cycle,pre,residual model,numeric,3042,56.3,1996-2026
+house,rep.np.ext,Ideology,(dem|rep).np centered within cycle,pre,residual model,numeric,3106,55.4,1996-2026
+house,rating,Ratings and ballot,"Expert rating mean of Cook, Inside Elections, Sabato as of Oct 9, -1 Safe R to +1 Safe D; pre-2020 House unlisted races set safe for the incumbent party / by lean",pre,residual model,numeric,4782,31.3,2006-2026
+house,pct_hispanic,Demographics,"Hispanic share of the population (ACS 5-year, cycle lines)",pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pct_black_nh,Demographics,Non-Hispanic Black share (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pct_asian_nh,Demographics,Non-Hispanic Asian share (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pct_ba_plus,Demographics,Adults 25+ with a BA or more (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pct_white_nh_noncollege,Demographics,Non-Hispanic white adults without a BA (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,log_density,Demographics,Log population density (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,log_income,Demographics,Log median household income (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pct_over65,Demographics,Share aged 65+ (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pct_foreign_born,Demographics,Foreign-born share (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,3480,50,2012-2026
+house,pbkey,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,1864,73.2,2018-2026
+house,pb.down,District partisanship,"Precinct down-ballot lean of the previous election (Senate/governor/row offices, relative to state), old v4 file",pre,"not used (flag V3_PB, off)",numeric,1197,82.8,2018-2026
+house,pb.stleg,District partisanship,"Precinct state-legislative lean of the previous election (relative to state), old v4 file",pre,"not used (flag V3_PB, off)",numeric,1302,81.3,2018-2026
+house,pres.st,District partisanship,"State D two-party presidential share of the reference election (legacy DK file, to 2020)",pre,"not used (flag V3_PB, off)",numeric,6525,6.2,1996-2024
+house,pb.split,District partisanship,pb.down minus the district presidential lean relative to the state,pre,"not used (flag V3_PB, off)",numeric,1026,85.3,2018-2024
+house,fb.gap,District partisanship,Lagged full-ballot lean (prec.fb.rel.lag) minus presidential lean relative to the state (official state shares),pre,"not used (flag V3_FB, off)",numeric,1780,74.4,2018-2026
+house,gov.rating,Ratings and ballot,"Mean expert rating of the state governor (Senate) race, -1 to +1",pre,"not used (flag V3_BALLOT, off)",numeric,1600,77,2012-2026
+house,sen.rating,Ratings and ballot,"Mean expert rating of the state governor (Senate) race, -1 to +1",pre,"not used (flag V3_BALLOT, off)",numeric,2833,59.3,2006-2026
+house,abortion.measure,Ratings and ballot,State has an abortion ballot measure,pre,"not used (flag V3_BALLOT, off)",numeric,6960,0,1996-2026
+house,n.measures,Ratings and ballot,Statewide ballot measures,pre,"not used (flag V3_BALLOT, off)",numeric,6960,0,1996-2026
+house,has.gov,Ratings and ballot,State has a governor (Senate) race on the ballot,pre,"not used (flag V3_BALLOT, off)",numeric,6960,0,1996-2026
+house,has.sen,Ratings and ballot,State has a governor (Senate) race on the ballot,pre,"not used (flag V3_BALLOT, off)",numeric,6960,0,1996-2026
+house,st.lean,District partisanship,Approximate state presidential share minus .5,pre,"not used (flag V3_BALLOT, off)",numeric,6954,0.1,1996-2026
+house,gov.vs.state,Ratings and ballot,Top-of-ticket rating relative to state partisanship,pre,"not used (flag V3_BALLOT, off)",numeric,1598,77,2012-2026
+house,sen.vs.state,Ratings and ballot,Top-of-ticket rating relative to state partisanship,pre,"not used (flag V3_BALLOT, off)",numeric,2833,59.3,2006-2026
+house,prim.dshare,Primaries,"D share of the two-party primary vote in the district (FEC through 2022, SoS 2024)",pre,"not used (flag V3_PRIM, off)",numeric,2644,62,2010-2024
+house,d.nom.share,Primaries,D (R) nominee share of their party primary vote,pre,"not used (flag V3_PRIM, off)",numeric,2591,62.8,2010-2024
+house,r.nom.share,Primaries,D (R) nominee share of their party primary vote,pre,"not used (flag V3_PRIM, off)",numeric,2646,62,2010-2024
+house,prim.rel,Primaries,prim.dshare minus dist.pres.vs (not CA/WA),pre,"not used (flag V3_PRIM, off)",numeric,2174,68.8,2010-2024
+house,prim.top2,Primaries,CA/WA top-two primary D share minus dist.pres.vs,pre,"not used (flag V3_PRIM, off)",numeric,470,93.2,2010-2024
+house,tp.left,Ratings and ballot,"A left / right / other minor candidate is on the ballot (House: FEC results, 2026 NA; Senate: ballot presence)",pre,"not used (flag V3_TP, off)",numeric,6960,0,1996-2026
+house,tp.right,Ratings and ballot,"A left / right / other minor candidate is on the ballot (House: FEC results, 2026 NA; Senate: ballot presence)",pre,"not used (flag V3_TP, off)",numeric,6960,0,1996-2026
+house,tp.other,Ratings and ballot,"A left / right / other minor candidate is on the ballot (House: FEC results, 2026 NA; Senate: ballot presence)",pre,"not used (flag V3_TP, off)",numeric,6960,0,1996-2026
+house,abs.lean,District partisanship,Absolute value of lean,pre,post-fit layer / poll input,numeric,6954,0.1,1996-2026
+house,prim2,Primaries,CA/WA top-two primary D share of the major-party vote (data/top2_primary.csv),pre,"not used (flag V3_TOP2, off)",numeric,463,93.3,2012-2026
+house,trend.x,District partisanship,"District presidential trend: lean(ref) - lean(ref - 4) on the cycle lines; where the trend file lacks a district, the ref - 4 share is carried onto the cycle lines through the census-block crosswalks (rougher across full redistrictings)",pre,"input to trend (post-fit layer); as a feature: flag V3_TREND_FEAT, off",numeric,3446,50.5,2012-2026
+house,trend,District partisanship,Trend used by the post-fit trend layer: trend.x net of its demographic fit within cycle (0 where missing; 2026 redrawn states: 2020 share on the new lines from the census-block crosswalk),pre,post-fit layer / poll input,numeric,6960,0,1996-2026
+house,trend.mid,District partisanship,trend.x in midterm cycles (NA/0 otherwise),pre,"not used (flag V3_TREND_FEAT, off)",numeric,3446,50.5,2012-2026
+house,svd1,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd2,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd3,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd4,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd5,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd6,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd7,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd8,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd9,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd10,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd11,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd12,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd13,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd14,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd15,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd16,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd17,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd18,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd19,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd20,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd21,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd22,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd23,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd24,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd25,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd26,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd27,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd28,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd29,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,svd30,Donor network,k-th singular vector of the as-of contest x donor (D minus R receipts) matrix,pre,"not used (flag V3_SVD, off)",numeric,6960,0,1996-2026
+house,dem.hisp.p,Incumbency and candidates,"Share of people with the D (R) nominee surname who are Hispanic (Census 2010 surname file; hyphenated names: either part). A surname-based inference, not self-identification",pre,not used,numeric,5880,15.5,1996-2026
+house,rep.hisp.p,Incumbency and candidates,"Share of people with the D (R) nominee surname who are Hispanic (Census 2010 surname file; hyphenated names: either part). A surname-based inference, not self-identification",pre,not used,numeric,5758,17.3,1996-2026
+house,dem.hisp,Incumbency and candidates,D (R) nominee coded Hispanic: surname share >= 50% (surname-based inference),pre,residual model,numeric,6960,0,1996-2026
+house,rep.hisp,Incumbency and candidates,D (R) nominee coded Hispanic: surname share >= 50% (surname-based inference),pre,residual model,numeric,6960,0,1996-2026
+house,dem.hisp.x,Incumbency and candidates,(dem|rep).hisp x the district Hispanic population share (ACS),pre,residual model,numeric,6960,0,1996-2026
+house,rep.hisp.x,Incumbency and candidates,(dem|rep).hisp x the district Hispanic population share (ACS),pre,residual model,numeric,6960,0,1996-2026
+house,overlap,District,Share of the district population the incumbent represented before this cycle (1 = lines unchanged; data/redistricting),pre,not used,numeric,6395,8.1,1996-2026
+house,inc.new,District,"inc x (1 - overlap): how much of the seat is new to the incumbent, signed for the incumbent party",pre,residual model,numeric,6960,0,1996-2026
+house,dp.cap100.d.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,2758,60.4,2012-2026
+house,dp.cap25.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,2758,60.4,2012-2026
+house,dp.small.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,2758,60.4,2012-2026
+house,dp.age65.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,2503,64,2012-2026
+house,dp.new.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,2424,65.2,2014-2026
+house,dp.gpd.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,2758,60.4,2012-2026
+house,poll.x,Polls,"District poll average used inside the model: through Oct 18, 30-day half-life, sponsor-bias adjusted, y scale",pre,post-fit layer / poll input,numeric,1145,83.5,1998-2026
+house,neff.x,Polls,Effective poll volume of poll.x (recency- and size-weighted),pre,post-fit layer / poll input,numeric,1145,83.5,1998-2026
+house,part.x,Polls,Share of the as-of district poll weight from partisan-sponsored polls (1 = internals only),pre,not used,numeric,1145,83.5,1998-2026
+house,trump,National,"Trump on the presidential ballot (2016, 2020, 2024)",pre,"not used (flag V3_TRUMP, off)",numeric,6960,0,1996-2026
+house,umid,National,Undecided/other share of Oct 1 generic-ballot polls x out-party sign x midterm,pre,"not used (flag V3_UND, off)",numeric,6525,6.2,1998-2026
+house,oos.pf,Model output,"Out-of-sample fundamentals prediction (y scale) after post-fit layers, before polls",model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.env.hat,Model output,Predicted national environment relative to the average cycle,model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.c.xgb,Model output,Residual-model component prediction (xgboost / random forest / ridge / GAM),model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.c.rf,Model output,Residual-model component prediction (xgboost / random forest / ridge / GAM),model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.c.ridge,Model output,Residual-model component prediction (xgboost / random forest / ridge / GAM),model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.c.gam,Model output,Residual-model component prediction (xgboost / random forest / ridge / GAM),model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.c.base,Model output,"Stage-1 linear base prediction (lean, incumbency, environment)",model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.has.poll,Model output,Race had polls in the blend,model,production output (output_v3/*_oos.rds),logical,5008,28,2002-2026
+house,oos.prob,Model output,Out-of-sample D win probability,model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.pf0,Model output,Fundamentals prediction before the trend / elasticity / incumbency-margin layers,model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.pf.fund,Model output,Raw fundamentals prediction (stage 1 + residual ensemble),model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.tr.w,Model output,Trend layer: tuned weight / applied shift,model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.tr.f,Model output,Trend layer: tuned weight / applied shift,model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.ic.a,Model output,"Incumbency-by-margin layer coefficients (a + g x min(|pf|, .4))",model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.ic.g,Model output,"Incumbency-by-margin layer coefficients (a + g x min(|pf|, .4))",model,production output (output_v3/*_oos.rds),numeric,5008,28,2002-2026
+house,oos.el.sh,Model output,Elasticity layer: shift / tuned kappa,model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.el.k,Model output,Elasticity layer: shift / tuned kappa,model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.demo.sh,Model output,Demographic poll shift / tuned weight,model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.demo.w,Model output,Demographic poll shift / tuned weight,model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.poll,Model output,Poll average used in the blend,model,production output (output_v3/*_oos.rds),numeric,1043,85,2006-2026
+house,oos.n.eff,Model output,Effective poll volume in the blend,model,production output (output_v3/*_oos.rds),numeric,1043,85,2006-2026
+house,oos.tr.mod,Model output,Open-seat trait layer: moderation of the D relative to the R (|ext| R - |ext| D),model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.tr.hisp,Model output,"Open-seat trait layer: Hispanic candidate, D - R",model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.pp.nt,Model output,Forecast before the open-seat trait layer,model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,oos.ot.sh,Model output,Open-seat trait layer shift (competitive open seats; 0 elsewhere),model,production output (output_v3/*_oos.rds),numeric,4285,38.4,2006-2026
+house,prec.fb.dshare.lag,Precinct measures,"Full-ballot D share of the previous election on the cycle lines (two-way FE on all non-House D-vs-R contests, src/precinct_split.R + precinct_fb_lag.R)",pre,not used,numeric,1780,74.4,2018-2026
+house,prec.fb.rel.lag,Precinct measures,prec.fb.dshare.lag minus the state mean,pre,not used,numeric,1780,74.4,2018-2026
+house,prec.fb.method,Precinct measures,"How the lag reached the cycle lines: same lines / redrawn (precinct name or county match) / redrawn, no map",pre,not used,character,2035,70.8,2018-2026
+house,prec.fb.imputed,Precinct measures,Share of the district weight from county-imputed precincts,pre,not used,numeric,1780,74.4,2018-2026
+house,prec.mc.share.lag,Precinct measures,"Multi-contest partisanship: mean probit position across the previous election's statewide contests, at the state's reference presidential cut (src/precinct_curve.R)",pre,"not used (flag V3_MCLEAN, off)",numeric,1662,76.1,2018-2026
+house,prec.mc.contests,Precinct measures,Statewide contests averaged in prec.mc.share.lag,pre,not used,integer,1662,76.1,2018-2026
+house,prec.split.lag,Precinct measures,"Previous election, same lines: precinct cross-party voting index (residual SD across contests, logit), vote-weighted district mean, full ballot",pre,not used,numeric,1023,85.3,2018-2026
+house,prec.split.pts.lag,Precinct measures,"Same, in share points",pre,not used,numeric,1023,85.3,2018-2026
+house,prec.split.sw.lag,Precinct measures,"Same, statewide contests only (logit / share points)",pre,not used,numeric,563,91.9,2018-2026
+house,prec.split.sw.pts.lag,Precinct measures,"Same, statewide contests only (logit / share points)",pre,not used,numeric,563,91.9,2018-2026
+house,prec.xs.pts.lag,Precinct measures,"Excess split (index minus its expected value at the precinct partisanship), full ballot (points / logit)",pre,not used,numeric,1023,85.3,2018-2026
+house,prec.xs.lg.lag,Precinct measures,"Excess split (index minus its expected value at the precinct partisanship), full ballot (points / logit)",pre,not used,numeric,1023,85.3,2018-2026
+house,prec.xs.sw.pts.lag,Precinct measures,"Excess split, statewide contests only (points / logit)",pre,not used,numeric,563,91.9,2018-2026
+house,prec.xs.sw.lg.lag,Precinct measures,"Excess split, statewide contests only (points / logit)",pre,not used,numeric,563,91.9,2018-2026
+house,prec.rolloff.lag,Precinct measures,"Precinct roll-off (1 - mean contest votes / max contest votes), district mean",pre,not used,numeric,1023,85.3,2018-2026
+house,prec.n.contests.lag,Precinct measures,Mean contested D-vs-R contests per precinct in the split index,pre,not used,numeric,1023,85.3,2018-2026
+senate,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,not used,character,553,0,1996-2026
+senate,cycle,Keys,Election year,id,not used,numeric,553,0,1996-2026
+senate,state,Keys,State postal code,id,not used,character,553,0,1996-2026
+senate,dem.cand.vs,Outcome,D two-party vote share of the general election (outcome),outcome,not used,numeric,512,7.4,1996-2024
+senate,midpoint.cands,Ideology,Midpoint of the two nominees CFscores,pre,not used,numeric,507,8.3,1996-2026
+senate,inc.status,Incumbency and candidates,"D nominee status: I incumbent, C challenger, O open",pre,not used,character,552,0.2,1996-2026
+senate,dem.icpsr,Keys,D (R) nominee ICPSR/Voteview member id (with cycle suffix in legacy rows),id,not used,character,535,3.3,1996-2026
+senate,rep.icpsr,Keys,D (R) nominee ICPSR/Voteview member id (with cycle suffix in legacy rows),id,not used,character,546,1.3,1996-2026
+senate,dem.rid,Keys,D (R) nominee DIME recipient id with cycle suffix (cand123_2016); cfdb merges remapped,id,not used,character,535,3.3,1996-2026
+senate,rep.rid,Keys,D (R) nominee DIME recipient id with cycle suffix (cand123_2016); cfdb merges remapped,id,not used,character,546,1.3,1996-2026
+senate,maj.party.dem.h,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,553,0,1996-2026
+senate,maj.party.dem.s,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,553,0,1996-2026
+senate,dem.pres,National,President is a Democrat (dem.pres 1/0; pres.party +1 D / -1 R),pre,not used,numeric,553,0,1996-2026
+senate,district,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,553,0,1996-2026
+senate,distcyc,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,553,0,1996-2026
+senate,dem.inc,Incumbency and candidates,D (R) nominee is the incumbent,pre,not used,integer,552,0.2,1996-2026
+senate,rep.inc,Incumbency and candidates,D (R) nominee is the incumbent,pre,not used,integer,552,0.2,1996-2026
+senate,dem.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,549,0.7,1996-2026
+senate,rep.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,553,0,1996-2026
+senate,midpoint,Ideology,Midpoint of the two nominees CFscores,pre,not used,numeric,553,0,1996-2026
+senate,dem.maj.party.h,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,553,0,1996-2026
+senate,dem.maj.party.s,National,Democrats hold the House (h) / Senate (s) majority going into the election,pre,not used,numeric,553,0,1996-2026
+senate,total.dem,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,not used,numeric,549,0.7,1996-2026
+senate,total.rep,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,not used,numeric,547,1.1,1996-2026
+senate,total.pac.dem,Money: receipts,PAC contributions through the cutoff,pre,not used,numeric,549,0.7,1996-2026
+senate,total.pac.rep,Money: receipts,PAC contributions through the cutoff,pre,not used,numeric,547,1.1,1996-2026
+senate,total.cc.dem,Money: receipts,Candidate self-funding (contributions + loans from the candidate) through the cutoff,pre,not used,numeric,549,0.7,1996-2026
+senate,total.cc.rep,Money: receipts,Candidate self-funding (contributions + loans from the candidate) through the cutoff,pre,not used,numeric,547,1.1,1996-2026
+senate,total.ies.for.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,total.ies.against.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,total.ies.for.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,total.ies.against.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,total.ind.dem,Money: receipts,Individual contributions through the cutoff,pre,not used,numeric,549,0.7,1996-2026
+senate,total.ind.rep,Money: receipts,Individual contributions through the cutoff,pre,not used,numeric,547,1.1,1996-2026
+senate,total.unitemized.dem,Money: receipts,Unitemized receipts (NA: not dateable),pre,not used,numeric,0,100,""
+senate,total.unitemized.rep,Money: receipts,Unitemized receipts (NA: not dateable),pre,not used,numeric,0,100,""
+senate,total.disbursements.dem,Money: spending,Total spending through the cutoff,pre,not used,numeric,414,25.1,2004-2026
+senate,total.disbursements.rep,Money: spending,Total spending through the cutoff,pre,not used,numeric,413,25.3,2004-2026
+senate,num.donors.dem,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,549,0.7,1996-2026
+senate,num.donors.rep,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,547,1.1,1996-2026
+senate,spare.cash.dem,Money: receipts,Receipts minus spending through the cutoff (cash on hand proxy),pre,not used,numeric,414,25.1,2004-2026
+senate,spare.cash.rep,Money: receipts,Receipts minus spending through the cutoff (cash on hand proxy),pre,not used,numeric,413,25.3,2004-2026
+senate,midterm,National,Midterm cycle,pre,not used,numeric,553,0,1996-2026
+senate,pr.pacs.dem,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,522,5.6,1996-2026
+senate,pr.pacs.rep,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,535,3.3,1996-2026
+senate,pr.cc.dem,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,522,5.6,1996-2026
+senate,pr.cc.rep,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,535,3.3,1996-2026
+senate,pr.ni.dem,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,0,100,""
+senate,pr.ni.rep,Money: receipts,Share of receipts from PACs / the candidate / unitemized,pre,not used,numeric,0,100,""
+senate,senate,Keys,Row is a Senate contest,id,not used,integer,553,0,1996-2026
+senate,pred.cyc.val,National,"Legacy cycle-level random-forest prediction of next-Congress D seat share, fit on earlier cycles",pre,not used,numeric,553,0,1996-2026
+senate,avg.donor.in.cycle,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,553,0,1996-2026
+senate,median.donor.in.cycle,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,553,0,1996-2026
+senate,avg.donor.in.cycle.gave.to.noninc,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,553,0,1996-2026
+senate,median.donor.in.cycle.gave.to.noninc,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,553,0,1996-2026
+senate,num.dem.donors,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,553,0,1996-2026
+senate,num.rep.donors,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,553,0,1996-2026
+senate,num.bipartisan,Donor network,Donors giving to both parties (count / share),pre,not used,integer,553,0,1996-2026
+senate,pct.bipartisan,Donor network,Donors giving to both parties (count / share),pre,not used,numeric,553,0,1996-2026
+senate,num.dem.donors.to.ni,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,553,0,1996-2026
+senate,num.rep.donors.to.ni,Donor network,Donors giving to D (R) House candidates in the cycle (all / to non-incumbents),pre,not used,integer,553,0,1996-2026
+senate,w.mean,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,553,0,1996-2026
+senate,w.mean.ni,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,553,0,1996-2026
+senate,dem.tots,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,553,0,1996-2026
+senate,rep.tots,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,553,0,1996-2026
+senate,dem.tots.ni,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,553,0,1996-2026
+senate,rep.tots.ni,Donor network,Sum over donors of log1p giving to D (R) candidates (all / to non-incumbents),pre,not used,numeric,553,0,1996-2026
+senate,dem.seat.share,National,D share of House seats in the outgoing Congress (Voteview),pre,not used,numeric,553,0,1996-2026
+senate,gdp.growth,National,"Real GDP growth, Q2 over Q1 of the election year (FRED GDPC1)",pre,not used,numeric,553,0,1996-2026
+senate,ratio.ndonors,Donor network,D / R donor count ratio (all / to non-incumbents),pre,not used,numeric,553,0,1996-2026
+senate,ratio.ndonors.to.ni,Donor network,D / R donor count ratio (all / to non-incumbents),pre,not used,numeric,553,0,1996-2026
+senate,dist.pres.vs,District partisanship,"D two-party presidential share in the district (state for Senate/governor) in the reference election, on the cycle lines",pre,not used,numeric,553,0,1996-2026
+senate,donors.prev.success.rate.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,518,6.3,1996-2026
+senate,pacs.prev.success.rate.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,518,6.3,1996-2026
+senate,donors.prev.avg.dvs.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,518,6.3,1996-2026
+senate,pacs.prev.avg.dvs.dem,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,518,6.3,1996-2026
+senate,donors.prev.success.rate.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,532,3.8,1996-2026
+senate,pacs.prev.success.rate.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,532,3.8,1996-2026
+senate,donors.prev.avg.dvs.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,532,3.8,1996-2026
+senate,pacs.prev.avg.dvs.rep,Donor network,Past success rate / mean past vote share of the nominee donors (PACs); full-cycle contribution matrix,hindsight,not used,numeric,532,3.8,1996-2026
+senate,dem.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,not used,character,535,3.3,1996-2026
+senate,rep.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,not used,character,546,1.3,1996-2026
+senate,dem.vs.political,Incumbency and candidates,Vote Smart political-experience text for the D (R) nominee,pre,not used,character,44,92,2018-2026
+senate,rep.vs.political,Incumbency and candidates,Vote Smart political-experience text for the D (R) nominee,pre,not used,character,29,94.8,2016-2026
+senate,vs.resume.dem,Incumbency and candidates,Vote Smart profession/resume text for the D (R) nominee,pre,not used,character,44,92,2018-2026
+senate,vs.resume.rep,Incumbency and candidates,Vote Smart profession/resume text for the D (R) nominee,pre,not used,character,29,94.8,2016-2026
+senate,prev.mc.dem,Incumbency and candidates,D (R) nominee previously served in Congress,pre,not used,numeric,553,0,1996-2026
+senate,prev.mc.rep,Incumbency and candidates,D (R) nominee previously served in Congress,pre,not used,numeric,553,0,1996-2026
+senate,prev.gov.dem,Incumbency and candidates,D (R) nominee previously served as governor,pre,not used,numeric,553,0,1996-2026
+senate,prev.gov.rep,Incumbency and candidates,D (R) nominee previously served as governor,pre,not used,numeric,553,0,1996-2026
+senate,dem.vote.share,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,not used,numeric,512,7.4,1996-2024
+senate,challenger,Incumbency and candidates,D nominee is a challenger / the seat is open,pre,not used,numeric,553,0,1996-2026
+senate,openseat,Incumbency and candidates,D nominee is a challenger / the seat is open,pre,not used,numeric,553,0,1996-2026
+senate,log.total.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,549,0.7,1996-2026
+senate,log.total.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,547,1.1,1996-2026
+senate,log.total.pac.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,549,0.7,1996-2026
+senate,log.total.pac.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,547,1.1,1996-2026
+senate,log.total.disbursements.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,413,25.3,2004-2026
+senate,log.total.disbursements.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,414,25.1,2004-2026
+senate,n.prt.donors.diff,Donor network,log1p D minus log1p R donors to non-incumbents,pre,not used,numeric,553,0,1996-2026
+senate,top2,Primaries,"Top-two or jungle primary state (WA 2008+, CA 2012+, LA)",pre,not used,numeric,553,0,1996-2026
+senate,quality.chall.dem,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,549,0.7,1996-2026
+senate,quality.chall.rep,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,553,0,1996-2026
+senate,log.tot.raised.rep,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,547,1.1,1996-2026
+senate,log.tot.raised.dem,Money: receipts,log1p of the matching raw money column,pre,not used,numeric,549,0.7,1996-2026
+senate,dem.ip.party.cycle.avg,Ideology,Mean CFscore of the party nominees that cycle,pre,not used,numeric,553,0,1996-2026
+senate,rep.ip.party.cycle.avg,Ideology,Mean CFscore of the party nominees that cycle,pre,not used,numeric,553,0,1996-2026
+senate,log.tot.diff,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,545,1.4,1996-2026
+senate,log.pac.diff,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,545,1.4,1996-2026
+senate,dem.name,Keys,D (R) nominee name,id,not used,character,535,3.3,1996-2026
+senate,rep.name,Keys,D (R) nominee name,id,not used,character,546,1.3,1996-2026
+senate,num.distinct.donor.dem,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,549,0.7,1996-2026
+senate,num.distinct.donor.rep,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,547,1.1,1996-2026
+senate,rep.female,Incumbency and candidates,D (R) nominee is a woman,pre,not used,numeric,553,0,1996-2026
+senate,dem.female,Incumbency and candidates,D (R) nominee is a woman,pre,not used,numeric,549,0.7,1996-2026
+senate,num.cands.in.primary.dem,Primaries,Candidates in the D (R) primary,pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.primary.rep,Primaries,Candidates in the D (R) primary,pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.primary.dem.raised.over.100K,Primaries,D (R) primary candidates who raised over $100k,pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.primary.rep.raised.over.100K,Primaries,D (R) primary candidates who raised over $100k,pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.cycle.dem,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.cycle.rep,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.cycle.dem.raised.over.100K,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,553,0,1996-2026
+senate,num.cands.in.cycle.rep.raised.over.100K,Primaries,Sum of D (R) primary candidates across all House races in the cycle (all / raised over $100k),pre,not used,integer,553,0,1996-2026
+senate,generic.ballot,National,"Generic ballot D-R margin, Oct 1 (points)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q1,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q2,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q3,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q4,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q5,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q6,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q7,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.q8,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q1,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q2,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q3,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q4,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q5,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q6,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q7,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,dem.num.donors.q8,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.q1,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q2,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q3,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q4,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q5,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q6,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q7,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.q8,Money: receipts,"Receipts in quarter k of the two-year cycle: q1 Dec 1 (yr-2)-Mar 31 (yr-1), q2 to Jun 30, q3 to Aug 31, q4 to Dec 31, q5 to Mar 31 (yr), q6 Apr-Jun, q7 Jul-Aug, q8 Sep-Nov (truncated at the cutoff; later bins NA)",pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q1,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q2,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q3,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q4,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q5,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q6,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q7,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.donors.q8,Money: donors,Distinct donors in quarter k (same bins),pre,not used,numeric,553,0,1996-2026
+senate,rep.num.unq.donors.all,Money: donors,Distinct donors over the full cycle in the DIME snapshot,hindsight,not used,numeric,553,0,1996-2026
+senate,dem.num.unq.donors.all,Money: donors,Distinct donors over the full cycle in the DIME snapshot,hindsight,not used,numeric,553,0,1996-2026
+senate,rep.num.conts,Money: donors,Itemized contributions through the cutoff,pre,not used,numeric,553,0,1996-2026
+senate,dem.num.conts,Money: donors,Itemized contributions through the cutoff,pre,not used,numeric,553,0,1996-2026
+senate,dem.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,not used,character,529,4.3,1996-2026
+senate,rep.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,not used,character,536,3.1,1996-2026
+senate,nominee.unresolved,Sample flags,"2026: no settled D-vs-R matchup (LA jungle, CA-6 before the fix)",pre,not used,logical,35,93.7,2026-2026
+senate,forecast.note,Keys,"Free-text note on the contest (special handling, data caveats)",id,not used,character,24,95.7,2026-2026
+senate,dem.gen.pct,Outcome,D two-party share x 100,outcome,not used,numeric,512,7.4,1996-2024
+senate,dem.gen.winner,Outcome,D won the seat,outcome,not used,character,512,7.4,1996-2024
+senate,uncontested.dem,Sample flags,No D (R) nominee on the ballot,pre,not used,integer,553,0,1996-2026
+senate,uncontested.rep,Sample flags,No D (R) nominee on the ballot,pre,not used,integer,553,0,1996-2026
+senate,fullcycle.total_receipts.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.total_pac_contribs.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.contribs_from_candidate.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.total_pc_contribs.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.ind_exp_for.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.ind_exp_against.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.total_indiv_contrib.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.unitemized.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.total_disbursements.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,535,3.3,1996-2026
+senate,fullcycle.num_givers.dem,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,522,5.6,1996-2026
+senate,fullcycle.total_receipts.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.total_pac_contribs.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.contribs_from_candidate.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.total_pc_contribs.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.ind_exp_for.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.ind_exp_against.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.total_indiv_contrib.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.unitemized.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.total_disbursements.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,546,1.3,1996-2026
+senate,fullcycle.num_givers.rep,Money: full cycle,"FEC full-cycle candidate summary (receipts, PAC, party, self, IE for/against, individual, unitemized, spending, givers) for the D (R) nominee",hindsight,not used,numeric,534,3.4,1996-2026
+senate,dem.ip.imputed,Ideology,CFscore was imputed with the party-cycle mean,pre,not used,numeric,553,0,1996-2026
+senate,rep.ip.imputed,Ideology,CFscore was imputed with the party-cycle mean,pre,not used,numeric,553,0,1996-2026
+senate,dem.num.prim.opps,Primaries,Same as num.cands.in.primary.dem (.rep),pre,not used,integer,553,0,1996-2026
+senate,rep.num.prim.opps,Primaries,Same as num.cands.in.primary.dem (.rep),pre,not used,integer,553,0,1996-2026
+senate,earmark.jul.aug.dem,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,549,0.7,1996-2026
+senate,earmark.jul.aug.donors.dem,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,549,0.7,1996-2026
+senate,dem.disb.total,Money: spending,Total disbursements through the cutoff (disburse_db),pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.pw.fundraising,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.pw.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.pw.political,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.pw.political,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.pw.overhead,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.pw.overhead,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.pw.hvv,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.pw.hvv,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.pw.list,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.pw.list,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.fundraising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.advertising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.advertising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.consulting.and.campaign.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.consulting.and.campaign.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.salarypayroll,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.salarypayroll,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.administrative.capital.and.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.administrative.capital.and.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.administrative.fees.and.finances,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.administrative.fees.and.finances,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.travel.meals..hospitality,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.travel.meals..hospitality,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.events,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.events,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.legal,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.legal,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.polling,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.polling,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.photography,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.photography,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,dem.disb.in-kind,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.dem.disb.in-kind,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,earmark.jul.aug.rep,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,547,1.1,1996-2026
+senate,earmark.jul.aug.donors.rep,Money: receipts,Conduit-earmarked receipts (ActBlue/WinRed 15E) dated Jul 1-Aug 31 (amount / donors),pre,not used,numeric,547,1.1,1996-2026
+senate,rep.disb.total,Money: spending,Total disbursements through the cutoff (disburse_db),pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.pw.fundraising,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.pw.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.pw.political,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.pw.political,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.pw.overhead,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.pw.overhead,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.pw.hvv,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.pw.hvv,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.pw.list,Money: spending,"Disbursements by pacwatch vendor category through the cutoff: fundraising consulting, political, overhead, high-volume vendors, list acquisition",pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.pw.list,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.fundraising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.fundraising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.advertising,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.advertising,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.consulting.and.campaign.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.consulting.and.campaign.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.salarypayroll,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.salarypayroll,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.administrative.capital.and.services,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.administrative.capital.and.services,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.administrative.fees.and.finances,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.administrative.fees.and.finances,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.travel.meals..hospitality,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.travel.meals..hospitality,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.events,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.events,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.legal,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.legal,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.polling,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.polling,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.photography,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.photography,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,rep.disb.in-kind,Money: spending,Disbursements by legacy keyword category through the cutoff,pre,not used,numeric,417,24.6,2004-2026
+senate,log.rep.disb.in-kind,Money: spending,log1p of the matching disbursement column,pre,not used,numeric,417,24.6,2004-2026
+senate,total.pc.dem,Money: receipts,Party-committee contributions (NA: not dateable in these sources),pre,not used,numeric,0,100,""
+senate,slot.missing.dem,Sample flags,D (R) slot has no linked DIME candidate though the race had one; money set NA,pre,not used,numeric,553,0,1996-2026
+senate,total.pc.rep,Money: receipts,Party-committee contributions (NA: not dateable in these sources),pre,not used,numeric,0,100,""
+senate,slot.missing.rep,Sample flags,D (R) slot has no linked DIME candidate though the race had one; money set NA,pre,not used,numeric,553,0,1996-2026
+senate,cdist.mean.federal.wo.pres,Ideology,"District individual donors: mean / median CFscore of federal giving excluding presidential, and contribution count",pre,not used,numeric,0,100,""
+senate,cdist.median.federal.wo.pres,Ideology,"District individual donors: mean / median CFscore of federal giving excluding presidential, and contribution count",pre,not used,numeric,0,100,""
+senate,cdist.nconts.federal.wo.pres,Ideology,"District individual donors: mean / median CFscore of federal giving excluding presidential, and contribution count",pre,not used,numeric,0,100,""
+senate,generic.ballot.final,National,"Generic ballot D-R margin, final pre-election average (points)",hindsight,not used,numeric,553,0,1996-2026
+senate,pres.approval.net,National,"Presidential net approval (approve - disapprove), Oct 1",pre,not used,numeric,553,0,1996-2026
+senate,pres.approval.net.dem,National,"Presidential net approval, Oct 1, signed toward Democrats (appr as a proportion)",pre,not used,numeric,553,0,1996-2026
+senate,n.polls.asof,Polls,District polls through Oct 9 (legacy average file),pre,not used,numeric,553,0,1996-2026
+senate,has.poll.asof,Polls,District has a poll through Oct 9,pre,not used,numeric,553,0,1996-2026
+senate,poll.dvs.asof,Polls,Weighted D two-party poll share through Oct 9 minus .5 (0 if none),pre,not used,numeric,553,0,1996-2026
+senate,turnout.rate.d,National,Voter-file turnout rate of D (R) registrants/leaners in the cycle (2016-2024),hindsight,not used,numeric,173,68.7,2016-2024
+senate,turnout.rate.r,National,Voter-file turnout rate of D (R) registrants/leaners in the cycle (2016-2024),hindsight,not used,numeric,173,68.7,2016-2024
+senate,turnout.turnout.diff,National,"Voter-file D minus R turnout rate (raw / among leaners), 2016-2024",hindsight,not used,numeric,173,68.7,2016-2024
+senate,turnout.turnout.diff.lean,National,"Voter-file D minus R turnout rate (raw / among leaners), 2016-2024",hindsight,not used,numeric,173,68.7,2016-2024
+senate,avg.donor.in.cycle.gave.to.noninc.comm,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,553,0,1996-2026
+senate,median.donor.in.cycle.gave.to.noninc.comm,Donor network,Mean / median CFscore of active donors in the cycle (all / giving to non-incumbents / non-committee),pre,not used,numeric,553,0,1996-2026
+senate,w.mean.comms,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,553,0,1996-2026
+senate,w.mean.comms.ni,Donor network,"Giving-weighted mean donor CFscore (variants: to non-incumbents, non-committee)",pre,not used,numeric,553,0,1996-2026
+senate,enter.med,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,553,0,1996-2026
+senate,exit.med,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,553,0,1996-2026
+senate,enter.mean,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,553,0,1996-2026
+senate,enter.med.repeat,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,553,0,1996-2026
+senate,exit.med.repeat,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,553,0,1996-2026
+senate,enter.mean.repeat,Donor network,"Median / mean CFscore of donors entering (first cycle) or exiting, and of returning donors (.repeat)",pre,not used,numeric,553,0,1996-2026
+senate,sdiff,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,545,1.4,1996-2026
+senate,sdiff.pacs,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,553,0,1996-2026
+senate,sdiff.cc,Money: receipts,Legacy D-R log differences of total / PAC / self-funded receipts,pre,not used,numeric,553,0,1996-2026
+senate,num.distinct.donors.dem,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,549,0.7,1996-2026
+senate,num.distinct.donors.rep,Money: donors,Distinct donors through the cutoff,pre,not used,numeric,547,1.1,1996-2026
+senate,tot.ie.support.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,tot.ie.oppose.dem,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,tot.ie.support.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,tot.ie.oppose.rep,Money: receipts,Independent expenditures for / against the nominee (NA: excluded from money features),pre,not used,numeric,0,100,""
+senate,num.uncontested.dem,Sample flags,Number of House seats in the cycle without a D (R) nominee,pre,not used,integer,553,0,1996-2026
+senate,num.uncontested.rep,Sample flags,Number of House seats in the cycle without a D (R) nominee,pre,not used,integer,553,0,1996-2026
+senate,total.prim.votes.cast.dem,National,"Total D (R) House primary votes cast nationally (2024, 2026)",pre,not used,integer,484,12.5,1996-2022
+senate,total.prim.votes.cast.rep,National,"Total D (R) House primary votes cast nationally (2024, 2026)",pre,not used,integer,484,12.5,1996-2022
+senate,ref,District partisanship,Reference presidential election for the district lean (most recent before the cycle),pre,not used,numeric,553,0,1996-2026
+senate,lean,District partisanship,dist.pres.vs minus the national D two-party presidential share of the reference election,pre,residual model; linear base,numeric,553,0,1996-2026
+senate,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,residual model; linear base,numeric,553,0,1996-2026
+senate,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,512,7.4,1996-2024
+senate,dr,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,not used,logical,553,0,1996-2026
+senate,scored,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,not used,logical,553,0,1996-2026
+senate,contested26,Sample flags,2026 row is a D-vs-R contest that the model forecasts,pre,not used,logical,553,0,1996-2026
+senate,cyc.mean,Incumbency and candidates,Cycle mean of (y - lean) over scored rows (helper for prev.over),outcome,not used,numeric,518,6.3,1996-2024
+senate,resid0,Incumbency and candidates,y - lean - cyc.mean for scored rows (helper for prev.over; the row own result),outcome,not used,numeric,481,13,1996-2024
+senate,dem.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,238,57,1998-2026
+senate,rep.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,264,52.3,1998-2026
+senate,m.tot,Money: model features,"Money: log(D + 25k) - log(R + 25k) of total receipts, centered within cycle",pre,residual model,numeric,541,2.2,1996-2026
+senate,m.ind,Money: model features,"Same, individual contributions",pre,residual model,numeric,541,2.2,1996-2026
+senate,m.pac,Money: model features,"Same, PAC contributions",pre,residual model,numeric,541,2.2,1996-2026
+senate,m.cash,Money: model features,"Same, cash on hand",pre,residual model,numeric,408,26.2,2004-2026
+senate,m.q6,Money: model features,"Same, Apr-Jun election-year receipts",pre,residual model,numeric,549,0.7,1996-2026
+senate,bad.money,Sample flags,"Senate 2026: as-of receipts disagree with FEC summaries, so money uses the FEC full-cycle totals",pre,not used,logical,553,0,1996-2026
+senate,dem.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,549,0.7,1996-2026
+senate,rep.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,553,0,1996-2026
+senate,rating,Ratings and ballot,"Expert rating mean of Cook, Inside Elections, Sabato as of Oct 9, -1 Safe R to +1 Safe D; pre-2020 House unlisted races set safe for the incumbent party / by lean",pre,residual model,numeric,383,30.7,2006-2026
+senate,dem.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,205,62.9,1996-2026
+senate,rep.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,216,60.9,1996-2026
+senate,tp.left,Ratings and ballot,"A left / right / other minor candidate is on the ballot (House: FEC results, 2026 NA; Senate: ballot presence)",pre,"not used (flag V3S_TP, off)",numeric,383,30.7,2006-2026
+senate,tp.right,Ratings and ballot,"A left / right / other minor candidate is on the ballot (House: FEC results, 2026 NA; Senate: ballot presence)",pre,"not used (flag V3S_TP, off)",numeric,383,30.7,2006-2026
+senate,tp.n,Ratings and ballot,Senate: number of minor candidates on the ballot,pre,"not used (flag V3S_TP, off)",numeric,383,30.7,2006-2026
+senate,oos.pf,Model output,"Out-of-sample fundamentals prediction (y scale) after post-fit layers, before polls",model,production output (output_v3/*_oos.rds),numeric,355,35.8,2006-2026
+senate,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,production output (output_v3/*_oos.rds),numeric,355,35.8,2006-2026
+senate,oos.has.poll,Model output,Race had polls in the blend,model,production output (output_v3/*_oos.rds),logical,355,35.8,2006-2026
+senate,oos.prob,Model output,Out-of-sample D win probability,model,production output (output_v3/*_oos.rds),numeric,291,47.4,2010-2026
+senate,oos.poll,Model output,Poll average used in the blend,model,production output (output_v3/*_oos.rds),numeric,258,53.3,2010-2026
+senate,oos.r0,Model output,Senate poll-weight floor chosen for the cycle (poll weight = 1 / (1 + r0 + k / n.eff)),model,production output (output_v3/*_oos.rds),numeric,291,47.4,2010-2026
+senate,oos.n.eff,Model output,Effective poll volume in the blend,model,production output (output_v3/*_oos.rds),numeric,258,53.3,2010-2026
+senate,oos.hl,Model output,Tuned poll half-life (days) / blend constant k,model,production output (output_v3/*_oos.rds),numeric,291,47.4,2010-2026
+senate,oos.kk,Model output,Tuned poll half-life (days) / blend constant k,model,production output (output_v3/*_oos.rds),numeric,291,47.4,2010-2026
+senate,oos.pbias,Model output,Senate poll-bias correction applied,model,production output (output_v3/*_oos.rds),numeric,291,47.4,2010-2026
+senate,tp3.special,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,logical,383,30.7,2006-2026
+senate,tp3.n_third,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,integer,383,30.7,2006-2026
+senate,tp3.third_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.top_third_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.top_third_party,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,311,43.8,2006-2026
+senate,tp3.top_third_name,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,311,43.8,2006-2026
+senate,tp3.top_third_side,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,311,43.8,2006-2026
+senate,tp3.top_third_writein,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,logical,286,48.3,2006-2024
+senate,tp3.top_third_poll,Third party (Senate),Senate 2026: top minor candidate poll share (approximate),pre,not used,integer,17,96.9,2026-2026
+senate,tp3.write_in_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,340,38.5,2006-2024
+senate,tp3.total_votes,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,integer,348,37.1,2006-2024
+senate,tp3.ind_in_dem_slot,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,logical,383,30.7,2006-2026
+senate,tp3.ind_name,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,15,97.3,2006-2026
+senate,tp3.anti_r_name,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,379,31.5,2006-2026
+senate,tp3.rep_name,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,380,31.3,2006-2026
+senate,tp3.anti_r_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.rep_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.margin,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.extra_dr_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.tp_left_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.tp_right_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.tp_other_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,348,37.1,2006-2024
+senate,tp3.n_left,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,integer,383,30.7,2006-2026
+senate,tp3.n_right,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,integer,383,30.7,2006-2026
+senate,tp3.n_other,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,integer,383,30.7,2006-2026
+senate,tp3.notable_third,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,logical,383,30.7,2006-2026
+senate,tp3.third_names,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,288,47.9,2006-2026
+senate,tp3.third_parties,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,288,47.9,2006-2026
+senate,tp3.cq_nonmajor_share,Third party (Senate),"Senate third-party file: result shares (third-party, write-in, by side), margin, totals; notable_third is result-based before 2026",outcome,not used,numeric,298,46.1,2006-2022
+senate,tp3.source,Third party (Senate),"Senate third-party file (data/third_party/README.md): ballot presence, names, parties, side, special flag, source",pre,not used,character,383,30.7,2006-2026
+governor,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,not used,character,348,0,1980-2026
+governor,cycle,Keys,Election year,id,not used,integer,348,0,1980-2026
+governor,state,Keys,State postal code,id,not used,character,348,0,1980-2026
+governor,dem.name,Keys,D (R) nominee name,id,not used,character,348,0,1980-2026
+governor,rep.name,Keys,D (R) nominee name,id,not used,character,346,0.6,1980-2026
+governor,dem.rid,Keys,D (R) nominee DIME recipient id with cycle suffix (cand123_2016); cfdb merges remapped,id,not used,character,291,16.4,1990-2026
+governor,rep.rid,Keys,D (R) nominee DIME recipient id with cycle suffix (cand123_2016); cfdb merges remapped,id,not used,character,298,14.4,1990-2026
+governor,dem.votes,Outcome,D (R) nominee general-election votes,outcome,not used,integer,312,10.3,1980-2024
+governor,rep.votes,Outcome,D (R) nominee general-election votes,outcome,not used,integer,310,10.9,1980-2024
+governor,dem.inc,Incumbency and candidates,D (R) nominee is the incumbent,pre,not used,logical,312,10.3,1980-2024
+governor,rep.inc,Incumbency and candidates,D (R) nominee is the incumbent,pre,not used,logical,310,10.9,1980-2024
+governor,third,Outcome,Governor: largest non-D/R (or second same-party) candidate share of all votes,outcome,not used,numeric,312,10.3,1980-2024
+governor,dem.cand.vs,Outcome,D two-party vote share of the general election (outcome),outcome,not used,numeric,310,10.9,1980-2024
+governor,inc.wiki,Incumbency and candidates,"Governor incumbency from the Wikipedia race table (+1 D, -1 R, 0 open)",pre,not used,numeric,147,57.8,2012-2024
+governor,rating,Ratings and ballot,"Expert rating mean of Cook, Inside Elections, Sabato as of Oct 9, -1 Safe R to +1 Safe D; pre-2020 House unlisted races set safe for the incumbent party / by lean",pre,residual model,numeric,221,36.5,2008-2026
+governor,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,residual model; linear base,numeric,348,0,1980-2026
+governor,notes,Keys,"Free-text note on the contest (special handling, data caveats)",id,not used,character,7,98,2026-2026
+governor,ref,District partisanship,Reference presidential election for the district lean (most recent before the cycle),pre,not used,numeric,348,0,1980-2026
+governor,lean,District partisanship,dist.pres.vs minus the national D two-party presidential share of the reference election,pre,residual model; linear base,numeric,313,10.1,1994-2026
+governor,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,310,10.9,1980-2024
+governor,scored,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,not used,logical,348,0,1980-2026
+governor,contested26,Sample flags,2026 row is a D-vs-R contest that the model forecasts,pre,not used,logical,348,0,1980-2026
+governor,cyc.mean,Incumbency and candidates,Cycle mean of (y - lean) over scored rows (helper for prev.over),outcome,not used,numeric,277,20.4,1994-2024
+governor,resid0,Incumbency and candidates,y - lean - cyc.mean for scored rows (helper for prev.over; the row own result),outcome,not used,numeric,268,23,1994-2024
+governor,dem.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,80,77,2000-2026
+governor,rep.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,120,65.5,2000-2026
+governor,oos.pf,Model output,"Out-of-sample fundamentals prediction (y scale) after post-fit layers, before polls",model,production output (output_v3/*_oos.rds),numeric,274,21.3,2002-2026
+governor,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,production output (output_v3/*_oos.rds),numeric,274,21.3,2002-2026
+governor,oos.has.poll,Model output,Race had polls in the blend,model,production output (output_v3/*_oos.rds),logical,274,21.3,2002-2026
+governor,oos.prob,Model output,Out-of-sample D win probability,model,production output (output_v3/*_oos.rds),numeric,209,39.9,2010-2026
+governor,oos.poll,Model output,Poll average used in the blend,model,production output (output_v3/*_oos.rds),numeric,194,44.3,2010-2026
+governor,oos.n.eff,Model output,Effective poll volume in the blend,model,production output (output_v3/*_oos.rds),numeric,194,44.3,2010-2026
+governor,oos.hl,Model output,Tuned poll half-life (days) / blend constant k,model,production output (output_v3/*_oos.rds),numeric,209,39.9,2010-2026
+governor,oos.kk,Model output,Tuned poll half-life (days) / blend constant k,model,production output (output_v3/*_oos.rds),numeric,209,39.9,2010-2026
+stateleg,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,not used,character,50097,0,1980-2026
+stateleg,cycle,Keys,Election year,id,not used,numeric,50097,0,1980-2026
+stateleg,state,Keys,State postal code,id,not used,character,50097,0,1980-2026
+stateleg,seat,Keys,State-legislative chamber (state:lower / state:upper),id,not used,character,50097,0,1980-2026
+stateleg,district,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,not used,character,50097,0,1980-2026
+stateleg,dem.k,Keys,State-legislative D (R) nominee name key (normalized surname + first initial),id,not used,character,40904,18.4,1980-2026
+stateleg,rep.k,Keys,State-legislative D (R) nominee name key (normalized surname + first initial),id,not used,character,41252,17.7,1980-2026
+stateleg,dv,Outcome,D (R) nominee general-election votes,outcome,not used,numeric,38392,23.4,1980-2024
+stateleg,rv,Outcome,D (R) nominee general-election votes,outcome,not used,numeric,38931,22.3,1980-2024
+stateleg,win.k,Outcome,State-legislative winner name key / party,outcome,not used,character,47276,5.6,1980-2024
+stateleg,win.pty,Outcome,State-legislative winner name key / party,outcome,not used,character,47276,5.6,1980-2024
+stateleg,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,47211,5.8,1980-2024
+stateleg,contested,Sample flags,State legislature: both D and R on the general ballot,pre,not used,logical,50097,0,1980-2026
+stateleg,n.D,State legislature,State legislature: D / R / other candidates in the race,pre,not used,integer,2821,94.4,2026-2026
+stateleg,n.R,State legislature,State legislature: D / R / other candidates in the race,pre,not used,integer,2821,94.4,2026-2026
+stateleg,n.O,State legislature,State legislature: D / R / other candidates in the race,pre,not used,integer,2821,94.4,2026-2026
+stateleg,ls,State legislature,State legislature: first cycle of the current district lines,pre,not used,numeric,50097,0,1980-2026
+stateleg,lag.ok,Sample flags,Row usable for the previous-result lag (state leg.) / district lines unchanged since the previous cycle,pre,not used,logical,50097,0,1980-2026
+stateleg,lag.cycle,State legislature,Previous election year on the same lines,pre,not used,numeric,31014,38.1,1992-2026
+stateleg,lag.y,State legislature,Previous D two-party share (0/1 when uncontested),pre,not used,numeric,31014,38.1,1992-2026
+stateleg,lag.cont,State legislature,Previous election was contested,pre,not used,logical,31014,38.1,1992-2026
+stateleg,lag.win.k,State legislature,Previous winner name key / party,pre,not used,character,30989,38.1,1992-2026
+stateleg,lag.win.pty,State legislature,Previous winner name key / party,pre,not used,character,30989,38.1,1992-2026
+stateleg,lagc,State legislature,"Previous D share minus .5 if contested, else 0",pre,linear model,numeric,50097,0,1980-2026
+stateleg,uncD,State legislature,Previous election uncontested and won by D (R),pre,linear model,numeric,50097,0,1980-2026
+stateleg,uncR,State legislature,Previous election uncontested and won by D (R),pre,linear model,numeric,50097,0,1980-2026
+stateleg,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,linear model,numeric,50097,0,1980-2026
+stateleg,upper,State legislature,Upper chamber,pre,linear model,numeric,50097,0,1980-2026
+stateleg,scored,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,not used,logical,50097,0,1980-2026
+stateleg,model26,Sample flags,2026 row is a D-vs-R contest that the model forecasts,pre,not used,logical,50097,0,1980-2026
+stateleg,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,production output (output_v3/*_oos.rds),numeric,14475,71.1,2010-2026
+stateleg,oos.has.poll,Model output,Race had polls in the blend,model,production output (output_v3/*_oos.rds),logical,14475,71.1,2010-2026
+stateleg,oos.n.eff,Model output,Effective poll volume in the blend,model,production output (output_v3/*_oos.rds),numeric,14475,71.1,2010-2026
+stateleg,oos.prob,Model output,Out-of-sample D win probability,model,production output (output_v3/*_oos.rds),numeric,14475,71.1,2010-2026

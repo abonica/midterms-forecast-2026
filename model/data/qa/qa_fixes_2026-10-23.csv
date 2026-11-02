@@ -1,0 +1,46 @@
+office,rn,column,value,reason
+house,1998_VT_1,dem.cand.vs,0.6585,Sanders v R 136403-70740 (FEC); dataset .634
+house,2000_VT_1,dem.cand.vs,0.7905,Sanders v R 196118-51977 (FEC); dataset .692
+house,2002_VT_1,dem.cand.vs,0.6655,Sanders v R 144880-72813 (FEC); dataset .643
+house,2004_VT_1,dem.cand.vs,0.7348,Sanders v R 205774-74271 (FEC); dataset .226
+house,2000_KY_1,scored,FALSE,wrong D candidate in slot (Steers; nominee Brian Roy): money and CFscore describe the wrong person
+house,2006_TN_5,scored,FALSE,wrong R candidate in slot (Knapp; nominee Kovach)
+house,2010_NY_5,scored,FALSE,wrong R candidate in slot (Berney; nominee Milano)
+house,2006_TN_6,scored,FALSE,R slot uses TN-1's David Davis (cand1011); nominee David R Davis
+house,2006_TX_25,dem.cand.vs,0.7189,outcome NA; Doggett v Rostig 109911-42975
+house,2016_NV_3,dem.female,1,Jacky Rosen coded male
+house,2016_CA_27,dem.female,1,Judy Chu coded male
+house,2016_TX_30,dem.female,1,Eddie Bernice Johnson coded male
+house,2018_TX_30,dem.female,1,Eddie Bernice Johnson coded male
+house,2022_NV_2,dem.female,1,Elizabeth Krause coded male
+house,2022_TX_10,dem.female,1,Linda Nuno coded male
+house,2022_TX_17,dem.female,1,Mary Jo Woods coded male
+house,2020_MI_6,dem.female,1,Joan Hoadley coded male
+house,2012_MT_1,dem.female,1,Kim Gillan coded male
+house,2014_AR_1,dem.female,1,Jackie McPherson coded male
+house,2020_PA_7,rep.female,1,Lisa Scheller coded male
+house,2016_SC_6,rep.female,1,Laura Sterling coded male
+house,2020_IL_16,dem.female,0,Dan Brzozowski coded female
+house,2026_CA_17,rep.name,Ritesh Tandon,R nominee per the 2026 nominee file; cand_db codes him D since 2024 so the slot-party check emptied it
+house,2026_CA_17,rep.rid.static,cand152662,R nominee per the 2026 nominee file
+senate,2004_WA_S,scored,FALSE,D slot holds a primary candidate (Said) instead of Patty Murray: share .855 vs actual .563 and the D features describe the wrong person
+senate,1998_IL_S,inc,1,running incumbent (Moseley Braun) coded open (voteview)
+senate,2000_MI_S,inc,-1,running incumbent (Abraham) coded open (voteview)
+senate,2000_MS_S,inc,-1,running incumbent (Lott) coded open (voteview)
+senate,2000_ND_S,inc,1,running incumbent (Conrad) coded open (voteview)
+senate,2006_MS_S,inc,-1,running incumbent (Lott) coded open (voteview)
+senate,2006_ND_S,inc,1,running incumbent (Conrad) coded open (voteview); also fixes its fallback rating (was -1)
+senate,2010_MO_S,dem.female,1,Robin Carnahan coded male
+senate,2022_FL_S,dem.female,1,Val Demings coded male
+senate,2022_OK_S,dem.female,1,Madison Horn coded male
+senate,2006_AL_S,drop,,no Senate race that cycle
+senate,2006_CO_S,drop,,no Senate race that cycle
+senate,2010_TX_S,drop,,no Senate race that cycle
+senate,2020_FL_S,drop,,no Senate race that cycle
+senate,2020_NY_S,drop,,no Senate race that cycle
+governor,2020_NE_G,drop,,no NE governor race in 2020: the row is the Senate race (Janicek v Sasse)
+governor,1994_AL_G,inc,1,running incumbent (Folsom) coded open
+governor,1994_TX_G,inc,1,running incumbent (Richards) coded open
+governor,2008_UT_G,inc,-1,running incumbent (Huntsman) coded open
+house,2026_CA_17,uncontested.rep,0,R nominee per the 2026 nominee file (slot was emptied)
+senate,2022_AK_S,scored,FALSE,R-vs-R RCV race (Murkowski v Tshibaka); the D share .104 is not a D-vs-R contest

@@ -1,0 +1,149 @@
+office,variable,group,description,timing,production_use,type,pct_missing,cycles
+house,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,descriptive,character,0,1996-2026
+house,cycle,Keys,Election year,id,descriptive,numeric,0,1996-2026
+house,state,Keys,State postal code,id,descriptive,character,0,1996-2026
+house,dem.name,Keys,D (R) nominee name,id,descriptive,character,5.3,1996-2026
+house,rep.name,Keys,D (R) nominee name,id,descriptive,character,6.4,1996-2026
+house,dem.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,descriptive,character,5.3,1996-2026
+house,rep.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,descriptive,character,6.5,1996-2026
+house,dem.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,descriptive,character,1.6,1996-2026
+house,rep.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,descriptive,character,1.5,1996-2026
+house,inc.status,Incumbency and candidates,"D nominee status: I incumbent, C challenger, O open",pre,descriptive,character,0,1996-2026
+house,dist.pres.vs,District partisanship,"D two-party presidential share in the district (state for Senate/governor) in the reference election, on the cycle lines",pre,descriptive,numeric,0.1,1996-2026
+house,total.dem,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,descriptive,numeric,0.1,1996-2026
+house,total.rep,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,descriptive,numeric,4.1,1996-2026
+house,midterm,National,Midterm cycle,pre,descriptive,numeric,0,1996-2026
+house,pres.party,National,President is a Democrat (dem.pres 1/0; pres.party +1 D / -1 R),pre,descriptive,numeric,0,1996-2026
+house,scored,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,descriptive,logical,0,1996-2026
+house,contested26,Sample flags,2026 row is a D-vs-R contest that the model forecasts,pre,descriptive,logical,0,1996-2026
+house,uncontested.dem,Sample flags,No D (R) nominee on the ballot,pre,descriptive,integer,0,1996-2026
+house,uncontested.rep,Sample flags,No D (R) nominee on the ballot,pre,descriptive,integer,0,1996-2026
+house,nominee.unresolved,Sample flags,"2026: no settled D-vs-R matchup (LA jungle, CA-6 before the fix)",pre,descriptive,logical,93.8,2026-2026
+house,dem.cand.vs,Outcome,D two-party vote share of the general election (outcome),outcome,descriptive,numeric,6.3,1996-2024
+house,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,6.3,1996-2024
+house,dem.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,0,1996-2026
+house,rep.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,0,1996-2026
+house,top2,Primaries,"Top-two or jungle primary state (WA 2008+, CA 2012+, LA)",pre,residual model,numeric,0,1996-2026
+house,quality.chall.dem,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,0,1996-2026
+house,quality.chall.rep,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,0,1996-2026
+house,rep.female,Incumbency and candidates,D (R) nominee is a woman,pre,residual model,numeric,0,1996-2026
+house,dem.female,Incumbency and candidates,D (R) nominee is a woman,pre,residual model,numeric,0,1996-2026
+house,num.cands.in.primary.dem,Primaries,Candidates in the D (R) primary,pre,residual model,integer,0,1996-2026
+house,num.cands.in.primary.rep,Primaries,Candidates in the D (R) primary,pre,residual model,integer,0,1996-2026
+house,lean,District partisanship,dist.pres.vs minus the national D two-party presidential share of the reference election,pre,residual model; linear base,numeric,0.1,1996-2026
+house,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,residual model; linear base,numeric,0,1996-2026
+house,gb,National,"Generic ballot D-R margin, Oct 1, as a proportion (2026: NYT 30-day mean)",pre,national stage,numeric,0,1996-2026
+house,mid.pen,National,Midterm penalty: midterm x president party (+1 = D president in a midterm),pre,national stage,numeric,0,1996-2026
+house,dem.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,53,1998-2026
+house,rep.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,51.4,1998-2026
+house,m.tot,Money: model features,"Money: log(D + 25k) - log(R + 25k) of total receipts, centered within cycle",pre,residual model,numeric,4.2,1996-2026
+house,m.ind,Money: model features,"Same, individual contributions",pre,residual model,numeric,4.2,1996-2026
+house,m.pac,Money: model features,"Same, PAC contributions",pre,residual model,numeric,4.2,1996-2026
+house,m.donors,Money: model features,"Same, donor counts (offset 250)",pre,residual model,numeric,4.3,1996-2026
+house,m.disb,Money: model features,"Same, total spending",pre,residual model,numeric,27.7,2004-2026
+house,m.cash,Money: model features,"Same, cash on hand",pre,residual model,numeric,27.7,2004-2026
+house,m.q6,Money: model features,"Same, Apr-Jun election-year receipts",pre,residual model,numeric,0,1996-2026
+house,m.self,Money: model features,"Same, self-funding",pre,residual model,numeric,4.2,1996-2026
+house,m.pol,Money: model features,"Same, political spending (pacwatch vendor coding: ads, voter contact, field); NA (not zero) when none is coded on > $200k disbursed, 2006 on",pre,residual model,numeric,25.4,2004-2026
+house,m.frs,Money: model features,"Same, fundraising spending (list rental, digital fundraising vendors); NA under the same rule as m.pol",pre,residual model,numeric,25.4,2004-2026
+house,dem.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,0,1996-2026
+house,rep.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,0,1996-2026
+house,dem.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,56.3,1996-2026
+house,rep.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,55.4,1996-2026
+house,dem.np.ext,Ideology,(dem|rep).np centered within cycle,pre,residual model,numeric,56.3,1996-2026
+house,rep.np.ext,Ideology,(dem|rep).np centered within cycle,pre,residual model,numeric,55.4,1996-2026
+house,rating,Ratings and ballot,"Expert rating mean of Cook, Inside Elections, Sabato as of Oct 9, -1 Safe R to +1 Safe D; pre-2020 House unlisted races set safe for the incumbent party / by lean",pre,residual model,numeric,31.3,2006-2026
+house,pct_hispanic,Demographics,"Hispanic share of the population (ACS 5-year, cycle lines)",pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,50,2012-2026
+house,pct_black_nh,Demographics,Non-Hispanic Black share (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,50,2012-2026
+house,pct_asian_nh,Demographics,Non-Hispanic Asian share (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,50,2012-2026
+house,pct_ba_plus,Demographics,Adults 25+ with a BA or more (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,50,2012-2026
+house,pct_white_nh_noncollege,Demographics,Non-Hispanic white adults without a BA (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,50,2012-2026
+house,log_density,Demographics,Log population density (ACS),pre,"post-fit layers: trend residual and demographic poll shift; as features: flag V3_ACS, off",numeric,50,2012-2026
+house,log_income,Demographics,Log median household income (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,50,2012-2026
+house,pct_over65,Demographics,Share aged 65+ (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,50,2012-2026
+house,pct_foreign_born,Demographics,Foreign-born share (ACS),pre,"post-fit layer: trend residual; as a feature: flag V3_ACS, off",numeric,50,2012-2026
+house,abs.lean,District partisanship,Absolute value of lean,pre,post-fit layer / poll input,numeric,0.1,1996-2026
+house,trend.x,District partisanship,"District presidential trend: lean(ref) - lean(ref - 4) on the cycle lines; where the trend file lacks a district, the ref - 4 share is carried onto the cycle lines through the census-block crosswalks (rougher across full redistrictings)",pre,"input to trend (post-fit layer); as a feature: flag V3_TREND_FEAT, off",numeric,50.5,2012-2026
+house,trend,District partisanship,Trend used by the post-fit trend layer: trend.x net of its demographic fit within cycle (0 where missing; 2026 redrawn states: 2020 share on the new lines from the census-block crosswalk),pre,post-fit layer / poll input,numeric,0,1996-2026
+house,dem.hisp,Incumbency and candidates,D (R) nominee coded Hispanic: surname share >= 50% (surname-based inference),pre,residual model,numeric,0,1996-2026
+house,rep.hisp,Incumbency and candidates,D (R) nominee coded Hispanic: surname share >= 50% (surname-based inference),pre,residual model,numeric,0,1996-2026
+house,dem.hisp.x,Incumbency and candidates,(dem|rep).hisp x the district Hispanic population share (ACS),pre,residual model,numeric,0,1996-2026
+house,rep.hisp.x,Incumbency and candidates,(dem|rep).hisp x the district Hispanic population share (ACS),pre,residual model,numeric,0,1996-2026
+house,inc.new,District,"inc x (1 - overlap): how much of the seat is new to the incumbent, signed for the incumbent party",pre,residual model,numeric,0,1996-2026
+house,dp.cap100.d.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,60.4,2012-2026
+house,dp.cap25.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,60.4,2012-2026
+house,dp.small.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,60.4,2012-2026
+house,dp.age65.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,64,2012-2026
+house,dp.new.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,65.2,2014-2026
+house,dp.gpd.x,Donors,"Donor-profile contrast, D minus R, standardized within cycle (maxed-out share, under-$25 share, small-gift share, donors over 65, first-time donors, giving per donor; data/v2/donor_profiles)",pre,residual model,numeric,60.4,2012-2026
+house,poll.x,Polls,"District poll average used inside the model: through Oct 18, 30-day half-life, sponsor-bias adjusted, y scale",pre,post-fit layer / poll input,numeric,83.5,1998-2026
+house,neff.x,Polls,Effective poll volume of poll.x (recency- and size-weighted),pre,post-fit layer / poll input,numeric,83.5,1998-2026
+house,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,out-of-sample forecast,numeric,28,2002-2026
+house,oos.prob,Model output,Out-of-sample D win probability,model,out-of-sample forecast,numeric,38.4,2006-2026
+senate,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,descriptive,character,0,1996-2026
+senate,cycle,Keys,Election year,id,descriptive,numeric,0,1996-2026
+senate,state,Keys,State postal code,id,descriptive,character,0,1996-2026
+senate,dem.name,Keys,D (R) nominee name,id,descriptive,character,3.3,1996-2026
+senate,rep.name,Keys,D (R) nominee name,id,descriptive,character,1.3,1996-2026
+senate,dem.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,descriptive,character,3.3,1996-2026
+senate,rep.rid.static,Keys,D (R) nominee DIME recipient id without cycle,id,descriptive,character,1.3,1996-2026
+senate,dem.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,descriptive,character,4.3,1996-2026
+senate,rep.fec.cand.id,Keys,D (R) nominee FEC candidate id,id,descriptive,character,3.1,1996-2026
+senate,inc.status,Incumbency and candidates,"D nominee status: I incumbent, C challenger, O open",pre,descriptive,character,0.2,1996-2026
+senate,dist.pres.vs,District partisanship,"D two-party presidential share in the district (state for Senate/governor) in the reference election, on the cycle lines",pre,descriptive,numeric,0,1996-2026
+senate,total.dem,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,descriptive,numeric,0.7,1996-2026
+senate,total.rep,Money: receipts,"D (R) nominee total receipts through the money cutoff (Sep 30 of the election year); joint-fundraising memo copies dropped, and a House/Senate switcher counts only the contest office committee. A non-incumbent nominee with no money records (no FEC committee) is 0 here and in the other receipt, spending, donor and cash columns (2004 on)",pre,descriptive,numeric,1.1,1996-2026
+senate,midterm,National,Midterm cycle,pre,descriptive,numeric,0,1996-2026
+senate,scored,Sample flags,"Row is a genuine D-vs-R contest with a two-party share in (.05, .95) and a lean (scored) / both nominees named and distinct (dr): the backtest sample",pre,descriptive,logical,0,1996-2026
+senate,contested26,Sample flags,2026 row is a D-vs-R contest that the model forecasts,pre,descriptive,logical,0,1996-2026
+senate,dem.cand.vs,Outcome,D two-party vote share of the general election (outcome),outcome,descriptive,numeric,7.4,1996-2024
+senate,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,7.4,1996-2024
+senate,dem.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,0.7,1996-2026
+senate,rep.ip,Ideology,D (R) nominee CFscore (DIME; party-cycle mean when missing),pre,residual model,numeric,0,1996-2026
+senate,quality.chall.dem,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,0.7,1996-2026
+senate,quality.chall.rep,Incumbency and candidates,"D (R) nominee has held elected office (Congress, governor, or office in the Vote Smart bio)",pre,residual model,numeric,0,1996-2026
+senate,lean,District partisanship,dist.pres.vs minus the national D two-party presidential share of the reference election,pre,residual model; linear base,numeric,0,1996-2026
+senate,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,residual model; linear base,numeric,0,1996-2026
+senate,dem.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,57,1998-2026
+senate,rep.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,52.3,1998-2026
+senate,m.tot,Money: model features,"Money: log(D + 25k) - log(R + 25k) of total receipts, centered within cycle",pre,residual model,numeric,2.2,1996-2026
+senate,m.ind,Money: model features,"Same, individual contributions",pre,residual model,numeric,2.2,1996-2026
+senate,m.pac,Money: model features,"Same, PAC contributions",pre,residual model,numeric,2.2,1996-2026
+senate,m.cash,Money: model features,"Same, cash on hand",pre,residual model,numeric,26.2,2004-2026
+senate,m.q6,Money: model features,"Same, Apr-Jun election-year receipts",pre,residual model,numeric,0.7,1996-2026
+senate,dem.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,0.7,1996-2026
+senate,rep.ext,Ideology,CFscore minus the party-cycle mean (extremity within party),pre,residual model,numeric,0,1996-2026
+senate,rating,Ratings and ballot,"Expert rating mean of Cook, Inside Elections, Sabato as of Oct 9, -1 Safe R to +1 Safe D; pre-2020 House unlisted races set safe for the incumbent party / by lean",pre,residual model,numeric,30.7,2006-2026
+senate,dem.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,62.9,1996-2026
+senate,rep.np,Ideology,"Incumbent Nokken-Poole DW-NOMINATE dim 1, vote-weighted career to date through the Congress before the election (incumbents only)",pre,residual model,numeric,60.9,1996-2026
+senate,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,out-of-sample forecast,numeric,35.8,2006-2026
+senate,oos.prob,Model output,Out-of-sample D win probability,model,out-of-sample forecast,numeric,47.4,2010-2026
+governor,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,descriptive,character,0,1980-2026
+governor,cycle,Keys,Election year,id,descriptive,integer,0,1980-2026
+governor,state,Keys,State postal code,id,descriptive,character,0,1980-2026
+governor,dem.name,Keys,D (R) nominee name,id,descriptive,character,0,1980-2026
+governor,rep.name,Keys,D (R) nominee name,id,descriptive,character,0.6,1980-2026
+governor,dem.cand.vs,Outcome,D two-party vote share of the general election (outcome),outcome,descriptive,numeric,10.9,1980-2024
+governor,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,10.9,1980-2024
+governor,rating,Ratings and ballot,"Expert rating mean of Cook, Inside Elections, Sabato as of Oct 9, -1 Safe R to +1 Safe D; pre-2020 House unlisted races set safe for the incumbent party / by lean",pre,residual model,numeric,36.5,2008-2026
+governor,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,residual model; linear base,numeric,0,1980-2026
+governor,lean,District partisanship,dist.pres.vs minus the national D two-party presidential share of the reference election,pre,residual model; linear base,numeric,10.1,1994-2026
+governor,dem.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,77,2000-2026
+governor,rep.prev.over,Incumbency and candidates,"D (R) nominee's overperformance in their last general (House, Senate or governor): vote share - lean - cycle mean, own-party sign",pre,residual model,numeric,65.5,2000-2026
+governor,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,out-of-sample forecast,numeric,21.3,2002-2026
+governor,oos.prob,Model output,Out-of-sample D win probability,model,out-of-sample forecast,numeric,39.9,2010-2026
+stateleg,rn,Keys,"Contest key: cycle_state_district (House), cycle_state_S (Senate), cycle_state_G (governor), cycle_state_chamber_district (state legislature)",id,descriptive,character,0,1980-2026
+stateleg,cycle,Keys,Election year,id,descriptive,numeric,0,1980-2026
+stateleg,state,Keys,State postal code,id,descriptive,character,0,1980-2026
+stateleg,seat,Keys,State-legislative chamber (state:lower / state:upper),id,descriptive,character,0,1980-2026
+stateleg,district,Keys,Contest or district identifier (distcyc = rn for federal rows; dkey = district without cycle; pbkey = precinct down-ballot lookup key),id,descriptive,character,0,1980-2026
+stateleg,dem.k,Keys,State-legislative D (R) nominee name key (normalized surname + first initial),id,descriptive,character,18.4,1980-2026
+stateleg,rep.k,Keys,State-legislative D (R) nominee name key (normalized surname + first initial),id,descriptive,character,17.7,1980-2026
+stateleg,y,Outcome,D two-party vote share minus .5 (modeling outcome; y also for governor and state legislature),outcome,outcome,numeric,5.8,1980-2024
+stateleg,lagc,State legislature,"Previous D share minus .5 if contested, else 0",pre,linear model,numeric,0,1980-2026
+stateleg,uncD,State legislature,Previous election uncontested and won by D (R),pre,linear model,numeric,0,1980-2026
+stateleg,uncR,State legislature,Previous election uncontested and won by D (R),pre,linear model,numeric,0,1980-2026
+stateleg,inc,Incumbency and candidates,"Incumbency: +1 D incumbent, -1 R incumbent, 0 open (state leg.: the nominee won the seat last time)",pre,linear model,numeric,0,1980-2026
+stateleg,upper,State legislature,Upper chamber,pre,linear model,numeric,0,1980-2026
+stateleg,oos.pp,Model output,Final out-of-sample prediction of y (after the poll blend),model,out-of-sample forecast,numeric,71.1,2010-2026
+stateleg,oos.prob,Model output,Out-of-sample D win probability,model,out-of-sample forecast,numeric,71.1,2010-2026

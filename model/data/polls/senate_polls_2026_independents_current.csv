@@ -1,0 +1,68 @@
+cycle,state,district,distcyc,pollster,start_date,end_date,sample_size,population,dem_pct,rep_pct,dem_cand,rep_cand,partisan_sponsor,source,ind_cand,ind_pct,matchup
+2026,SD,S,2026_SD_S,"Mason-Dixon Polling & Research, Inc.",2026-10-12,2026-10-14,500,lv,,56.4,"",Mike Rounds,"",nyt,Brian Bengs,37.4,R_vs_I
+2026,MT,S,2026_MT_S,American Pulse Research & Polling,2026-09-19,2026-09-24,604,lv,18.9,45.1,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,26.1,R_vs_I
+2026,NE,S,2026_NE_S,GBAO,2026-09-03,2026-09-08,800,lv,,46,"",Pete Ricketts,"",nyt,Dan Osborn,47,R_vs_I
+2026,MT,S,2026_MT_S,Tavern Research,2026-05-13,2026-05-18,607,lv,,46,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,26,R_vs_I
+2026,SD,S,2026_SD_S,Public Policy Polling,2025-11-13,2025-11-14,814,rv,,44,"",Mike Rounds,"",nyt,Brian Bengs,31,R_vs_I
+2026,NE,S,2026_NE_S,National Public Affairs,2026-10-15,2026-10-18,598,lv,,46,"",Pete Ricketts,R,nyt,Dan Osborn,43,R_vs_I
+2026,MT,S,2026_MT_S,Hart Research Associates,2026-06-18,2026-06-24,800,lv,22,47,Alani Bankhead,Kurt Alme,D,nyt,Seth Bodnar,25,R_vs_I
+2026,NE,S,2026_NE_S,YouGov,2026-10-26,2026-10-29,1979,lv,,49,"",Pete Ricketts,"",nyt,Dan Osborn,49,R_vs_I
+2026,ID,S,2026_ID_S,The Bullfinch Group,2026-05-29,2026-06-01,774,rv,,41,"",Jim Risch,"",nyt,Todd Achilles,18,R_vs_I
+2026,MT,S,2026_MT_S,Peak Insights,2026-10-07,2026-10-12,500,lv,12,44,Alani Bankhead,Kurt Alme,R,nyt,Seth Bodnar,29,R_vs_I
+2026,NE,S,2026_NE_S,Concord Public Opinion Partners,2026-10-15,2026-10-18,500,lv,,41,"",Pete Ricketts,D,nyt,Dan Osborn,48,R_vs_I
+2026,NE,S,2026_NE_S,GBAO,2026-04-16,2026-04-20,800,lv,,45,"",Pete Ricketts,"",nyt,Dan Osborn,46,R_vs_I
+2026,NE,S,2026_NE_S,YouGov,2026-09-24,2026-10-03,1808,lv,,47,"",Pete Ricketts,"",nyt,Dan Osborn,48,R_vs_I
+2026,NE,S,2026_NE_S,National Public Affairs,2026-10-25,2026-10-29,800,lv,,48,"",Pete Ricketts,R,nyt,Dan Osborn,45,R_vs_I
+2026,SD,S,2026_SD_S,Quantus Insights,2026-10-17,2026-10-19,657,lv,,59.4,"",Mike Rounds,"",nyt,Brian Bengs,37.3,R_vs_I
+2026,MT,S,2026_MT_S,Change Research,2026-03-17,2026-03-20,616,lv,,36.84,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,35.06,R_vs_I
+2026,SD,S,2026_SD_S,Public Opinion Strategies,2026-07-06,2026-07-09,500,lv,,56,"",Mike Rounds,R,nyt,Brian Bengs,33,R_vs_I
+2026,SD,S,2026_SD_S,Emerson College,2026-10-19,2026-10-21,803,lv,,54,"",Mike Rounds,"",nyt,Brian Bengs,46,R_vs_I
+2026,SD,S,2026_SD_S,Concord Public Opinion Partners,2026-10-22,2026-10-26,448,lv,,41,"",Mike Rounds,D,nyt,Brian Bengs,43,R_vs_I
+2026,SD,S,2026_SD_S,Concord Public Opinion Partners,2026-10-06,2026-10-08,400,lv,,42,"",Mike Rounds,D,nyt,Brian Bengs,43,R_vs_I
+2026,MT,S,2026_MT_S,Aspect Strategic,2026-09-07,2026-09-15,715,lv,14,44,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,32,R_vs_I
+2026,NE,S,2026_NE_S,Impact Research,2026-10-14,2026-10-20,600,lv,,50,"",Pete Ricketts,D,nyt,Dan Osborn,48,R_vs_I
+2026,MT,S,2026_MT_S,Montana State University Billings,2026-10-05,2026-10-21,720,a,21,30,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,26,R_vs_I
+2026,NE,S,2026_NE_S,National Public Affairs,2026-10-02,2026-10-05,800,lv,,46,"",Pete Ricketts,R,nyt,Dan Osborn,43,R_vs_I
+2026,SD,S,2026_SD_S,Public Policy Polling,2025-07-30,2025-07-31,552,rv,,41,"",Mike Rounds,"",nyt,Brian Bengs,28,R_vs_I
+2026,MT,S,2026_MT_S,Peak Insights,2026-08-23,2026-08-25,600,lv,19,44,Alani Bankhead,Kurt Alme,R,nyt,Seth Bodnar,22,R_vs_I
+2026,ID,S,2026_ID_S,Change Research,2026-07-28,2026-07-30,,lv,,43,"",Jim Risch,"",nyt,Todd Achilles,19,R_vs_I
+2026,NE,S,2026_NE_S,The New York Times/Siena University,2026-10-23,2026-10-29,809,lv,,48.7,"",Pete Ricketts,"",nyt,Dan Osborn,43.01,R_vs_I
+2026,MT,S,2026_MT_S,Concord Public Opinion Partners,2026-10-22,2026-10-23,410,lv,10,38,Alani Bankhead,Kurt Alme,D,nyt,Seth Bodnar,39,R_vs_I
+2026,MT,S,2026_MT_S,GQR,2026-07-23,2026-07-26,500,lv,22,41,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,27,R_vs_I
+2026,NE,S,2026_NE_S,Change Research,2025-03-28,2025-04-01,524,lv,,46,"",Pete Ricketts,D,nyt,Dan Osborn,45,R_vs_I
+2026,NE,S,2026_NE_S,GBAO,2026-07-22,2026-07-26,800,lv,,47,"",Pete Ricketts,"",nyt,Dan Osborn,47,R_vs_I
+2026,ID,S,2026_ID_S,Peak Insights,2026-09-28,2026-09-30,500,lv,,49,"",Jim Risch,R,nyt,Todd Achilles,24,R_vs_I
+2026,ID,S,2026_ID_S,Peak Insights,2026-08-11,2026-08-13,500,lv,,52,"",Jim Risch,R,nyt,Todd Achilles,18,R_vs_I
+2026,ID,S,2026_ID_S,VoteNexus,2026-10-21,2026-10-22,700,lv,,49,"",Jim Risch,"",nyt,Todd Achilles,43,R_vs_I
+2026,MT,S,2026_MT_S,Rutgers-Eagleton,2026-08-27,2026-09-07,845,rv,16,38,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,30,R_vs_I
+2026,MT,S,2026_MT_S,The Bullfinch Group,2026-07-13,2026-07-16,793,lv,22,36,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,24,R_vs_I
+2026,SD,S,2026_SD_S,Public Opinion Strategies,2026-10-12,2026-10-16,500,lv,,54,"",Mike Rounds,R,nyt,Brian Bengs,37,R_vs_I
+2026,SD,S,2026_SD_S,Public Policy Polling,2026-02-17,2026-02-18,685,rv,,47,"",Mike Rounds,"",nyt,Brian Bengs,35,R_vs_I
+2026,MT,S,2026_MT_S,GrayHouse,2026-06-23,2026-06-24,500,lv,25,41,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,17,R_vs_I
+2026,NE,S,2026_NE_S,SurveyUSA,2026-09-08,2026-09-13,503,lv,,42,"",Pete Ricketts,"",nyt,Dan Osborn,46,R_vs_I
+2026,SD,S,2026_SD_S,Public Policy Polling,2026-09-08,2026-09-09,629,rv,,45,"",Mike Rounds,"",nyt,Brian Bengs,42,R_vs_I
+2026,MT,S,2026_MT_S,Public Opinion Strategies,2026-06-08,2026-06-11,500,lv,25,44,Alani Bankhead,Kurt Alme,R,nyt,Seth Bodnar,20,R_vs_I
+2026,ID,S,2026_ID_S,Peak Insights,2026-06-06,2026-06-07,500,lv,,55,"",Jim Risch,R,nyt,Todd Achilles,7,R_vs_I
+2026,NE,S,2026_NE_S,co/efficient,2026-09-28,2026-09-30,1113,lv,,44,"",Pete Ricketts,"",nyt,Dan Osborn,40,R_vs_I
+2026,NE,S,2026_NE_S,Impact Research,2026-02-02,2026-02-05,600,lv,,48,"",Pete Ricketts,D,nyt,Dan Osborn,47,R_vs_I
+2026,SD,S,2026_SD_S,Lake Research Partners,2026-08-26,2026-08-30,500,lv,,41,"",Mike Rounds,D,nyt,Brian Bengs,51,R_vs_I
+2026,MT,S,2026_MT_S,Hart Research Associates,2026-08-01,2026-08-04,800,lv,15,45,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,30,R_vs_I
+2026,NE,S,2026_NE_S,Tavern Research,2026-05-08,2026-05-11,1165,lv,,42,"",Pete Ricketts,"",nyt,Dan Osborn,47,R_vs_I
+2026,ID,S,2026_ID_S,Public Policy Polling,2026-03-16,2026-03-17,639,rv,,48,"",Jim Risch,"",nyt,Todd Achilles,34,R_vs_I
+2026,SD,S,2026_SD_S,Public Policy Polling,2026-05-29,2026-05-30,726,rv,,43,"",Mike Rounds,"",nyt,Brian Bengs,23,R_vs_I
+2026,ID,S,2026_ID_S,Peak Insights,2026-10-13,2026-10-15,500,lv,,54,"",Jim Risch,R,nyt,Todd Achilles,27,R_vs_I
+2026,MT,S,2026_MT_S,Quantus Insights,2026-09-14,2026-09-15,625,lv,24.4,45.3,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,26.1,R_vs_I
+2026,MT,S,2026_MT_S,Quantus Insights,2026-10-15,2026-10-18,667,lv,21.2,45.6,Alani Bankhead,Kurt Alme,"",nyt,Seth Bodnar,29.4,R_vs_I
+2026,ID,S,2026_ID_S,The Bullfinch Group,2026-08-04,2026-08-07,608,lv,,34,"",Jim Risch,"",nyt,Todd Achilles,30,R_vs_I
+2026,NE,S,2026_NE_S,Impact Research,2026-08-09,2026-08-13,600,lv,,47,"",Pete Ricketts,D,nyt,Dan Osborn,47,R_vs_I
+2026,SD,S,2026_SD_S,Impact Research,2026-08-13,2026-08-17,500,lv,,44,"",Mike Rounds,"",nyt,Brian Bengs,44,R_vs_I
+2026,MT,S,2026_MT_S,Concord Public Opinion Partners,2026-10-06,2026-10-08,405,lv,13,35,Alani Bankhead,Kurt Alme,D,nyt,Seth Bodnar,37,R_vs_I
+2026,NE,S,2026_NE_S,GBAO,2026-10-18,2026-10-22,800,lv,,45,"",Pete Ricketts,"",nyt,Dan Osborn,46,R_vs_I
+2026,NE,S,2026_NE_S,Echelon Insights,2026-10-16,2026-10-23,407,lv,,47,"",Pete Ricketts,"",nyt,Dan Osborn,46,R_vs_I
+2026,SD,S,2026_SD_S,Zenith Research,2026-09-24,2026-09-27,500,lv,,53,"",Mike Rounds,"",nyt,Brian Bengs,47,R_vs_I
+2026,ID,S,2026_ID_S,Advanced Targeting Research,2026-09-13,2026-09-16,700,rv,,39,"",Jim Risch,"",wikipedia_2026_senate_pages,Todd Achilles,50,R_vs_I
+2026,MT,S,2026_MT_S,Tavern Research,2026-06-16,2026-06-19,400,lv,26,49,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages,Seth Bodnar,24,three_way
+2026,MT,S,2026_MT_S,Tavern Research,2026-07-23,2026-07-27,517,lv,24,49,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages,Seth Bodnar,25,three_way
+2026,NE,S,2026_NE_S,Lake Research Partners,2025-07-23,2025-07-29,900,lv,,46,"",Pete Ricketts,D,wikipedia_2026_senate_pages,Dan Osborn,47,R_vs_I
+2026,NE,S,2026_NE_S,Lake Research Partners,2025-12-11,2025-12-17,900,lv,,48,"",Pete Ricketts,D,wikipedia_2026_senate_pages,Dan Osborn,47,R_vs_I
+2026,NE,S,2026_NE_S,Wedgewood Polls,2026-09-14,2026-09-16,500,lv,,52,"",Pete Ricketts,"",wikipedia_2026_senate_pages,Dan Osborn,48,R_vs_I

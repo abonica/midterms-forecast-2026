@@ -1,0 +1,541 @@
+cycle,state,district,distcyc,pollster,start_date,end_date,sample_size,population,dem_pct,rep_pct,dem_cand,rep_cand,partisan_sponsor,source
+2026,MI,S,2026_MI_S,Data for Progress,2026-06-15,2026-06-22,709,lv,47,46,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,ME,S,2026_ME_S,Marist University,2026-10-22,2026-10-25,1449,lv,49,47,Troy Jackson,Susan Collins,"",nyt
+2026,IA,S,2026_IA_S,National Public Affairs,2026-10-08,2026-10-12,678,lv,44,47,Josh Turek,Ashley Hinson,R,nyt
+2026,AK,S,2026_AK_S,Public Policy Polling,2026-01-16,2026-01-17,611,rv,49,47,Mary Peltola,Dan S. Sullivan,D,nyt
+2026,FL,S,2026_FL_S,ActiVote,2026-09-27,2026-10-15,400,lv,46.9,53.1,Angie Nixon,Ashley Moody,"",nyt
+2026,KS,S,2026_KS_S,Emerson College,2026-10-26,2026-10-28,800,lv,49.5,47.1,Adam Hamilton,Roger Marshall,"",nyt
+2026,ME,S,2026_ME_S,co/efficient,2026-09-28,2026-09-30,1240,lv,46,48,Troy Jackson,Susan Collins,"",nyt
+2026,SC,S,2026_SC_S,Trafalgar Group,2026-10-16,2026-10-18,1095,lv,45.6,48.6,Annie Andrews,Darline Graham,R,nyt
+2026,TX,S,2026_TX_S,Marist University,2026-09-17,2026-09-20,1139,rv,50,44,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,Quantus Insights,2026-06-03,2026-06-04,800,lv,43,45,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,Public Policy Polling,2026-03-04,2026-03-05,576,rv,47,45,James Talarico,Ken Paxton,D,nyt
+2026,TX,S,2026_TX_S,ActiVote,2026-10-22,2026-10-28,400,lv,52.1,47.9,James Talarico,Ken Paxton,"",nyt
+2026,AL,S,2026_AL_S,RMG Research,2026-09-21,2026-09-25,800,rv,33,54,Everett Wess,Barry Moore,R,nyt
+2026,ME,S,2026_ME_S,Public Policy Polling,2026-07-07,2026-07-07,785,rv,49,44,Troy Jackson,Susan Collins,D,nyt
+2026,NC,S,2026_NC_S,The New York Times/Siena University,2026-06-15,2026-06-27,601,lv,50,43.19,Roy Cooper,Michael Whatley,"",nyt
+2026,IA,S,2026_IA_S,The New York Times/Siena University,2026-06-15,2026-06-27,600,lv,46.01,48.48,Josh Turek,Ashley Hinson,"",nyt
+2026,NC,S,2026_NC_S,High Point University,2026-09-06,2026-09-16,706,lv,50,42,Roy Cooper,Michael Whatley,"",nyt
+2026,SC,S,2026_SC_S,Abacus Data,2026-08-26,2026-08-28,306,lv,38,51,Annie Andrews,Darline Graham,"",nyt
+2026,TX,S,2026_TX_S,Slingshot Strategies,2026-09-19,2026-09-22,1007,lv,49,44,James Talarico,Ken Paxton,"",nyt
+2026,KY,S,2026_KY_S,Public Policy Polling,2025-12-18,2025-12-19,650,rv,38,49,Charles Booker,Andy Barr,D,nyt
+2026,FL,S,2026_FL_S,Emerson College,2026-03-29,2026-03-31,1125,lv,36.3,47.3,Angie Nixon,Ashley Moody,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-10-26,2026-10-29,1326,lv,50.8,49.2,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MI,S,2026_MI_S,Beacon Research/Shaw & Company Research,2026-08-06,2026-08-10,1006,rv,47,51,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MS,S,2026_MS_S,Change Research,2026-10-21,2026-10-22,842,lv,40,43,Scott Colom,Cindy Hyde-Smith,D,nyt
+2026,OH,S,2026_OH_S,Echelon Insights,2026-10-16,2026-10-23,508,lv,47,47,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,New River Strategies/GS Strategy Group,2026-10-09,2026-10-13,934,lv,49,44,James Talarico,Ken Paxton,"",nyt
+2026,IA,S,2026_IA_S,co/efficient,2026-10-28,2026-10-28,1020,lv,46,48,Josh Turek,Ashley Hinson,"",nyt
+2026,GA,S,2026_GA_S,Trafalgar Group,2026-09-10,2026-09-12,1091,lv,49.4,42.8,Jon Ossoff,Mike Collins,R,nyt
+2026,GA,S,2026_GA_S,YouGov,2026-09-15,2026-09-18,3301,lv,52,42,Jon Ossoff,Mike Collins,"",nyt
+2026,TX,S,2026_TX_S,Beacon Research/Shaw & Company Research,2026-09-24,2026-09-28,881,lv,51,49,James Talarico,Ken Paxton,"",nyt
+2026,OH,S,2026_OH_S,Abacus Data,2026-08-26,2026-08-28,306,lv,46,41,Sherrod Brown,Jon Husted,"",nyt
+2026,SC,S,2026_SC_S,Impact Research,2026-02-25,2026-03-01,700,lv,42,47,Annie Andrews,Darline Graham,D,nyt
+2026,NC,S,2026_NC_S,YouGov,2026-09-29,2026-10-08,560,lv,54,43,Roy Cooper,Michael Whatley,"",nyt
+2026,FL,S,2026_FL_S,St. Pete Polls,2026-09-15,2026-09-17,913,lv,44.8,45.2,Angie Nixon,Ashley Moody,"",nyt
+2026,TX,S,2026_TX_S,CNN/SSRS,2026-10-20,2026-10-27,923,lv,49,43,James Talarico,Ken Paxton,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2023-04-21,2023-04-25,1261,lv,44,41,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MI,S,2026_MI_S,TIPP Insights,2026-08-06,2026-08-10,1215,lv,45.44,42.27,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,FL,S,2026_FL_S,Stetson University Center for Public Opinion Research,2026-10-26,2026-10-30,859,lv,45,49,Angie Nixon,Ashley Moody,"",nyt
+2026,NC,S,2026_NC_S,Change Research,2026-10-01,2026-10-07,829,lv,50,40,Roy Cooper,Michael Whatley,D,nyt
+2026,TX,S,2026_TX_S,Fabrizio Ward/Impact Research,2026-08-30,2026-09-01,895,lv,48,44,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,ReconMR/Siena Research Institute,2026-10-05,2026-10-08,617,lv,48,44,James Talarico,Ken Paxton,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2025-07-29,2025-08-01,1613,lv,42.5,46.7,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,RI,S,2026_RI_S,Emerson College,2026-10-08,2026-10-11,800,lv,59.13,25.44,Jack Reed,Raymond McKay,"",nyt
+2026,KS,S,2026_KS_S,Tavern Research,2026-01-26,2026-01-28,1013,lv,46,54,Adam Hamilton,Roger Marshall,"",nyt
+2026,AK,S,2026_AK_S,co/efficient,2026-09-14,2026-09-17,799,lv,46,48,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,ME,S,2026_ME_S,YouGov,2026-09-02,2026-09-08,1335,lv,48,44,Troy Jackson,Susan Collins,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2025-11-09,2025-11-10,600,lv,47.3,38.6,Roy Cooper,Michael Whatley,"",nyt
+2026,NH,S,2026_NH_S,St. Anselm,2026-09-28,2026-09-29,1042,lv,51,44,Chris Pappas,John E. Sununu,"",nyt
+2026,MI,S,2026_MI_S,Tulchin Research,2026-06-02,2026-06-04,500,lv,46,41,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,NC,S,2026_NC_S,Change Research,2026-05-04,2026-05-08,957,lv,49.29,42.42,Roy Cooper,Michael Whatley,D,nyt
+2026,OH,S,2026_OH_S,YouGov,2026-10-26,2026-10-29,2090,lv,50,48,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,Stratus Intelligence,2026-09-22,2026-09-24,865,lv,48,48,James Talarico,Ken Paxton,R,nyt
+2026,NC,S,2026_NC_S,Opinion Diagnostics,2026-04-21,2026-04-24,830,rv,50.4,41.4,Roy Cooper,Michael Whatley,"",nyt
+2026,AR,S,2026_AR_S,J.L. Partners,2026-08-14,2026-08-18,803,lv,35,51,Hallie Shoffner,Tom Cotton,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2026-10-18,2026-10-20,600,lv,49.4,39.1,Roy Cooper,Michael Whatley,"",nyt
+2026,ME,S,2026_ME_S,The New York Times/Siena University,2026-09-15,2026-09-22,619,lv,45.92,48.66,Troy Jackson,Susan Collins,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-07-23,2026-07-31,466,lv,53,42,Roy Cooper,Michael Whatley,"",nyt
+2026,MI,S,2026_MI_S,"Glengariff Group, Inc.",2026-04-28,2026-05-01,600,lv,39.8,44.7,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,Fabrizio Ward/Impact Research,2026-09-17,2026-09-20,1115,lv,53,42,Roy Cooper,Michael Whatley,"",nyt
+2026,NC,S,2026_NC_S,Beacon Research/Shaw & Company Research,2026-07-23,2026-07-27,1005,rv,53,44,Roy Cooper,Michael Whatley,"",nyt
+2026,LA,S,2026_LA_S,Public Policy Polling,2026-07-21,2026-07-22,518,rv,37,41,Jamie Davis,Julia Letlow,D,nyt
+2026,FL,S,2026_FL_S,ActiVote,2026-10-17,2026-10-27,400,lv,47,53,Angie Nixon,Ashley Moody,"",nyt
+2026,TX,S,2026_TX_S,Beacon Research/Shaw & Company Research,2026-10-15,2026-10-19,1398,lv,49,49,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,Emerson College,2026-08-09,2026-08-10,1000,lv,46.25,47.25,James Talarico,Ken Paxton,"",nyt
+2026,AR,S,2026_AR_S,2040 Strategy Group,2026-07-17,2026-07-25,586,lv,43,46,Hallie Shoffner,Tom Cotton,D,nyt
+2026,TX,S,2026_TX_S,University of Houston Hobby School of Public Affairs/Texas Southern University School of Public Affairs,2025-09-19,2025-10-01,1183,lv,46,49,James Talarico,Ken Paxton,"",nyt
+2026,FL,S,2026_FL_S,Workbench Strategy,2026-10-18,2026-10-22,800,lv,47,49,Angie Nixon,Ashley Moody,D,nyt
+2026,MI,S,2026_MI_S,Fabrizio Ward/Impact Research,2026-08-09,2026-08-11,877,lv,48,47,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,IL,S,2026_IL_S,ActiVote,2026-09-26,2026-10-20,400,lv,58.5,41.5,Juliana Stratton,Don Tracy,"",nyt
+2026,OH,S,2026_OH_S,Beacon Research/Shaw & Company Research,2026-10-15,2026-10-19,1592,lv,52,47,Sherrod Brown,Jon Husted,"",nyt
+2026,AK,S,2026_AK_S,Data for Progress,2025-07-21,2025-07-27,678,lv,45,46,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,GA,S,2026_GA_S,Beacon Research/Shaw & Company Research,2026-06-23,2026-06-27,1002,rv,56,43,Jon Ossoff,Mike Collins,"",nyt
+2026,NH,S,2026_NH_S,National Public Affairs,2026-10-08,2026-10-12,600,lv,50,43,Chris Pappas,John E. Sununu,R,nyt
+2026,TX,S,2026_TX_S,ReconMR/Siena Research Institute,2026-07-27,2026-07-30,619,lv,47,43,James Talarico,Ken Paxton,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-05-14,2026-05-17,1401,lv,48.4,43.8,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,IA,S,2026_IA_S,Cygnal Political,2026-06-16,2026-06-19,600,lv,44.2,46,Josh Turek,Ashley Hinson,R,nyt
+2026,MI,S,2026_MI_S,Marist University,2026-09-24,2026-09-27,1235,rv,51,44,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,KS,S,2026_KS_S,InsiderAdvantage,2026-10-13,2026-10-14,1200,lv,46.6,47.7,Adam Hamilton,Roger Marshall,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-08-02,2026-08-05,1371,lv,50.8,49.2,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MN,S,2026_MN_S,SurveyUSA,2026-09-09,2026-09-14,654,lv,42,42,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-09-10,2026-09-12,1352,lv,51.9,48.1,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,IA,S,2026_IA_S,Suffolk University,2026-10-01,2026-10-04,500,lv,48,43.6,Josh Turek,Ashley Hinson,"",nyt
+2026,MI,S,2026_MI_S,Mitchell Research & Communications,2026-05-01,2026-05-07,607,lv,41,42,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,"Glengariff Group, Inc.",2026-01-02,2026-01-06,600,lv,41.6,48,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MA,S,2026_MA_S,University of New Hampshire,2026-06-18,2026-06-23,618,lv,50,34,Ed Markey,John Deaton,"",nyt
+2026,TX,S,2026_TX_S,Trafalgar Group,2026-10-06,2026-10-08,1086,lv,47.1,43.6,James Talarico,Ken Paxton,R,nyt
+2026,SC,S,2026_SC_S,InsiderAdvantage,2026-09-08,2026-09-09,1200,lv,43.2,45.1,Annie Andrews,Darline Graham,"",nyt
+2026,ME,S,2026_ME_S,YouGov,2026-10-26,2026-10-29,1503,lv,52,47,Troy Jackson,Susan Collins,"",nyt
+2026,IA,S,2026_IA_S,Beacon Research/Shaw & Company Research,2026-06-23,2026-06-27,1003,rv,50,46,Josh Turek,Ashley Hinson,"",nyt
+2026,SC,S,2026_SC_S,Impact Research,2026-10-15,2026-10-21,800,lv,45,44,Annie Andrews,Darline Graham,D,nyt
+2026,MI,S,2026_MI_S,InsiderAdvantage,2026-10-21,2026-10-22,1200,lv,47.2,46,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,AK,S,2026_AK_S,Data for Progress,2025-10-17,2025-10-23,823,rv,46,45,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,TX,S,2026_TX_S,Verasight,2026-10-01,2026-10-20,601,lv,47.6,45.2,James Talarico,Ken Paxton,"",nyt
+2026,MA,S,2026_MA_S,Suffolk University,2025-11-19,2025-11-23,500,rv,54,31,Ed Markey,John Deaton,"",nyt
+2026,TX,S,2026_TX_S,Guidant Polling and Strategy,2026-09-20,2026-09-28,800,lv,47,44,James Talarico,Ken Paxton,"",nyt
+2026,MI,S,2026_MI_S,Mitchell Research & Communications,2026-10-01,2026-10-01,682,lv,45.6,41.4,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NH,S,2026_NH_S,St. Anselm,2026-10-19,2026-10-20,1672,lv,50,43,Chris Pappas,John E. Sununu,"",nyt
+2026,TX,S,2026_TX_S,Emerson College,2026-01-10,2026-01-12,1165,rv,45.6,45.6,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,Quantus Insights,2025-03-17,2025-03-19,650,rv,44,53,Chris Pappas,John E. Sununu,R,nyt
+2026,OH,S,2026_OH_S,co/efficient,2026-10-05,2026-10-06,925,lv,43,44,Sherrod Brown,Jon Husted,"",nyt
+2026,AR,S,2026_AR_S,Hendrix College,2026-10-08,2026-10-13,709,lv,41,50,Hallie Shoffner,Tom Cotton,"",nyt
+2026,NH,S,2026_NH_S,yes. every kid. foundation.,2026-01-28,2026-01-29,563,lv,45,41,Chris Pappas,John E. Sununu,"",nyt
+2026,NH,S,2026_NH_S,Praecones Analytica,2025-12-26,2025-12-28,603,rv,42.3,35.6,Chris Pappas,John E. Sununu,"",nyt
+2026,AL,S,2026_AL_S,The Alabama Poll,2026-10-15,2026-10-16,600,lv,35,56,Everett Wess,Barry Moore,"",nyt
+2026,OH,S,2026_OH_S,YouGov,2026-09-01,2026-09-10,1000,lv,48,45,Sherrod Brown,Jon Husted,"",nyt
+2026,MA,S,2026_MA_S,Suffolk University,2026-10-14,2026-10-18,500,lv,60,31.8,Ed Markey,John Deaton,"",nyt
+2026,NH,S,2026_NH_S,St. Anselm,2026-06-24,2026-06-25,1614,rv,47,41,Chris Pappas,John E. Sununu,"",nyt
+2026,MA,S,2026_MA_S,Cygnal Political,2026-01-22,2026-01-25,800,lv,54,30,Ed Markey,John Deaton,R,nyt
+2026,MI,S,2026_MI_S,The Tyson Group,2026-09-24,2026-09-27,600,lv,44,43,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,OK,S,2026_OK_S,Cole Hargrave,2026-08-03,2026-08-06,500,rv,25,49,N'Kiyla Jasmine Thomas,Kevin Hern,"",nyt
+2026,TX,S,2026_TX_S,Barbara Jordan Public Policy Research and Survey Center,2026-09-15,2026-09-19,1800,lv,47,46,James Talarico,Ken Paxton,"",nyt
+2026,OH,S,2026_OH_S,Marist University,2026-10-15,2026-10-18,1176,lv,48,44,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,Big Data Poll,2026-09-24,2026-09-26,698,lv,46.8,44.9,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,St. Anselm,2026-03-16,2026-03-18,1491,rv,46,43,Chris Pappas,John E. Sununu,"",nyt
+2026,IA,S,2026_IA_S,YouGov,2026-09-03,2026-09-08,2127,lv,45,43,Josh Turek,Ashley Hinson,"",nyt
+2026,GA,S,2026_GA_S,InsiderAdvantage,2026-08-16,2026-08-17,800,lv,50.1,42.6,Jon Ossoff,Mike Collins,"",nyt
+2026,NM,S,2026_NM_S,Research & Polling Inc.,2026-08-21,2026-08-28,516,lv,53,38,Ben Ray Luján,Larry Marker,"",nyt
+2026,OH,S,2026_OH_S,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-04-18,2025-04-24,800,rv,46,49,Sherrod Brown,Jon Husted,"",nyt
+2026,NH,S,2026_NH_S,The New York Times/Siena University,2026-09-15,2026-09-22,613,lv,49.82,44.82,Chris Pappas,John E. Sununu,"",nyt
+2026,NC,S,2026_NC_S,Change Research,2025-09-02,2025-09-08,855,lv,48,41,Roy Cooper,Michael Whatley,D,nyt
+2026,MA,S,2026_MA_S,MassINC Polling Group,2026-09-14,2026-09-22,800,lv,54,28,Ed Markey,John Deaton,"",nyt
+2026,SC,S,2026_SC_S,East Carolina University Center for Survey Research,2026-10-19,2026-10-24,955,lv,47.3,51.2,Annie Andrews,Darline Graham,"",nyt
+2026,ME,S,2026_ME_S,The New York Times/Siena University,2026-10-27,2026-11-01,714,lv,50.9,45,Troy Jackson,Susan Collins,"",nyt
+2026,FL,S,2026_FL_S,YouGov,2026-09-28,2026-10-05,3812,lv,44,49,Angie Nixon,Ashley Moody,"",nyt
+2026,LA,S,2026_LA_S,Lincoln Park Strategies,2026-10-29,2026-10-31,,lv,47,47,Jamie Davis,Julia Letlow,D,nyt
+2026,NC,S,2026_NC_S,Change Research,2026-01-31,2026-02-04,1069,rv,50,40,Roy Cooper,Michael Whatley,D,nyt
+2026,TX,S,2026_TX_S,YouGov,2026-10-08,2026-10-16,1458,lv,51,49,James Talarico,Ken Paxton,"",nyt
+2026,NC,S,2026_NC_S,Change Research,2026-07-29,2026-08-01,967,rv,50,41,Roy Cooper,Michael Whatley,D,nyt
+2026,MI,S,2026_MI_S,Emerson College,2026-09-12,2026-09-14,1000,lv,48.19,45.72,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,OH,S,2026_OH_S,Suffolk University,2026-09-23,2026-09-27,500,lv,46.6,44,Sherrod Brown,Jon Husted,"",nyt
+2026,KS,S,2026_KS_S,Global Strategy Group,2026-08-12,2026-08-16,800,lv,44,43,Adam Hamilton,Roger Marshall,D,nyt
+2026,OH,S,2026_OH_S,Tulchin Research,2026-06-02,2026-06-04,600,lv,46,42,Sherrod Brown,Jon Husted,D,nyt
+2026,MI,S,2026_MI_S,EPIC-MRA,2026-07-24,2026-07-31,600,lv,43,46,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,GA,S,2026_GA_S,WPA Intelligence,2025-01-14,2025-01-15,500,lv,44,34,Jon Ossoff,Mike Collins,R,nyt
+2026,MI,S,2026_MI_S,Trafalgar Group,2026-09-28,2026-09-30,1085,lv,46.9,45.1,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,IA,S,2026_IA_S,Cygnal Political,2026-09-09,2026-09-11,500,lv,42.9,42.9,Josh Turek,Ashley Hinson,R,nyt
+2026,SC,S,2026_SC_S,Targoz Market Research,2026-10-16,2026-10-25,895,lv,46,47,Annie Andrews,Darline Graham,"",nyt
+2026,GA,S,2026_GA_S,Wick,2026-06-27,2026-06-30,1175,lv,46.7,42.9,Jon Ossoff,Mike Collins,"",nyt
+2026,ME,S,2026_ME_S,Marist University,2026-10-01,2026-10-04,1505,rv,51,47,Troy Jackson,Susan Collins,"",nyt
+2026,IA,S,2026_IA_S,New River Strategies/GS Strategy Group,2026-10-09,2026-10-13,602,lv,46,44,Josh Turek,Ashley Hinson,"",nyt
+2026,ME,S,2026_ME_S,Fabrizio Ward/Impact Research,2026-09-20,2026-09-22,982,lv,50,47,Troy Jackson,Susan Collins,"",nyt
+2026,NC,S,2026_NC_S,Opinion Diagnostics,2026-04-21,2026-04-24,830,rv,50.4,41.4,Roy Cooper,Michael Whatley,"",nyt
+2026,NC,S,2026_NC_S,High Point University,2026-10-01,2026-10-20,620,lv,54,40,Roy Cooper,Michael Whatley,"",nyt
+2026,ME,S,2026_ME_S,Abacus Data,2026-08-26,2026-08-28,327,lv,50,42,Troy Jackson,Susan Collins,"",nyt
+2026,MN,S,2026_MN_S,Morning Consult,2026-10-02,2026-10-07,1000,rv,45,41,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,IA,S,2026_IA_S,Global Strategy Group,2026-06-08,2026-06-11,1000,lv,47,45,Josh Turek,Ashley Hinson,D,nyt
+2026,TX,S,2026_TX_S,Kreate Strategies,2026-10-27,2026-10-30,900,lv,48,45,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,InsiderAdvantage,2026-09-16,2026-09-17,1200,lv,47.8,39.9,Chris Pappas,John E. Sununu,"",nyt
+2026,MI,S,2026_MI_S,Upswing Research,2026-10-24,2026-10-25,505,lv,50,45,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,NC,S,2026_NC_S,InsiderAdvantage,2026-09-16,2026-09-17,1200,lv,48.4,42.5,Roy Cooper,Michael Whatley,"",nyt
+2026,MN,S,2026_MN_S,InsiderAdvantage,2026-09-28,2026-09-29,1200,lv,46,45,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,GA,S,2026_GA_S,Quantus Insights,2025-09-09,2025-09-12,624,rv,37.8,37.7,Jon Ossoff,Mike Collins,"",nyt
+2026,TX,S,2026_TX_S,ReconMR/Siena Research Institute,2026-06-01,2026-06-04,807,lv,46,46,James Talarico,Ken Paxton,"",nyt
+2026,MA,S,2026_MA_S,Suffolk University,2026-06-08,2026-06-12,500,rv,55,29.8,Ed Markey,John Deaton,"",nyt
+2026,TX,S,2026_TX_S,Slingshot Strategies,2026-05-27,2026-05-28,1670,lv,47,44,James Talarico,Ken Paxton,"",nyt
+2026,OH,S,2026_OH_S,Emerson College,2025-08-18,2025-08-19,1000,rv,43.7,49.5,Sherrod Brown,Jon Husted,"",nyt
+2026,KS,S,2026_KS_S,The New York Times/Siena University,2026-10-27,2026-11-01,736,lv,49,43.9,Adam Hamilton,Roger Marshall,"",nyt
+2026,TX,S,2026_TX_S,Trafalgar Group,2026-09-15,2026-09-17,1079,lv,46.4,45.2,James Talarico,Ken Paxton,R,nyt
+2026,IA,S,2026_IA_S,Emerson College,2026-08-31,2026-09-01,750,lv,45.05,49.47,Josh Turek,Ashley Hinson,"",nyt
+2026,MI,S,2026_MI_S,"Glengariff Group, Inc.",2025-05-05,2025-05-08,600,rv,40.8,46.9,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-10-26,2026-10-29,2141,lv,51,47,James Talarico,Ken Paxton,"",nyt
+2026,IA,S,2026_IA_S,Abacus Data,2026-08-26,2026-08-28,323,lv,48,41,Josh Turek,Ashley Hinson,"",nyt
+2026,MA,S,2026_MA_S,YouGov,2026-08-05,2026-08-12,800,rv,51,30,Ed Markey,John Deaton,"",nyt
+2026,IA,S,2026_IA_S,YouGov,2026-10-26,2026-10-29,2020,lv,50,49,Josh Turek,Ashley Hinson,"",nyt
+2026,IL,S,2026_IL_S,Public Policy Polling,2026-09-30,2026-10-01,569,rv,49,36,Juliana Stratton,Don Tracy,"",nyt
+2026,OH,S,2026_OH_S,Echelon Insights,2026-04-03,2026-04-09,413,lv,45,51,Sherrod Brown,Jon Husted,"",nyt
+2026,MI,S,2026_MI_S,The New York Times/Siena University,2026-09-15,2026-09-22,605,lv,49.45,44.5,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,TX,S,2026_TX_S,A2 Insights,2026-10-23,2026-10-27,631,lv,50.2,47.2,James Talarico,Ken Paxton,"",nyt
+2026,MI,S,2026_MI_S,TIPP Insights,2026-05-20,2026-05-23,1163,lv,43.43,42.14,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,IA,S,2026_IA_S,CNN/SSRS,2026-09-29,2026-10-05,801,lv,43,45,Josh Turek,Ashley Hinson,"",nyt
+2026,FL,S,2026_FL_S,St. Pete Polls,2026-10-25,2026-10-27,916,lv,44.7,49,Angie Nixon,Ashley Moody,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-03-09,2026-03-18,872,lv,48,34,Roy Cooper,Michael Whatley,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-09-28,2026-10-05,3623,lv,50,44,James Talarico,Ken Paxton,"",nyt
+2026,AR,S,2026_AR_S,Hendrix College,2026-08-11,2026-08-12,1217,lv,47.4,44,Hallie Shoffner,Tom Cotton,"",nyt
+2026,NC,S,2026_NC_S,East Carolina University Center for Survey Research,2026-10-26,2026-10-29,1041,lv,54,44.9,Roy Cooper,Michael Whatley,"",nyt
+2026,MN,S,2026_MN_S,Big Data Poll,2026-09-29,2026-09-30,622,lv,45.8,43.6,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,AR,S,2026_AR_S,GrayHouse,2026-02-07,2026-02-09,550,lv,36,58,Hallie Shoffner,Tom Cotton,R,nyt
+2026,TX,S,2026_TX_S,The New York Times/Siena University,2026-09-21,2026-09-30,615,lv,50.8,45.09,James Talarico,Ken Paxton,"",nyt
+2026,OH,S,2026_OH_S,InsiderAdvantage,2026-09-08,2026-09-09,1200,lv,47.3,41.9,Sherrod Brown,Jon Husted,"",nyt
+2026,FL,S,2026_FL_S,InsiderAdvantage,2026-09-20,2026-09-21,600,lv,41.8,49.3,Angie Nixon,Ashley Moody,"",nyt
+2026,IA,S,2026_IA_S,Beacon Research/Shaw & Company Research,2026-09-24,2026-09-28,1008,lv,49,47,Josh Turek,Ashley Hinson,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-08-20,2026-08-23,1495,lv,50.6,49.4,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MI,S,2026_MI_S,YouGov,2026-09-22,2026-10-04,3947,lv,49,48,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,KS,S,2026_KS_S,The Washington Post/George Mason University Schar School of Policy and Government,2026-10-22,2026-10-26,801,lv,52,43,Adam Hamilton,Roger Marshall,"",nyt
+2026,SC,S,2026_SC_S,The Citadel Poll,2026-10-14,2026-10-25,890,lv,39,42,Annie Andrews,Darline Graham,"",nyt
+2026,FL,S,2026_FL_S,InsiderAdvantage,2026-10-28,2026-10-29,1200,lv,42.7,48.5,Angie Nixon,Ashley Moody,"",nyt
+2026,TX,S,2026_TX_S,The New York Times/Siena University,2026-10-27,2026-11-01,1215,lv,50.2,43.1,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,University of Houston Hobby School of Public Affairs,2026-01-20,2026-01-31,1502,lv,44,46,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,University of New Hampshire,2026-01-15,2026-01-19,2038,lv,50,45,Chris Pappas,John E. Sununu,"",nyt
+2026,TX,S,2026_TX_S,Slingshot Strategies,2026-08-21,2026-08-24,1000,lv,48,42,James Talarico,Ken Paxton,"",nyt
+2026,ME,S,2026_ME_S,Beacon Research/Shaw & Company Research,2026-08-06,2026-08-10,1000,rv,48,46,Troy Jackson,Susan Collins,"",nyt
+2026,OH,S,2026_OH_S,Beacon Research/Shaw & Company Research,2026-08-06,2026-08-10,1008,rv,53,45,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-09-25,2026-10-05,861,lv,50,47,James Talarico,Ken Paxton,"",nyt
+2026,SC,S,2026_SC_S,Public Policy Polling,2025-11-21,2025-11-22,704,rv,36,42,Annie Andrews,Darline Graham,D,nyt
+2026,KS,S,2026_KS_S,InsiderAdvantage,2026-10-09,2026-10-10,1200,lv,47.5,46.7,Adam Hamilton,Roger Marshall,"",nyt
+2026,SC,S,2026_SC_S,Impact Research,2026-06-17,2026-06-22,700,lv,45,48,Annie Andrews,Darline Graham,D,nyt
+2026,MI,S,2026_MI_S,Mitchell Research & Communications,2026-07-28,2026-07-29,672,lv,45,45,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,IA,S,2026_IA_S,Echelon Insights,2026-10-16,2026-10-23,403,lv,45,43,Josh Turek,Ashley Hinson,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-08-21,2026-08-31,565,lv,49,38,Roy Cooper,Michael Whatley,"",nyt
+2026,OH,S,2026_OH_S,The New York Times/Siena University,2026-10-26,2026-11-01,717,lv,49.3,43.7,Sherrod Brown,Jon Husted,"",nyt
+2026,NM,S,2026_NM_S,SurveyUSA,2026-09-25,2026-09-30,567,lv,54,36,Ben Ray Luján,Larry Marker,"",nyt
+2026,FL,S,2026_FL_S,Big Data Poll,2026-10-26,2026-10-30,1067,lv,44.7,51.6,Angie Nixon,Ashley Moody,"",nyt
+2026,AR,S,2026_AR_S,GrayHouse,2026-10-27,2026-10-28,509,lv,39,55,Hallie Shoffner,Tom Cotton,R,nyt
+2026,ME,S,2026_ME_S,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-30,2026-10-05,800,lv,50,46,Troy Jackson,Susan Collins,"",nyt
+2026,MI,S,2026_MI_S,Mitchell Research & Communications,2026-06-11,2026-06-13,827,lv,47,42,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,Emerson College,2025-07-28,2025-07-30,1000,rv,46.7,41.4,Roy Cooper,Michael Whatley,"",nyt
+2026,NH,S,2026_NH_S,Guidant Polling and Strategy,2025-12-09,2025-12-11,600,lv,47,44,Chris Pappas,John E. Sununu,R,nyt
+2026,MI,S,2026_MI_S,The Tyson Group,2026-10-06,2026-10-08,600,lv,44,46,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,FL,S,2026_FL_S,co/efficient,2026-10-18,2026-10-20,1014,lv,40,48,Angie Nixon,Ashley Moody,"",nyt
+2026,OH,S,2026_OH_S,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-10-02,2025-10-14,800,rv,49,48,Sherrod Brown,Jon Husted,"",nyt
+2026,OH,S,2026_OH_S,Tulchin Research,2026-07-29,2026-08-04,600,lv,47,43,Sherrod Brown,Jon Husted,D,nyt
+2026,RI,S,2026_RI_S,University of New Hampshire,2026-08-20,2026-08-24,722,lv,51,31,Jack Reed,Raymond McKay,"",nyt
+2026,MI,S,2026_MI_S,YouGov,2026-10-26,2026-10-29,2093,lv,51,47,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,Data for Progress,2026-10-23,2026-10-25,622,lv,50,46,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,GA,S,2026_GA_S,Big Data Poll,2026-09-21,2026-09-23,678,lv,55.4,44.6,Jon Ossoff,Mike Collins,"",nyt
+2026,TX,S,2026_TX_S,Slingshot Strategies,2026-10-15,2026-10-18,969,lv,51,47,James Talarico,Ken Paxton,"",nyt
+2026,MI,S,2026_MI_S,Guidant Polling and Strategy,2026-09-20,2026-09-27,800,lv,48,43,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,High Point University,2026-03-26,2026-04-06,703,lv,50,42,Roy Cooper,Michael Whatley,"",nyt
+2026,IA,S,2026_IA_S,Trafalgar Group,2026-09-16,2026-09-18,1089,lv,42.1,44,Josh Turek,Ashley Hinson,R,nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2025-10-10,2025-10-15,1708,lv,47.7,45.9,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MN,S,2026_MN_S,co/efficient,2026-09-14,2026-09-15,833,lv,43,42,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,SC,S,2026_SC_S,Impact Research,2026-08-18,2026-08-24,700,lv,41,41,Annie Andrews,Darline Graham,D,nyt
+2026,MI,S,2026_MI_S,Torchlight Strategies,2026-09-15,2026-09-19,643,lv,43.1,44.4,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,IA,S,2026_IA_S,co/efficient,2026-10-15,2026-10-19,863,lv,45,48,Josh Turek,Ashley Hinson,"",nyt
+2026,MI,S,2026_MI_S,Zenith Research,2026-06-11,2026-06-14,602,lv,45,42,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,FL,S,2026_FL_S,University of North Florida,2026-02-21,2026-03-02,768,lv,38,46,Angie Nixon,Ashley Moody,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-01-08,2026-01-11,1681,lv,48,46.4,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,TX,S,2026_TX_S,Marist University,2026-10-08,2026-10-11,1196,lv,47,45,James Talarico,Ken Paxton,"",nyt
+2026,MA,S,2026_MA_S,University of New Hampshire,2026-02-12,2026-02-16,616,lv,56,27,Ed Markey,John Deaton,"",nyt
+2026,TX,S,2026_TX_S,University of Texas at Tyler Center for Opinion Research,2025-09-17,2025-09-24,1032,rv,37,38,James Talarico,Ken Paxton,"",nyt
+2026,AK,S,2026_AK_S,Quantus Insights,2026-09-28,2026-09-30,758,lv,46.5,46.8,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,OH,S,2026_OH_S,EMC Research,2026-02-10,2026-02-22,1343,lv,51,47,Sherrod Brown,Jon Husted,D,nyt
+2026,ME,S,2026_ME_S,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-08-28,2026-09-14,650,lv,48,43,Troy Jackson,Susan Collins,"",nyt
+2026,GA,S,2026_GA_S,Emerson College,2026-02-28,2026-03-02,1000,lv,47.7,43.3,Jon Ossoff,Mike Collins,"",nyt
+2026,FL,S,2026_FL_S,MDW Communications,2026-10-04,2026-10-10,2351,lv,42.4,47.6,Angie Nixon,Ashley Moody,"",nyt
+2026,ME,S,2026_ME_S,Hart Research Associates,2026-07-27,2026-08-01,802,lv,49,45,Troy Jackson,Susan Collins,D,nyt
+2026,SC,S,2026_SC_S,Patinkin Research Strategies,2026-10-27,2026-10-29,500,lv,48,43,Annie Andrews,Darline Graham,D,nyt
+2026,NC,S,2026_NC_S,Quantus Insights,2026-09-21,2026-09-22,686,lv,48.4,43.3,Roy Cooper,Michael Whatley,"",nyt
+2026,OH,S,2026_OH_S,Big Data Poll,2026-09-26,2026-09-27,680,lv,46.3,42.6,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-10-13,2026-10-21,1000,rv,50,45,James Talarico,Ken Paxton,"",nyt
+2026,KS,S,2026_KS_S,Global Strategy Group,2026-09-13,2026-09-16,800,lv,47,43,Adam Hamilton,Roger Marshall,D,nyt
+2026,GA,S,2026_GA_S,University of Georgia,2026-10-07,2026-10-15,1000,lv,48,40,Jon Ossoff,Mike Collins,"",nyt
+2026,TX,S,2026_TX_S,ActiVote,2026-09-30,2026-10-14,400,lv,51.9,48.1,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,YouGov,2026-09-28,2026-10-05,1519,lv,51,43,Chris Pappas,John E. Sununu,"",nyt
+2026,GA,S,2026_GA_S,Trafalgar Group,2026-10-07,2026-10-09,1101,lv,51,43,Jon Ossoff,Mike Collins,R,nyt
+2026,TX,S,2026_TX_S,Emerson College,2026-09-12,2026-09-14,1000,lv,47.35,46.35,James Talarico,Ken Paxton,"",nyt
+2026,AK,S,2026_AK_S,Data for Progress,2026-07-28,2026-08-04,567,lv,53,47,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MN,S,2026_MN_S,"Mason-Dixon Polling & Research, Inc.",2026-10-05,2026-10-07,800,lv,47,43,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,FL,S,2026_FL_S,Quantus Insights,2026-09-08,2026-09-10,733,lv,43,50.4,Angie Nixon,Ashley Moody,"",nyt
+2026,MI,S,2026_MI_S,Beacon Research/Shaw & Company Research,2026-09-24,2026-09-28,1028,lv,50,49,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,FL,S,2026_FL_S,"Mason-Dixon Polling & Research, Inc.",2026-09-28,2026-10-01,625,lv,40,50,Angie Nixon,Ashley Moody,"",nyt
+2026,AK,S,2026_AK_S,InsiderAdvantage,2026-10-09,2026-10-10,1200,lv,50.1,48,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,NH,S,2026_NH_S,Peak Insights,2026-06-24,2026-06-27,500,lv,43,42,Chris Pappas,John E. Sununu,R,nyt
+2026,TX,S,2026_TX_S,Beacon Research/Shaw & Company Research,2026-07-23,2026-07-27,1006,rv,51,48,James Talarico,Ken Paxton,"",nyt
+2026,OH,S,2026_OH_S,CNN/SSRS,2026-09-29,2026-10-05,760,lv,49,43,Sherrod Brown,Jon Husted,"",nyt
+2026,TN,S,2026_TN_S,Targoz Market Research,2026-08-15,2026-08-26,607,lv,33,58,Marquita Bradshaw,Bill Hagerty,"",nyt
+2026,LA,S,2026_LA_S,Hart Research Associates,2026-10-28,2026-10-29,502,lv,45,45,Jamie Davis,Julia Letlow,D,nyt
+2026,KS,S,2026_KS_S,GBAO,2026-09-30,2026-10-04,600,lv,46,41,Adam Hamilton,Roger Marshall,D,nyt
+2026,AL,S,2026_AL_S,Cygnal Political,2026-10-16,2026-10-17,500,lv,35,49.8,Everett Wess,Barry Moore,"",nyt
+2026,NC,S,2026_NC_S,TIPP Insights,2026-01-12,2026-01-15,1512,rv,48.4,24.2,Roy Cooper,Michael Whatley,R,nyt
+2026,TX,S,2026_TX_S,The New York Times/Siena University,2026-06-19,2026-06-27,656,lv,46.57,46.67,James Talarico,Ken Paxton,"",nyt
+2026,NC,S,2026_NC_S,Public Policy Polling,2026-03-13,2026-03-14,556,rv,47,44,Roy Cooper,Michael Whatley,"",nyt
+2026,ME,S,2026_ME_S,Maine People's Resource Center,2026-09-25,2026-09-29,684,lv,49.3,46.5,Troy Jackson,Susan Collins,"",nyt
+2026,TX,S,2026_TX_S,Public Policy Polling,2026-05-22,2026-05-23,643,rv,45,38,James Talarico,Ken Paxton,D,nyt
+2026,OH,S,2026_OH_S,Marist University,2026-09-24,2026-09-27,1298,rv,51,43,Sherrod Brown,Jon Husted,"",nyt
+2026,MI,S,2026_MI_S,Rosetta Stone,2025-10-23,2025-10-25,637,lv,31,45,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,FL,S,2026_FL_S,Stetson University Center for Public Opinion Research,2026-10-01,2026-10-09,716,lv,41,52,Angie Nixon,Ashley Moody,"",nyt
+2026,AL,S,2026_AL_S,Blueprint Polling,2026-10-22,2026-10-24,695,lv,39.5,47.8,Everett Wess,Barry Moore,"",nyt
+2026,NH,S,2026_NH_S,University of New Hampshire,2025-09-17,2025-09-23,1225,lv,49,43,Chris Pappas,John E. Sununu,"",nyt
+2026,IA,S,2026_IA_S,InsiderAdvantage,2026-09-22,2026-09-23,1200,lv,47.4,45.7,Josh Turek,Ashley Hinson,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-04-10,2026-04-20,1200,rv,42,34,James Talarico,Ken Paxton,"",nyt
+2026,KS,S,2026_KS_S,Emerson College,2026-09-15,2026-09-16,750,lv,44.75,43.3,Adam Hamilton,Roger Marshall,"",nyt
+2026,TX,S,2026_TX_S,Slingshot Strategies,2026-04-17,2026-04-20,1018,lv,46,41,James Talarico,Ken Paxton,"",nyt
+2026,ME,S,2026_ME_S,Echelon Insights,2026-10-16,2026-10-23,413,lv,51,44,Troy Jackson,Susan Collins,"",nyt
+2026,AK,S,2026_AK_S,The New York Times/Siena University,2026-06-15,2026-06-29,593,lv,45.06,47.47,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,KY,S,2026_KY_S,Global Strategy Group,2026-08-24,2026-08-27,600,lv,40,49,Charles Booker,Andy Barr,D,nyt
+2026,NC,S,2026_NC_S,Opinion Diagnostics,2026-09-17,2026-09-20,857,lv,51.7,43.5,Roy Cooper,Michael Whatley,"",nyt
+2026,AK,S,2026_AK_S,Trafalgar Group,2026-09-22,2026-09-24,1079,lv,45.5,46.8,Mary Peltola,Dan S. Sullivan,R,nyt
+2026,KS,S,2026_KS_S,co/efficient,2026-09-08,2026-09-10,915,lv,44,49,Adam Hamilton,Roger Marshall,"",nyt
+2026,MN,S,2026_MN_S,SurveyUSA,2026-10-24,2026-10-28,714,lv,48,41,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,TX,S,2026_TX_S,Impact Research,2026-03-12,2026-03-17,900,lv,44,43,James Talarico,Ken Paxton,D,nyt
+2026,TX,S,2026_TX_S,InsiderAdvantage,2026-10-13,2026-10-14,1200,lv,48.1,48.5,James Talarico,Ken Paxton,"",nyt
+2026,RI,S,2026_RI_S,University of New Hampshire,2026-04-16,2026-04-20,556,lv,52,34,Jack Reed,Raymond McKay,"",nyt
+2026,MI,S,2026_MI_S,Abacus Data,2026-08-26,2026-08-28,332,lv,47,42,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,TX,S,2026_TX_S,"Mason-Dixon Polling & Research, Inc.",2026-09-08,2026-09-10,625,lv,46,43,James Talarico,Ken Paxton,"",nyt
+2026,IA,S,2026_IA_S,The New York Times/Siena University,2026-10-26,2026-11-01,705,lv,47.6,46.9,Josh Turek,Ashley Hinson,"",nyt
+2026,MN,S,2026_MN_S,SurveyUSA,2026-10-09,2026-10-12,718,lv,45,42,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-09-15,2026-09-18,3742,lv,53,41,Roy Cooper,Michael Whatley,"",nyt
+2026,OH,S,2026_OH_S,OnMessage Inc.,2026-03-03,2026-03-08,600,lv,47,45,Sherrod Brown,Jon Husted,"",nyt
+2026,MI,S,2026_MI_S,"Susquehanna Polling & Research, Inc.",2026-08-11,2026-08-17,800,rv,46,39,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,IA,S,2026_IA_S,Change Research,2026-01-08,2026-01-11,1108,lv,41,44,Josh Turek,Ashley Hinson,"",nyt
+2026,NC,S,2026_NC_S,Trafalgar Group,2026-09-08,2026-09-10,1084,lv,48.2,42.3,Roy Cooper,Michael Whatley,R,nyt
+2026,MN,S,2026_MN_S,Impact Research,2025-07-08,2025-07-11,604,lv,48,45,Peggy Flanagan,Michele Tafoya,D,nyt
+2026,NH,S,2026_NH_S,UMass Lowell,2026-10-02,2026-10-19,600,lv,48,41,Chris Pappas,John E. Sununu,"",nyt
+2026,GA,S,2026_GA_S,TIPP Insights,2025-07-28,2025-08-01,2395,lv,44.94,44.1,Jon Ossoff,Mike Collins,R,nyt
+2026,OH,S,2026_OH_S,InsiderAdvantage,2026-10-21,2026-10-22,1200,lv,46.7,44.4,Sherrod Brown,Jon Husted,"",nyt
+2026,OH,S,2026_OH_S,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2026-09-29,2026-10-09,1000,lv,48,42,Sherrod Brown,Jon Husted,"",nyt
+2026,FL,S,2026_FL_S,Change Research,2026-09-07,2026-09-09,1107,lv,47,47,Angie Nixon,Ashley Moody,"",nyt
+2026,MN,S,2026_MN_S,GQR,2026-10-01,2026-10-04,800,lv,50,42,Peggy Flanagan,Michele Tafoya,D,nyt
+2026,MI,S,2026_MI_S,Trafalgar Group,2026-09-07,2026-09-09,1079,lv,46.3,44.8,Abdul El-Sayed,Mike Rogers,R,nyt
+2026,ME,S,2026_ME_S,Quantus Insights,2026-09-14,2026-09-15,621,lv,47.4,47.6,Troy Jackson,Susan Collins,"",nyt
+2026,NH,S,2026_NH_S,Emerson College,2026-03-21,2026-03-23,1100,lv,45.4,43.7,Chris Pappas,John E. Sununu,"",nyt
+2026,AK,S,2026_AK_S,The New York Times/Siena University,2026-10-23,2026-10-30,610,lv,47.6,46.2,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,TX,S,2026_TX_S,Barbara Jordan Public Policy Research and Survey Center,2026-04-22,2026-05-06,1223,lv,45,45,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,Slingshot Strategies,2026-07-15,2026-07-17,1048,lv,45,40,James Talarico,Ken Paxton,"",nyt
+2026,OH,S,2026_OH_S,Verasight,2026-10-01,2026-10-20,531,lv,47.5,43.6,Sherrod Brown,Jon Husted,"",nyt
+2026,AK,S,2026_AK_S,Fabrizio Ward/Impact Research,2026-09-08,2026-09-11,800,lv,53,47,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,IL,S,2026_IL_S,ActiVote,2026-10-21,2026-10-30,400,lv,55.6,44.4,Juliana Stratton,Don Tracy,"",nyt
+2026,MI,S,2026_MI_S,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-08-10,2026-08-20,779,lv,50,45,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,OH,S,2026_OH_S,Concord Public Opinion Partners,2026-10-22,2026-10-24,469,lv,46,42,Sherrod Brown,Jon Husted,D,nyt
+2026,KS,S,2026_KS_S,GBAO,2026-07-08,2026-07-13,600,lv,43,47,Adam Hamilton,Roger Marshall,D,nyt
+2026,OH,S,2026_OH_S,InsiderAdvantage,2026-10-29,2026-10-30,1200,lv,48.8,47,Sherrod Brown,Jon Husted,"",nyt
+2026,NH,S,2026_NH_S,"Fabrizio, Lee & Associates",2026-08-27,2026-08-30,600,lv,36,37,Chris Pappas,John E. Sununu,R,nyt
+2026,MI,S,2026_MI_S,GBAO,2026-09-19,2026-09-22,800,lv,48,44,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,OH,S,2026_OH_S,Beacon Research/Shaw & Company Research,2026-05-28,2026-06-01,1015,rv,53,45,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,ReconMR/Siena Research Institute,2026-09-08,2026-09-11,614,lv,49,43,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,Quantus Insights,2026-10-09,2026-10-11,854,lv,46.7,47.2,James Talarico,Ken Paxton,"",nyt
+2026,GA,S,2026_GA_S,Echelon Insights,2026-10-16,2026-10-23,508,lv,55,40,Jon Ossoff,Mike Collins,"",nyt
+2026,OH,S,2026_OH_S,New River Strategies/GS Strategy Group,2026-10-09,2026-10-13,959,lv,49,43,Sherrod Brown,Jon Husted,"",nyt
+2026,OH,S,2026_OH_S,Trafalgar Group,2026-09-14,2026-09-16,1085,lv,45.4,41.5,Sherrod Brown,Jon Husted,R,nyt
+2026,MI,S,2026_MI_S,Z to A Research,2026-09-28,2026-10-01,483,lv,49,42,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,OH,S,2026_OH_S,Emerson College,2025-12-06,2025-12-08,850,rv,46.3,48.8,Sherrod Brown,Jon Husted,"",nyt
+2026,FL,S,2026_FL_S,Echelon Insights,2026-10-16,2026-10-23,515,lv,43,51,Angie Nixon,Ashley Moody,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2025-08-11,2025-08-12,600,lv,47.3,39.1,Roy Cooper,Michael Whatley,"",nyt
+2026,ME,S,2026_ME_S,Data for Progress,2026-10-23,2026-10-27,652,lv,50,45,Troy Jackson,Susan Collins,"",nyt
+2026,MI,S,2026_MI_S,Emerson College,2026-01-24,2026-01-25,1000,lv,42.5,42.8,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,SurveyUSA,2026-10-07,2026-10-11,643,lv,54,40,Roy Cooper,Michael Whatley,"",nyt
+2026,RI,S,2026_RI_S,Embold Research,2026-10-05,2026-10-08,815,lv,55,32,Jack Reed,Raymond McKay,"",nyt
+2026,OH,S,2026_OH_S,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2025-02-14,2025-02-21,800,rv,41,47,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,Emerson College,2026-10-17,2026-10-19,1000,lv,49.37,47.83,James Talarico,Ken Paxton,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-10-26,2026-10-29,2130,lv,55,44,Roy Cooper,Michael Whatley,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-06-05,2026-06-12,1200,rv,42,43,James Talarico,Ken Paxton,"",nyt
+2026,ME,S,2026_ME_S,Suffolk University,2026-10-08,2026-10-11,500,lv,49,47,Troy Jackson,Susan Collins,"",nyt
+2026,NC,S,2026_NC_S,Victory Insights,2025-07-28,2025-07-30,600,lv,44.4,43.5,Roy Cooper,Michael Whatley,"",nyt
+2026,IA,S,2026_IA_S,Marist University,2026-09-17,2026-09-20,1050,rv,50,42,Josh Turek,Ashley Hinson,"",nyt
+2026,SC,S,2026_SC_S,Trafalgar Group,2026-09-23,2026-09-25,1087,lv,42.3,43.4,Annie Andrews,Darline Graham,R,nyt
+2026,NH,S,2026_NH_S,University of New Hampshire,2026-09-17,2026-09-21,1392,lv,50,42,Chris Pappas,John E. Sununu,"",nyt
+2026,IA,S,2026_IA_S,Trafalgar Group,2026-10-13,2026-10-15,1094,lv,44.2,45.9,Josh Turek,Ashley Hinson,R,nyt
+2026,KS,S,2026_KS_S,Trafalgar Group,2026-09-29,2026-10-01,1095,lv,44.4,43.5,Adam Hamilton,Roger Marshall,R,nyt
+2026,OH,S,2026_OH_S,Bowling Green State University Democracy and Public Policy Research Network/YouGov,2026-04-07,2026-04-14,1000,rv,47,50,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,Cor Strategies,2026-10-10,2026-10-15,1409,lv,44,40,James Talarico,Ken Paxton,R,nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-04-16,2026-04-19,1946,lv,50.2,43.6,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,IA,S,2026_IA_S,The New York Times/Siena University,2026-09-22,2026-10-01,606,lv,46.96,47.83,Josh Turek,Ashley Hinson,"",nyt
+2026,FL,S,2026_FL_S,Change Research,2026-09-25,2026-09-27,1063,lv,47,48,Angie Nixon,Ashley Moody,"",nyt
+2026,FL,S,2026_FL_S,University of North Florida,2026-07-08,2026-07-17,848,lv,41.6,50,Angie Nixon,Ashley Moody,"",nyt
+2026,OH,S,2026_OH_S,The New York Times/Siena University,2026-09-22,2026-10-01,616,lv,48.76,46.09,Sherrod Brown,Jon Husted,"",nyt
+2026,NH,S,2026_NH_S,Trafalgar Group,2026-09-26,2026-09-27,1082,lv,47.4,40.5,Chris Pappas,John E. Sununu,R,nyt
+2026,TX,S,2026_TX_S,Overton Insights,2026-08-24,2026-08-26,1167,lv,50,50,James Talarico,Ken Paxton,"",nyt
+2026,NC,S,2026_NC_S,East Carolina University Center for Survey Research,2026-08-31,2026-09-03,675,lv,51.7,43.6,Roy Cooper,Michael Whatley,"",nyt
+2026,MI,S,2026_MI_S,Mitchell Research & Communications,2026-10-26,2026-10-27,636,lv,51,44,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,AL,S,2026_AL_S,yes. every kid. foundation.,2026-07-08,2026-07-11,601,lv,32,47,Everett Wess,Barry Moore,"",nyt
+2026,MN,S,2026_MN_S,Emerson College,2026-02-06,2026-02-08,1000,lv,47.1,40.6,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,MS,S,2026_MS_S,Impact Research,2026-04-08,2026-04-12,500,lv,39,42,Scott Colom,Cindy Hyde-Smith,D,nyt
+2026,MI,S,2026_MI_S,InsiderAdvantage,2026-09-16,2026-09-17,1200,lv,46.6,44.7,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,ME,S,2026_ME_S,CNN/SSRS,2026-08-31,2026-09-06,880,lv,48,45,Troy Jackson,Susan Collins,"",nyt
+2026,KS,S,2026_KS_S,The New York Times/Siena University,2026-09-22,2026-09-30,605,lv,44.87,44.76,Adam Hamilton,Roger Marshall,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2026-08-09,2026-08-10,600,lv,51.5,39,Roy Cooper,Michael Whatley,"",nyt
+2026,IA,S,2026_IA_S,Suffolk University,2026-08-20,2026-08-23,500,lv,40.8,45.4,Josh Turek,Ashley Hinson,"",nyt
+2026,ME,S,2026_ME_S,YouGov,2026-09-23,2026-10-01,1136,lv,50,50,Troy Jackson,Susan Collins,"",nyt
+2026,IA,S,2026_IA_S,Echelon Insights,2026-04-03,2026-04-09,377,lv,46,45,Josh Turek,Ashley Hinson,"",nyt
+2026,IA,S,2026_IA_S,Emerson College,2026-08-02,2026-08-04,712,lv,44.98,47.52,Josh Turek,Ashley Hinson,"",nyt
+2026,ME,S,2026_ME_S,InsiderAdvantage,2026-10-13,2026-10-14,1200,lv,49.3,46.8,Troy Jackson,Susan Collins,"",nyt
+2026,NC,S,2026_NC_S,Quantus Insights,2026-03-31,2026-04-01,987,lv,48.6,43.8,Roy Cooper,Michael Whatley,"",nyt
+2026,AK,S,2026_AK_S,The New York Times/Siena University,2026-09-24,2026-10-01,504,lv,50.07,43.07,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,MI,S,2026_MI_S,The New York Times/Siena University,2026-10-23,2026-11-01,1011,lv,52.6,41.6,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MN,S,2026_MN_S,The New York Times/Siena University,2026-10-19,2026-10-26,752,lv,54.21,40.31,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,NH,S,2026_NH_S,St. Anselm,2025-11-18,2025-11-19,2212,rv,44,41,Chris Pappas,John E. Sununu,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2026-09-13,2026-09-15,608,lv,49.2,34.1,Roy Cooper,Michael Whatley,"",nyt
+2026,MA,S,2026_MA_S,University of New Hampshire,2026-08-20,2026-08-24,906,lv,49,30,Ed Markey,John Deaton,"",nyt
+2026,FL,S,2026_FL_S,University of North Florida,2026-10-12,2026-10-19,1471,lv,45,49,Angie Nixon,Ashley Moody,"",nyt
+2026,SC,S,2026_SC_S,InsiderAdvantage,2026-09-28,2026-09-29,1200,lv,45,46,Annie Andrews,Darline Graham,"",nyt
+2026,OH,S,2026_OH_S,YouGov,2026-09-18,2026-09-30,3777,lv,49,45,Sherrod Brown,Jon Husted,"",nyt
+2026,MA,S,2026_MA_S,YouGov,2026-10-05,2026-10-12,800,rv,56,29,Ed Markey,John Deaton,"",nyt
+2026,MI,S,2026_MI_S,Michigan State University Office for Survey Research/Verasight,2026-10-08,2026-10-23,1383,lv,51.4,42.2,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,FL,S,2026_FL_S,The Political Matrix/The Listener Group,2026-10-26,2026-10-28,500,lv,35.8,41.8,Angie Nixon,Ashley Moody,"",nyt
+2026,NC,S,2026_NC_S,Trafalgar Group,2026-10-08,2026-10-10,1091,lv,48.8,40.9,Roy Cooper,Michael Whatley,R,nyt
+2026,IA,S,2026_IA_S,Marist University,2026-10-08,2026-10-11,1100,lv,48,45,Josh Turek,Ashley Hinson,"",nyt
+2026,OH,S,2026_OH_S,ActiVote,2026-09-26,2026-10-18,400,lv,49.8,50.2,Sherrod Brown,Jon Husted,"",nyt
+2026,NC,S,2026_NC_S,Big Data Poll,2026-09-27,2026-09-29,642,lv,50.8,38.5,Roy Cooper,Michael Whatley,"",nyt
+2026,MI,S,2026_MI_S,"Glengariff Group, Inc.",2026-08-31,2026-09-03,600,lv,44.4,45.8,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,RI,S,2026_RI_S,University of New Hampshire,2026-06-18,2026-06-23,627,lv,52,35,Jack Reed,Raymond McKay,"",nyt
+2026,TX,S,2026_TX_S,Barbara Jordan Public Policy Research and Survey Center,2026-07-27,2026-07-30,1200,lv,47,45,James Talarico,Ken Paxton,"",nyt
+2026,MA,S,2026_MA_S,SurveyUSA,2025-02-28,2025-03-04,775,rv,45,26,Ed Markey,John Deaton,"",nyt
+2026,NH,S,2026_NH_S,University of New Hampshire,2026-04-17,2026-04-21,1130,lv,49,42,Chris Pappas,John E. Sununu,"",nyt
+2026,NH,S,2026_NH_S,co/efficient,2025-09-10,2025-09-12,904,lv,46,43,Chris Pappas,John E. Sununu,"",nyt
+2026,MN,S,2026_MN_S,Quantus Insights,2026-09-08,2026-09-10,720,lv,48.9,45.4,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,KS,S,2026_KS_S,CNN/SSRS,2026-10-20,2026-10-26,838,lv,49,45,Adam Hamilton,Roger Marshall,"",nyt
+2026,GA,S,2026_GA_S,ActiVote,2026-10-06,2026-10-20,400,lv,54,46,Jon Ossoff,Mike Collins,"",nyt
+2026,NC,S,2026_NC_S,ActiVote,2026-10-08,2026-10-20,400,lv,56.9,43.1,Roy Cooper,Michael Whatley,"",nyt
+2026,GA,S,2026_GA_S,Quantus Insights,2026-10-15,2026-10-17,755,lv,52.7,45.4,Jon Ossoff,Mike Collins,"",nyt
+2026,TX,S,2026_TX_S,University of Houston Hobby School of Public Affairs,2026-10-10,2026-10-14,2000,lv,48,46,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,St. Anselm,2026-08-17,2026-08-18,1411,lv,48,41,Chris Pappas,John E. Sununu,"",nyt
+2026,NH,S,2026_NH_S,co/efficient,2026-09-09,2026-09-11,958,lv,46,46,Chris Pappas,John E. Sununu,"",nyt
+2026,MI,S,2026_MI_S,"Glengariff Group, Inc.",2026-07-22,2026-07-24,600,lv,38.7,49,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,Suffolk University,2026-09-16,2026-09-20,500,lv,46.8,39.6,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,KS,S,2026_KS_S,YouGov,2026-10-26,2026-10-29,2092,lv,50,49,Adam Hamilton,Roger Marshall,"",nyt
+2026,KS,S,2026_KS_S,YouGov,2026-09-24,2026-10-04,2253,lv,48,45,Adam Hamilton,Roger Marshall,"",nyt
+2026,MI,S,2026_MI_S,Michigan State University Institute for Public Policy and Social Research/YouGov,2026-10-02,2026-10-19,836,lv,48,45.5,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MA,S,2026_MA_S,University of New Hampshire,2026-04-16,2026-04-20,603,lv,55,32,Ed Markey,John Deaton,"",nyt
+2026,MN,S,2026_MN_S,InsiderAdvantage,2026-10-29,2026-10-30,1200,lv,49.3,46.4,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,FL,S,2026_FL_S,Targoz Market Research,2026-09-28,2026-10-04,847,lv,42,52,Angie Nixon,Ashley Moody,"",nyt
+2026,MN,S,2026_MN_S,Victory Insights,2026-10-21,2026-10-22,1194,lv,47.8,44.4,Peggy Flanagan,Michele Tafoya,R,nyt
+2026,GA,S,2026_GA_S,Trafalgar Group,2025-04-24,2025-04-27,1426,lv,47.5,42.8,Jon Ossoff,Mike Collins,R,nyt
+2026,ME,S,2026_ME_S,Trafalgar Group,2026-10-21,2026-10-23,1077,lv,46.5,47,Troy Jackson,Susan Collins,R,nyt
+2026,ME,S,2026_ME_S,Beacon Research/Shaw & Company Research,2026-10-16,2026-10-20,1514,lv,49,49,Troy Jackson,Susan Collins,"",nyt
+2026,MN,S,2026_MN_S,Trafalgar Group,2026-10-13,2026-10-15,1079,lv,48.1,44.6,Peggy Flanagan,Michele Tafoya,R,nyt
+2026,ME,S,2026_ME_S,CNN/SSRS,2026-10-20,2026-10-26,783,lv,49,45,Troy Jackson,Susan Collins,"",nyt
+2026,GA,S,2026_GA_S,Quantus Insights,2026-09-14,2026-09-16,645,lv,49,44.9,Jon Ossoff,Mike Collins,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2025-09-14,2025-09-15,600,lv,46.1,41.9,Roy Cooper,Michael Whatley,"",nyt
+2026,TX,S,2026_TX_S,Pulse Decision Science,2026-09-24,2026-09-27,800,lv,45,48,James Talarico,Ken Paxton,R,nyt
+2026,MA,S,2026_MA_S,UMass Lowell,2026-10-07,2026-10-18,850,lv,55,26,Ed Markey,John Deaton,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2026-05-10,2026-05-11,600,lv,49.8,38.7,Roy Cooper,Michael Whatley,"",nyt
+2026,NH,S,2026_NH_S,University of New Hampshire,2026-08-20,2026-08-24,1846,lv,43,45,Chris Pappas,John E. Sununu,"",nyt
+2026,IA,S,2026_IA_S,Global Strategy Group,2026-08-27,2026-08-31,800,lv,46,42,Josh Turek,Ashley Hinson,D,nyt
+2026,OH,S,2026_OH_S,ActiVote,2026-10-18,2026-10-31,400,lv,50.2,49.8,Sherrod Brown,Jon Husted,"",nyt
+2026,OH,S,2026_OH_S,Concord Public Opinion Partners,2026-08-29,2026-08-31,504,lv,50,40,Sherrod Brown,Jon Husted,D,nyt
+2026,OH,S,2026_OH_S,Quantus Insights,2026-09-21,2026-09-23,695,lv,47.3,46.8,Sherrod Brown,Jon Husted,"",nyt
+2026,IA,S,2026_IA_S,InsiderAdvantage,2026-10-21,2026-10-22,1200,lv,45.5,47,Josh Turek,Ashley Hinson,"",nyt
+2026,TX,S,2026_TX_S,ActiVote,2026-10-17,2026-10-21,400,lv,51,49,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-08-27,2026-09-04,1000,rv,48,43,James Talarico,Ken Paxton,"",nyt
+2026,AR,S,2026_AR_S,GrayHouse,2026-09-30,2026-10-04,550,lv,39,50,Hallie Shoffner,Tom Cotton,R,nyt
+2026,MI,S,2026_MI_S,CNN/SSRS,2026-10-20,2026-10-27,768,lv,49,42,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,Big Data Poll,2026-09-22,2026-09-24,678,lv,46.7,42.1,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,Change Research,2026-08-03,2026-08-06,915,lv,50.05,42.93,Roy Cooper,Michael Whatley,D,nyt
+2026,FL,S,2026_FL_S,Stetson University Center for Public Opinion Research,2026-03-25,2026-04-13,414,lv,38,51,Angie Nixon,Ashley Moody,"",nyt
+2026,TX,S,2026_TX_S,A2 Insights,2026-06-23,2026-06-28,618,lv,48.4,46.1,James Talarico,Ken Paxton,"",nyt
+2026,GA,S,2026_GA_S,Echelon Insights,2026-04-03,2026-04-09,407,lv,51,44,Jon Ossoff,Mike Collins,"",nyt
+2026,MI,S,2026_MI_S,InsiderAdvantage,2026-10-09,2026-10-10,1200,lv,47.8,45.5,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,GBAO,2026-08-06,2026-08-10,800,lv,50,44,Abdul El-Sayed,Mike Rogers,D,nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-10-01,2026-10-03,1512,lv,51,49,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,FL,S,2026_FL_S,Stetson University Center for Public Opinion Research,2026-09-14,2026-09-21,830,lv,40,51,Angie Nixon,Ashley Moody,"",nyt
+2026,NC,S,2026_NC_S,Change Research,2026-01-05,2026-01-07,1105,lv,47,42,Roy Cooper,Michael Whatley,D,nyt
+2026,MN,S,2026_MN_S,SurveyUSA,2026-08-13,2026-08-17,661,lv,46,41,Peggy Flanagan,Michele Tafoya,"",nyt
+2026,OH,S,2026_OH_S,The New York Times/Siena University,2026-06-15,2026-06-28,601,lv,47,49.8,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,YouGov,2026-08-05,2026-08-13,1200,rv,42,39,James Talarico,Ken Paxton,"",nyt
+2026,IA,S,2026_IA_S,GBAO,2026-03-10,2026-03-16,1200,lv,43,47,Josh Turek,Ashley Hinson,D,nyt
+2026,OH,S,2026_OH_S,Fabrizio Ward/Impact Research,2026-06-14,2026-06-16,800,lv,48,45,Sherrod Brown,Jon Husted,"",nyt
+2026,TX,S,2026_TX_S,YouGov Blue,2026-07-15,2026-07-31,1001,lv,48,45,James Talarico,Ken Paxton,"",nyt
+2026,FL,S,2026_FL_S,St. Pete Polls,2026-10-05,2026-10-07,836,lv,44.9,46.8,Angie Nixon,Ashley Moody,"",nyt
+2026,KS,S,2026_KS_S,Public Policy Polling,2026-08-07,2026-08-08,,rv,45,46,Adam Hamilton,Roger Marshall,D,nyt
+2026,FL,S,2026_FL_S,The New York Times/Siena University,2026-10-19,2026-10-25,813,lv,44.32,50.35,Angie Nixon,Ashley Moody,"",nyt
+2026,NH,S,2026_NH_S,co/efficient,2025-10-09,2025-10-13,1034,lv,45,42,Chris Pappas,John E. Sununu,"",nyt
+2026,IA,S,2026_IA_S,Quantus Insights,2026-09-28,2026-09-29,738,lv,46.6,48.5,Josh Turek,Ashley Hinson,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-03-19,2026-03-22,1340,rv,52.4,47.6,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,NC,S,2026_NC_S,Quantus Insights,2026-10-24,2026-10-25,722,lv,52.4,43.4,Roy Cooper,Michael Whatley,"",nyt
+2026,GA,S,2026_GA_S,Fabrizio Ward/Impact Research,2026-07-13,2026-07-16,1060,lv,52,43,Jon Ossoff,Mike Collins,"",nyt
+2026,MI,S,2026_MI_S,EPIC-MRA,2026-08-22,2026-08-28,600,lv,47,43,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,CNN/SSRS,2026-08-31,2026-09-06,843,lv,47,44,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MN,S,2026_MN_S,TIPP Insights,2026-08-31,2026-09-02,1192,lv,43.96,41.86,Peggy Flanagan,Michele Tafoya,R,nyt
+2026,MI,S,2026_MI_S,Cygnal/Beacon Research,2026-09-18,2026-09-21,600,lv,45,40,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-09-04,2026-09-15,885,lv,48,37,Roy Cooper,Michael Whatley,"",nyt
+2026,NM,S,2026_NM_S,Research & Polling Inc.,2026-10-01,2026-10-09,1125,lv,53,37,Ben Ray Luján,Larry Marker,"",nyt
+2026,TX,S,2026_TX_S,InsiderAdvantage,2026-09-08,2026-09-09,1200,lv,47.1,45.6,James Talarico,Ken Paxton,"",nyt
+2026,IA,S,2026_IA_S,YouGov,2026-10-06,2026-10-12,2245,lv,47,46,Josh Turek,Ashley Hinson,"",nyt
+2026,MI,S,2026_MI_S,Quantus Insights,2026-06-29,2026-06-30,947,lv,45.2,44.1,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,MI,S,2026_MI_S,"Glengariff Group, Inc.",2026-10-19,2026-10-22,600,lv,51.4,45.1,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,OH,S,2026_OH_S,InsiderAdvantage,2026-09-28,2026-09-29,1200,lv,43.8,42.5,Sherrod Brown,Jon Husted,"",nyt
+2026,GA,S,2026_GA_S,Cygnal Political,2025-05-15,2025-05-17,800,rv,45.7,43.3,Jon Ossoff,Mike Collins,"",nyt
+2026,MI,S,2026_MI_S,Quantus Insights,2026-10-05,2026-10-06,744,lv,48.4,47.2,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,OH,S,2026_OH_S,Suffolk University,2026-10-21,2026-10-26,500,lv,46.6,43.8,Sherrod Brown,Jon Husted,"",nyt
+2026,MA,S,2026_MA_S,University of New Hampshire,2026-09-17,2026-09-21,556,lv,53,30,Ed Markey,John Deaton,"",nyt
+2026,IA,S,2026_IA_S,co/efficient,2026-09-14,2026-09-16,831,lv,42,46,Josh Turek,Ashley Hinson,"",nyt
+2026,TX,S,2026_TX_S,Quantus Insights,2026-10-26,2026-10-28,1207,lv,48.4,49.4,James Talarico,Ken Paxton,"",nyt
+2026,NH,S,2026_NH_S,University of New Hampshire,2026-06-18,2026-06-23,2157,lv,47,44,Chris Pappas,John E. Sununu,"",nyt
+2026,MI,S,2026_MI_S,The Washington Post/George Mason University Schar School of Policy and Government,2026-09-10,2026-09-14,803,lv,48,45,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,TX,S,2026_TX_S,Ragnar Research Partners,2025-11-12,2025-11-17,1000,lv,44,44,James Talarico,Ken Paxton,"",nyt
+2026,MS,S,2026_MS_S,Data for Progress,2026-08-05,2026-08-15,1018,lv,38,44,Scott Colom,Cindy Hyde-Smith,D,nyt
+2026,ME,S,2026_ME_S,University of New Hampshire,2026-07-15,2026-07-20,1178,lv,49,46,Troy Jackson,Susan Collins,"",nyt
+2026,ME,S,2026_ME_S,InsiderAdvantage,2026-09-22,2026-09-23,1200,lv,46.4,45.6,Troy Jackson,Susan Collins,"",nyt
+2026,ME,S,2026_ME_S,University of New Hampshire,2026-09-17,2026-09-21,1301,lv,51,47,Troy Jackson,Susan Collins,"",nyt
+2026,TX,S,2026_TX_S,Data for Progress,2026-10-23,2026-10-26,712,lv,49,45,James Talarico,Ken Paxton,"",nyt
+2026,IA,S,2026_IA_S,Emerson College,2026-10-05,2026-10-06,650,lv,45,46.6,Josh Turek,Ashley Hinson,"",nyt
+2026,GA,S,2026_GA_S,InsiderAdvantage,2026-09-22,2026-09-23,1200,lv,50,42,Jon Ossoff,Mike Collins,"",nyt
+2026,SC,S,2026_SC_S,The New York Times/Siena University,2026-10-19,2026-10-26,707,lv,47.76,48.47,Annie Andrews,Darline Graham,"",nyt
+2026,IA,S,2026_IA_S,Public Policy Polling,2026-06-03,2026-06-04,557,rv,46,46,Josh Turek,Ashley Hinson,D,nyt
+2026,MI,S,2026_MI_S,Mitchell Research & Communications,2025-11-18,2025-11-21,616,lv,38,41,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,NC,S,2026_NC_S,High Point University,2026-08-03,2026-08-12,660,lv,50,45,Roy Cooper,Michael Whatley,"",nyt
+2026,RI,S,2026_RI_S,University of New Hampshire,2026-09-17,2026-09-21,595,lv,53,33,Jack Reed,Raymond McKay,"",nyt
+2026,NC,S,2026_NC_S,YouGov,2026-06-01,2026-06-10,905,lv,47.73,34.03,Roy Cooper,Michael Whatley,"",nyt
+2026,NC,S,2026_NC_S,Public Policy Polling,2026-07-10,2026-07-11,759,rv,48,44,Roy Cooper,Michael Whatley,"",nyt
+2026,NC,S,2026_NC_S,East Carolina University Center for Survey Research,2026-09-30,2026-10-03,810,lv,50,43,Roy Cooper,Michael Whatley,"",nyt
+2026,TX,S,2026_TX_S,YouGov Blue,2026-10-21,2026-10-26,1000,lv,51,43,James Talarico,Ken Paxton,"",nyt
+2026,MN,S,2026_MN_S,Impact Research,2026-05-26,2026-05-28,808,lv,51,44,Peggy Flanagan,Michele Tafoya,D,nyt
+2026,AK,S,2026_AK_S,Data for Progress,2026-10-08,2026-10-16,671,lv,51,49,Mary Peltola,Dan S. Sullivan,"",nyt
+2026,NH,S,2026_NH_S,1892 Polling,2025-09-02,2025-09-04,500,lv,45,43,Chris Pappas,John E. Sununu,R,nyt
+2026,OH,S,2026_OH_S,Quantus Insights,2026-03-13,2026-03-14,784,lv,44.4,45.5,Sherrod Brown,Jon Husted,"",nyt
+2026,NC,S,2026_NC_S,Harper Polling,2026-03-22,2026-03-23,600,lv,48.9,41.1,Roy Cooper,Michael Whatley,"",nyt
+2026,ME,S,2026_ME_S,Trafalgar Group,2026-09-29,2026-10-01,1091,lv,46.2,45.9,Troy Jackson,Susan Collins,R,nyt
+2026,MI,S,2026_MI_S,Marist University,2026-10-15,2026-10-18,1185,lv,50,48,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,LA,S,2026_LA_S,Hart Research Associates,2026-09-17,2026-09-19,500,lv,44,48,Jamie Davis,Julia Letlow,D,nyt
+2026,MI,S,2026_MI_S,co/efficient,2026-09-21,2026-09-23,843,lv,45,45,Abdul El-Sayed,Mike Rogers,"",nyt
+2026,TX,S,2026_TX_S,University of Massachusetts Lowell Center for Public Opinion/YouGov,2026-09-18,2026-09-28,850,lv,45,45,James Talarico,Ken Paxton,"",nyt
+2026,TX,S,2026_TX_S,Barbara Jordan Public Policy Research and Survey Center,2026-10-21,2026-10-25,2000,lv,49,47,James Talarico,Ken Paxton,"",nyt
+2026,AK,S,2026_AK_S,Alaska Survey Research,2026-06-04,2026-06-07,1393,lv,49,44,Mary Peltola,Dan S. Sullivan,"",wikipedia_2026_senate_pages
+2026,AK,S,2026_AK_S,Rasmussen Reports,2026-09-13,2026-09-14,1188,lv,39,39,Mary Peltola,Dan S. Sullivan,R,wikipedia_2026_senate_pages
+2026,AK,S,2026_AK_S,Public Policy Polling,2026-10-14,2026-10-15,578,rv,48,47,Mary Peltola,Dan S. Sullivan,D,wikipedia_2026_senate_pages
+2026,GA,S,2026_GA_S,Rasmussen Reports,2026-09-14,2026-09-14,1019,lv,51,42,Jon Ossoff,Mike Collins,R,wikipedia_2026_senate_pages
+2026,GA,S,2026_GA_S,Wedgewood Polls,2026-10-02,2026-10-03,600,lv,55,45,Jon Ossoff,Mike Collins,"",wikipedia_2026_senate_pages
+2026,IA,S,2026_IA_S,Wedgewood Polls,2026-08-27,2026-08-29,600,lv,48,50,Josh Turek,Ashley Hinson,"",wikipedia_2026_senate_pages
+2026,IA,S,2026_IA_S,Rasmussen Reports,2026-09-08,2026-09-10,1031,lv,45,40,Josh Turek,Ashley Hinson,R,wikipedia_2026_senate_pages
+2026,IA,S,2026_IA_S,Rasmussen Reports,2026-09-28,2026-09-30,1048,lv,47,43,Josh Turek,Ashley Hinson,R,wikipedia_2026_senate_pages
+2026,KS,S,2026_KS_S,Wedgewood Polls,2026-09-22,2026-09-24,500,lv,50,48,Adam Hamilton,Roger Marshall,"",wikipedia_2026_senate_pages
+2026,ME,S,2026_ME_S,Z to A Research,2026-07-07,2026-07-08,988,lv,47,48,Troy Jackson,Susan Collins,D,wikipedia_2026_senate_pages
+2026,ME,S,2026_ME_S,Rasmussen Reports,2026-09-08,2026-09-10,1033,lv,46,45,Troy Jackson,Susan Collins,R,wikipedia_2026_senate_pages
+2026,ME,S,2026_ME_S,Wedgewood Polls,2026-09-27,2026-10-01,400,lv,52,48,Troy Jackson,Susan Collins,"",wikipedia_2026_senate_pages
+2026,ME,S,2026_ME_S,Rasmussen Reports,2026-10-05,2026-10-08,804,lv,49,47,Troy Jackson,Susan Collins,R,wikipedia_2026_senate_pages
+2026,MI,S,2026_MI_S,SoCal Strategies,2026-07-28,2026-07-30,640,lv,41,42,Abdul El-Sayed,Mike Rogers,R,wikipedia_2026_senate_pages
+2026,MI,S,2026_MI_S,Wedgewood Polls,2026-10-08,2026-10-09,607,lv,53,47,Abdul El-Sayed,Mike Rogers,"",wikipedia_2026_senate_pages
+2026,MI,S,2026_MI_S,Rasmussen Reports,2026-10-12,2026-10-14,798,lv,46,44,Abdul El-Sayed,Mike Rogers,R,wikipedia_2026_senate_pages
+2026,MN,S,2026_MN_S,Deep Root Analytics,2026-08-17,2026-08-18,597,rv,50,45,Peggy Flanagan,Michele Tafoya,R,wikipedia_2026_senate_pages
+2026,MN,S,2026_MN_S,Rasmussen Reports,2026-10-05,2026-10-07,856,lv,48,45,Peggy Flanagan,Michele Tafoya,R,wikipedia_2026_senate_pages
+2026,MS,S,2026_MS_S,Impact Research,2025-06-18,2025-06-22,500,rv,38,51,Scott Colom,Cindy Hyde-Smith,D,wikipedia_2026_senate_pages
+2026,MS,S,2026_MS_S,Wedgewood Polls,2026-10-12,2026-10-14,511,lv,48,52,Scott Colom,Cindy Hyde-Smith,"",wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Public Opinion Strategies,2026-06-08,2026-06-11,500,lv,25,44,Alani Bankhead,Kurt Alme,R,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Tavern Research,2026-06-16,2026-06-19,400,lv,26,49,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,GrayHouse,2026-06-23,2026-06-24,500,rv,25,41,Alani Bankhead,Kurt Alme,R,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Hart Research,2026-06-18,2026-06-24,800,lv,22,47,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Bullfinch Group,2026-07-13,2026-07-16,793,lv,22,36,Alani Bankhead,Kurt Alme,R,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,GQR,2026-07-23,2026-07-26,500,lv,22,41,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Tavern Research,2026-07-23,2026-07-27,517,lv,24,49,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Hart Research,2026-08-01,2026-08-04,800,lv,15,45,Alani Bankhead,Kurt Alme,D,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Peak Insights,2026-08-23,2026-08-25,600,lv,19,44,Alani Bankhead,Kurt Alme,R,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Rutgers-Eagleton,2026-08-27,2026-09-07,845,rv,16,38,Alani Bankhead,Kurt Alme,"",wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Aspect Strategic,2026-09-07,2026-09-15,715,lv,14,44,Alani Bankhead,Kurt Alme,"",wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Quantus Insights,2026-09-14,2026-09-15,625,lv,23,44,Alani Bankhead,Kurt Alme,R,wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,American Pulse Research,2026-09-19,2026-09-24,604,lv,19,45,Alani Bankhead,Kurt Alme,"",wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Concord Public Opinion Partners,2026-10-06,2026-10-08,405,lv,13,35,Alani Bankhead,Kurt Alme,"",wikipedia_2026_senate_pages
+2026,MT,S,2026_MT_S,Peak Insights,2026-10-07,2026-10-12,500,lv,12,44,Alani Bankhead,Kurt Alme,R,wikipedia_2026_senate_pages
+2026,NC,S,2026_NC_S,Nexus Strategies/ Strategic Partners Solutions,2026-03-08,2026-03-09,800,rv,50,32,Roy Cooper,Michael Whatley,"",wikipedia_2026_senate_pages
+2026,NC,S,2026_NC_S,Catawba College/YouGov,2026-09-04,2026-09-15,885,lv,47,35,Roy Cooper,Michael Whatley,"",wikipedia_2026_senate_pages
+2026,NH,S,2026_NH_S,Rasmussen Reports,2026-09-08,2026-09-10,1000,lv,45,34,Chris Pappas,John E. Sununu,R,wikipedia_2026_senate_pages
+2026,OH,S,2026_OH_S,Hart Research,2025-09-19,2025-09-22,800,lv,48,45,Sherrod Brown,Jon Husted,D,wikipedia_2026_senate_pages
+2026,OH,S,2026_OH_S,Wedgewood Polls,2026-08-11,2026-08-13,800,lv,48,44,Sherrod Brown,Jon Husted,"",wikipedia_2026_senate_pages
+2026,OH,S,2026_OH_S,Rasmussen Reports,2026-09-22,2026-09-23,1115,lv,46,43,Sherrod Brown,Jon Husted,R,wikipedia_2026_senate_pages
+2026,SC,S,2026_SC_S,Rasmussen Reports,2026-09-14,2026-09-14,1006,lv,43,48,Annie Andrews,Darline Graham,R,wikipedia_2026_senate_pages
+2026,SC,S,2026_SC_S,Rasmussen Reports,2026-10-05,2026-10-08,837,lv,45,49,Annie Andrews,Darline Graham,R,wikipedia_2026_senate_pages
+2026,TX,S,2026_TX_S,SoCal Strategies,2026-06-21,2026-06-21,800,lv,47,49,James Talarico,Ken Paxton,R,wikipedia_2026_senate_pages
+2026,TX,S,2026_TX_S,SoCal Strategies,2026-09-12,2026-09-13,649,lv,50,45,James Talarico,Ken Paxton,"",wikipedia_2026_senate_pages
+2026,VA,S,2026_VA_S,The Public Sentiment Institute/ Virginia Project,2026-05-01,2026-05-05,1047,lv,55,29,Mark Warner,Bert Mizusawa,R,wikipedia_2026_senate_pages
+2026,VA,S,2026_VA_S,The Public Sentiment Institute,2026-06-12,2026-06-16,996,lv,51,33,Mark Warner,Bert Mizusawa,"",wikipedia_2026_senate_pages

@@ -1,0 +1,7 @@
+distcyc,party,candidate,fec_cand_id,committee_id,period_end,total_receipts,indiv_contrib,pac_contrib,disbursements,cash_on_hand,receipts_ytd_reported,source
+2026_AK_1,I,Bill Hill,H6AK01092,C00935437,2026-06-30,1170868.85,1110188.31,51050.0,468242.46,702626.39,1170868.85,"FEC API /committee/C00935437/reports/ cycle=2026, 2 reports summed (2026-01-01..2026-06-30)"
+2026_AK_1,I,Bill Hill,H6AK01092,C00935437,2026-09-30,2348816.5,2120916.97,178650.0,2158385.57,190430.93,2348816.5,"FEC API /committee/C00935437/reports/ cycle=2026, 4 reports summed (2026-01-01..2026-09-30)"
+2026_AK_1,R,Nick Begich III,H2AK01083,C00792341,2026-06-30,5261610.91,2641852.76,979577.0,2085523.92,3280417.05,5458530.53,"FEC API /committee/C00792341/reports/ cycle=2026, 6 reports summed (2025-01-01..2026-06-30)"
+2026_AK_1,R,Nick Begich III,H2AK01083,C00792341,2026-09-30,6320644.24,3248372.14,1213077.0,4038321.42,2386652.88,6517563.86,"FEC API /committee/C00792341/reports/ cycle=2026, 8 reports summed (2025-01-01..2026-09-30)"
+2026_CA_6,D,Richard Pan,H6CA03158,,2026-09-30,2312760.9,1598800.06,571946.05,1699925.93,612834.97,2312760.9,"FEC API /candidate/H6CA03158/totals/ cycle=2026 (coverage through 2026-09-30), fetched 2026-10-19"
+2026_CA_6,I,Kevin Kiley,H2CA03157,,2026-09-30,3570594.13,2228664.38,414641.08,3431713.2,519859.0,3570594.13,"FEC API /candidate/H2CA03157/totals/ cycle=2026 (coverage through 2026-09-30), fetched 2026-10-19; Kiley (no party preference, ex-R incumbent) modeled as the Republican"

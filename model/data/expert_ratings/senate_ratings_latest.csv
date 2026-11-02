@@ -1,0 +1,316 @@
+cycle,state,district,distcyc,rater,rating,rating_num,rater_date,as_of_date,as_of_type,source,special
+2026,AK,S,2026_AK_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,ddhq,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,economist,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,inside,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,nbc,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,sabato,Lean D flip,1,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AK,S,2026_AK_S,splitticket,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AL,S,2026_AL_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,AR,S,2026_AR_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,CO,S,2026_CO_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,DE,S,2026_DE_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,cook,Likely R,-2,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,ddhq,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,economist,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,inside,Likely R,-2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,nbc,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,rcp,Lean R,-1,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,sabato,Likely R,-2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,FL,S,2026_FL_S,splitticket,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,cook,Likely D,2,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,ddhq,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,economist,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,fox,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,inside,Likely D,2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,nbc,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,rcp,Likely D,2,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,sabato,Likely D,2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,GA,S,2026_GA_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,ddhq,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,economist,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,inside,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,nbc,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,sabato,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IA,S,2026_IA_S,splitticket,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ID,S,2026_ID_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,IL,S,2026_IL_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,ddhq,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,economist,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,inside,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,nbc,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,sabato,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KS,S,2026_KS_S,splitticket,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,KY,S,2026_KY_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,ddhq,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,economist,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,inside,Likely R,-2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,sabato,Likely R,-2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,LA,S,2026_LA_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MA,S,2026_MA_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,ddhq,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,economist,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,inside,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,nbc,Lean D Flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,sabato,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,ME,S,2026_ME_S,splitticket,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,ddhq,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,economist,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,inside,Tilt D,0.5,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,nbc,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,sabato,Lean D,1,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MI,S,2026_MI_S,splitticket,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,cook,Lean D,1,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,ddhq,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,economist,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,fox,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,inside,Lean D,1,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,nbc,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,rcp,Lean D,1,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,sabato,Likely D,2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MN,S,2026_MN_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,cook,Likely R,-2,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,ddhq,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,economist,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,fox,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,inside,Likely R,-2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,nbc,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,rcp,Likely R,-2,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,sabato,Likely R,-2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MS,S,2026_MS_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,ddhq,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,economist,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,nbc,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,rcp,Likely R,-2,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,MT,S,2026_MT_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,cook,Likely D flip,2,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,ddhq,Likely D flip,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,economist,Likely D flip,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,fox,Likely D flip,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,inside,Lean D flip,1,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,nbc,Likely D Flip,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,rcp,Likely D flip,2,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,sabato,Likely D flip,2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NC,S,2026_NC_S,splitticket,Safe D flip,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,cook,Lean R,-1,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,ddhq,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,economist,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,fox,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,inside,Tilt R,-0.5,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,nbc,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,rcp,Lean R,-1,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,sabato,Lean R,-1,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NE,S,2026_NE_S,splitticket,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,cook,Lean D,1,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,ddhq,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,economist,Likely D,2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,fox,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,inside,Tilt D,0.5,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,nbc,Lean D,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,rcp,Lean D,1,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,sabato,Likely D,2,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NH,S,2026_NH_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NJ,S,2026_NJ_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,rcp,Likely D,2,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,NM,S,2026_NM_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,ddhq,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,economist,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,fox,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,inside,Tilt D flip,0.5,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,nbc,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,sabato,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OH,S,2026_OH_S,splitticket,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OK,S,2026_OK_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,OR,S,2026_OR_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,RI,S,2026_RI_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,cook,Lean R,-1,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,ddhq,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,economist,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,inside,Tilt R,-0.5,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,nbc,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,sabato,Lean R,-1,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SC,S,2026_SC_S,splitticket,Lean R,-1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,SD,S,2026_SD_S,splitticket,Likely R,-2,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TN,S,2026_TN_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,cook,Tossup,0,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,ddhq,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,economist,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,fox,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,inside,Tilt D flip,0.5,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,nbc,Tossup,0,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,rcp,Tossup,0,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,sabato,Tossup,0,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,TX,S,2026_TX_S,splitticket,Lean D flip,1,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,cook,Solid D,3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,ddhq,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,economist,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,fox,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,inside,Solid D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,nbc,Solid D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,rcp,Solid D,3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,sabato,Safe D,3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,VA,S,2026_VA_S,splitticket,Safe D,3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WV,S,2026_WV_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,cook,Solid R,-3,2026-10-30,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,ddhq,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,economist,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,fox,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,inside,Solid R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,nbc,Solid R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,rcp,Solid R,-3,2026-10-31,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,sabato,Safe R,-3,2026-10-29,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
+2026,WY,S,2026_WY_S,splitticket,Safe R,-3,2026-11-01,2026-11-02,latest,2026 United States Senate elections (revid 1383327696),TRUE
